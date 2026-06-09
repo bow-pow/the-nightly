@@ -3322,6 +3322,906 @@ const CURRICULUM = [
   },
 ]},
 
+/* ===================== PART V — GALAXIES & THE UNIVERSE ===================== */
+
+{ ch:24, title:"The Milky Way Galaxy", days:[
+  {
+    title:"Our Home Galaxy: Mapping the Milky Way",
+    big:"We live inside a vast pinwheel of several hundred billion stars — and the hardest part of mapping it is that we're stuck in the middle of it.",
+    recall:{q:"What final zoom-out did the close of Part IV promise for Part V?",
+            a:"Leaving individual stars and planets behind to take in the grandest scales — the Milky Way, the galaxies, and the expanding universe."},
+    body:`
+      <p>Part IV ended at our cosmic doorstep. Now we step out and take in the whole structure we belong to: the <em>Milky Way Galaxy</em>, a gravitationally bound system of several hundred billion stars, plus gas, dust, and dark matter. That faint band of light arcing across a dark sky is our edge-on view of its disk — we're looking through the galaxy from within.</p>
+      <h3>The architecture</h3>
+      <p>The Milky Way has a few main components: a flattened <em>disk</em> where most stars (including the Sun) live, laced with <em>spiral arms</em>; a central <em>bulge</em> of older stars; and a vast, roughly spherical <em>halo</em> of old stars and globular clusters surrounding it all. The Sun sits about 27,000 light-years from the center, partway out in the disk — not central, just an ordinary location in an ordinary spiral arm.</p>
+      <h3>Mapping from inside</h3>
+      <p>Being embedded in the disk makes mapping hard, because dust blocks our visible-light view toward the center (interstellar extinction, Day 61). The breakthrough was observing at wavelengths that pierce the dust — especially the <em>21-cm radio line</em> emitted by neutral hydrogen, which sails through the dust and lets us trace gas throughout the entire galaxy (multi-wavelength astronomy, Day 35). Radio and infrared turned an obscured haze into a mapped structure.</p>
+      <div class="aside"><b>A second Copernican demotion:</b> just as Copernicus moved Earth from the center of the Solar System, mapping the Milky Way moved the Sun from the center of the galaxy. Harlow Shapley showed (using globular clusters, Day 123) that we sit far out in the disk, not at the heart of things. The pattern repeats throughout this Part: every time we map a larger structure, we find we're not at its center.</div>
+    `,
+    takeaways:[
+      "The Milky Way is a barred spiral of several hundred billion stars, plus gas, dust, and dark matter.",
+      "Its components: a star-filled disk with spiral arms, a central bulge, and a spherical halo of old stars and globular clusters.",
+      "The Sun lies ~27,000 light-years from the center, in an ordinary spot in the disk.",
+      "Dust blocks the visible view, so we map the galaxy with dust-piercing wavelengths like the 21-cm hydrogen radio line."
+    ],
+    refs:[
+      {kind:"Structure",title:"The structure of the Milky Way",desc:"Disk, bulge, halo, and spiral arms — the anatomy of our home galaxy.",url:"https://www.google.com/search?q=milky+way+galaxy+structure+disk+bulge+halo+spiral+arms"},
+      {kind:"Mapping",title:"Mapping the galaxy with the 21-cm hydrogen line",desc:"How radio observations of neutral hydrogen reveal the galaxy through the dust.",url:"https://www.google.com/search?q=21+cm+hydrogen+line+mapping+milky+way"},
+    ],
+    reflect:"We can map distant galaxies' spiral shapes easily but struggled for centuries to map our own. Why does living inside the Milky Way's dusty disk make it so much harder to chart than a galaxy we view from outside?"
+  },
+  {
+    title:"The Rotation Curve & Dark Matter",
+    big:"The galaxy spins in a way that makes no sense — its outer stars orbit far too fast for the visible matter to hold them — revealing that most of the Milky Way is invisible.",
+    recall:{q:"How do we trace the galaxy's structure through the obscuring dust?",
+            a:"With dust-piercing wavelengths, especially the 21-cm radio line from neutral hydrogen, which maps gas throughout the galaxy."},
+    body:`
+      <p>The galactic disk rotates, and we can measure how fast material orbits at different distances from the center using the Doppler shift of the 21-cm line (Day 25). Plotting orbital speed versus distance gives the galaxy's <em>rotation curve</em> — and it delivered one of the great shocks of modern astronomy.</p>
+      <h3>The speed that shouldn't be</h3>
+      <p>If most of the galaxy's mass were concentrated where the visible stars are (toward the center), then — just like planets in the Solar System (Kepler, Day 11) — outer stars should orbit <em>slower</em> the farther out they are. Instead, the rotation curve stays stubbornly <em>flat</em>: stars far out in the disk orbit just as fast as those much closer in. The only way that works is if there's far more mass out there, pulling on them, than we can see.</p>
+      <h3>Dark matter</h3>
+      <p>This unseen mass is <em>dark matter</em> — something that exerts gravity but emits no light. The flat rotation curve implies the Milky Way is embedded in an enormous <em>dark matter halo</em>, containing several times more mass than all its stars and gas combined. Vera Rubin's careful measurements of galaxy rotation in the 1970s made the case overwhelming: most of the matter in galaxies is invisible.</p>
+      <div class="aside"><b>The deepest unsolved problem in the Part:</b> dark matter will return again and again — in galaxy clusters (Day 137), in gravitational lensing (Day 138), and in the cosmic budget (Day 148). We don't know what it is; it isn't ordinary atoms, isn't stars, isn't gas. The flat rotation curve is the first and clearest fingerprint of a substance that makes up most of the matter in the universe yet has never been directly seen. Hold onto this — it's a thread running to the very end of the book.</div>
+    `,
+    takeaways:[
+      "The galaxy's rotation curve plots orbital speed versus distance from the center, measured via Doppler shifts.",
+      "If mass followed the visible stars, outer stars should orbit slower (Keplerian) — but the curve is flat.",
+      "A flat rotation curve requires large amounts of unseen mass: dark matter, in a vast halo around the galaxy.",
+      "Vera Rubin's work made the case; most of a galaxy's matter is invisible and not made of ordinary atoms."
+    ],
+    refs:[
+      {kind:"Evidence",title:"Galaxy rotation curves and dark matter",desc:"How flat rotation curves revealed the existence of dark matter.",url:"https://www.google.com/search?q=galaxy+rotation+curve+flat+dark+matter+Vera+Rubin"},
+      {kind:"Pioneer",title:"Vera Rubin and the dark matter discovery",desc:"The astronomer whose galaxy-rotation measurements clinched the case for dark matter.",url:"https://www.google.com/search?q=Vera+Rubin+dark+matter+galaxy+rotation"},
+    ],
+    reflect:"In the Solar System, outer planets orbit the Sun more slowly than inner ones, because nearly all the mass is at the center. Why does the Milky Way's flat rotation curve — outer stars moving just as fast — force us to conclude there's unseen mass spread far out?"
+  },
+  {
+    title:"Stellar Populations & Galactic History",
+    big:"The galaxy's stars come in two broad families — and their differences read like tree rings, recording how the Milky Way was built and chemically enriched over billions of years.",
+    recall:{q:"What does the Milky Way's flat rotation curve reveal about its mass?",
+            a:"That it contains far more unseen mass — dark matter, in a vast halo — than its visible stars and gas can account for."},
+    body:`
+      <p>Stars in the galaxy aren't all alike. Astronomers recognize two broad <em>stellar populations</em> that differ in age, location, and — crucially — chemical composition, and the difference tells the galaxy's life story.</p>
+      <h3>Two families</h3>
+      <p><em>Population I</em> stars are relatively young, metal-rich (containing more elements heavier than helium, which astronomers loosely call "metals"), and found in the disk and spiral arms — the Sun is one. <em>Population II</em> stars are old, metal-poor, and found in the halo, the bulge, and especially in globular clusters. The key insight: the oldest stars are metal-poor because they formed early, before generations of supernovae had enriched the gas with heavy elements.</p>
+      <h3>Reading the enrichment</h3>
+      <p>This is the cosmic matter cycle (Chapters 12 and 15) written across the whole galaxy. The first stars formed from nearly pure hydrogen and helium. As they died, they seeded the gas with the elements they forged (Day 80). Each new generation formed from more enriched material, so a star's metal content roughly tracks <em>when</em> it was born. The metal-poor halo stars are living fossils from the galaxy's youth; metal-rich disk stars like the Sun are relative newcomers.</p>
+      <div class="aside"><b>How we found the center:</b> the old Population II globular clusters in the halo gave Harlow Shapley a way to locate the galaxy's heart. Because the clusters orbit the galactic center, mapping their distribution revealed where that center is — far from the Sun. The same ancient stars that record the enrichment history also revealed our off-center place in the galaxy (Day 121).</div>
+    `,
+    takeaways:[
+      "Stars fall into two broad populations differing in age, location, and metal content.",
+      "Population I: young, metal-rich, in the disk/arms (like the Sun). Population II: old, metal-poor, in the halo, bulge, and globular clusters.",
+      "Old stars are metal-poor because they formed before supernovae enriched the gas — metallicity tracks birth time.",
+      "This is the cosmic matter cycle (Ch. 12, 15) recorded galaxy-wide; halo globular clusters also revealed the galactic center (Shapley)."
+    ],
+    refs:[
+      {kind:"Populations",title:"Stellar populations I and II",desc:"The two families of stars and what their metallicity reveals about galactic history.",url:"https://www.google.com/search?q=stellar+populations+I+II+metallicity+galaxy+history"},
+      {kind:"Mapping",title:"Shapley, globular clusters, and the galactic center",desc:"How old halo clusters revealed where the center of the Milky Way lies.",url:"https://www.google.com/search?q=Shapley+globular+clusters+galactic+center+milky+way"},
+    ],
+    reflect:"Halo stars are old and metal-poor, while disk stars like the Sun are younger and metal-rich. Using the cosmic matter cycle (stars forging elements and scattering them when they die), explain why a star's metal content can serve as a rough clock for when it formed."
+  },
+  {
+    title:"The Heart of the Galaxy: Sagittarius A*",
+    big:"At the very center of the Milky Way lurks a monster — a black hole four million times the mass of the Sun — and we've watched stars whip around it to prove it's there.",
+    recall:{q:"Which stellar population dominates the galactic bulge and center region, and what does that suggest about its age?",
+            a:"Old, metal-poor Population II stars dominate the bulge/halo — indicating much of the central region is ancient."},
+    body:`
+      <p>What sits at the exact center of the galaxy, around which everything orbits? A <em>supermassive black hole</em> called <em>Sagittarius A*</em> (Sgr A*), with a mass of about four million Suns packed into a region smaller than our Solar System.</p>
+      <h3>Weighing the invisible</h3>
+      <p>We can't see the black hole, but we proved it's there exactly as described back in Chapter 17 (Day 90). For decades, astronomers tracked individual stars orbiting the galactic center at thousands of kilometers per second, looping around an unseen point. Applying Newton's laws (Day 12) to those orbits reveals an enormous mass concentrated in a tiny volume — far too dense to be anything but a black hole. This work earned a Nobel Prize in 2020.</p>
+      <h3>Seeing the shadow</h3>
+      <p>The galactic center is hidden behind thick dust, so we observe it in infrared and radio. In 2022, the Event Horizon Telescope produced an actual image of Sgr A*'s shadow — the dark region silhouetted against glowing gas — directly confirming the black hole (its second image, after M87's in 2019, Day 90). Our galaxy has a black hole at its heart, and we've now photographed it.</p>
+      <div class="aside"><b>A universal feature:</b> Sgr A* isn't special to the Milky Way. As we'll see, essentially <em>every</em> large galaxy harbors a supermassive black hole at its center (Day 145), and when these are actively feeding, they become the brilliant beacons of Chapter 28. The quiet black hole at our galaxy's core is the dormant cousin of the most luminous objects in the universe.</div>
+    `,
+    takeaways:[
+      "The Milky Way's center hosts a supermassive black hole, Sagittarius A*, of about 4 million solar masses.",
+      "It was proven by tracking stars orbiting the center at high speed and applying Newton's laws to their orbits (2020 Nobel Prize).",
+      "Hidden by dust, the galactic center is observed in infrared and radio; the EHT imaged Sgr A*'s shadow in 2022.",
+      "Supermassive black holes at galactic centers are universal — the dormant cousins of active galaxies."
+    ],
+    refs:[
+      {kind:"Center",title:"Sagittarius A*, the Milky Way's black hole",desc:"The supermassive black hole at the galactic center and how its mass was measured.",url:"https://www.google.com/search?q=Sagittarius+A*+supermassive+black+hole+milky+way+center"},
+      {kind:"Image",title:"The Event Horizon Telescope image of Sgr A*",desc:"The 2022 direct image of our galaxy's central black hole shadow.",url:"https://www.google.com/search?q=event+horizon+telescope+Sgr+A*+image+2022"},
+    ],
+    reflect:"We can't see Sgr A* directly, yet we're confident it's a black hole of ~4 million solar masses. How does watching stars orbit an invisible point let us both detect it and weigh it — and what rules out it being, say, a dense cluster of ordinary stars?"
+  },
+  {
+    title:"Spiral Arms & the Galactic Ecosystem",
+    big:"The galaxy's graceful spiral arms aren't fixed pinwheel blades but moving traffic jams of matter — and they're where the cycle of stellar birth and death plays out across the disk.",
+    recall:{q:"What kind of object sits at the center of the Milky Way and most other large galaxies?",
+            a:"A supermassive black hole (Sagittarius A* in our case, ~4 million solar masses)."},
+    body:`
+      <p>The Milky Way's defining feature — its spiral arms — turns out to be subtler than it looks. The arms are not solid structures of fixed stars; if they were, the galaxy's differential rotation (inner parts orbiting faster) would wind them up tight in just a few rotations. Instead, the leading picture is that arms are <em>density waves</em>: regions where matter piles up temporarily as it orbits, like a moving traffic jam that cars enter and leave while the jam itself persists.</p>
+      <h3>Where stars are born</h3>
+      <p>As gas clouds pass through a spiral arm's density wave, they get compressed — and compression triggers gravitational collapse and <em>star formation</em> (Day 63). That's why spiral arms glow: they're studded with bright, short-lived, massive blue stars (Day 76) that light up the gas and die before they can drift far from the arm. The arms trace where stars are actively being made.</p>
+      <h3>The galaxy as an ecosystem</h3>
+      <p>Zoom out and the whole disk is a recycling engine, the cosmic matter cycle (Chapters 12 and 15) running continuously: gas collapses into stars in the arms, massive stars live fast and explode, enriching and stirring the interstellar medium, which eventually forms new stars. The Milky Way is not a static pinwheel but a living system, processing gas into stars and back again, generation after generation.</p>
+      <div class="aside"><b>Closing Chapter 24:</b> we've mapped our galaxy's structure, weighed its hidden dark matter, read its history in its stars, met the black hole at its core, and seen its arms as engines of star birth. We understand our home. Now Chapter 25 takes the leap that defined 20th-century astronomy — the realization that the Milky Way is just one of countless galaxies, each a vast star-city of its own, scattered across an expanding universe.</div>
+    `,
+    takeaways:[
+      "Spiral arms are likely density waves — moving regions where matter temporarily piles up — not fixed structures (which would wind up).",
+      "Gas compressed passing through arms triggers star formation, so arms are lit by bright, short-lived massive stars.",
+      "The galactic disk runs the cosmic matter cycle continuously: gas → stars → supernovae → enriched gas → new stars.",
+      "The Milky Way is a living, recycling ecosystem, not a static pinwheel."
+    ],
+    refs:[
+      {kind:"Arms",title:"Spiral arms as density waves",desc:"Why spiral arms persist and glow with newly formed stars.",url:"https://www.google.com/search?q=spiral+arms+density+wave+theory+star+formation"},
+      {kind:"Ecosystem",title:"The galactic matter cycle",desc:"How a galaxy continuously recycles gas into stars and back.",url:"https://www.google.com/search?q=galactic+matter+cycle+interstellar+medium+star+formation"},
+    ],
+    reflect:"If spiral arms were fixed groups of stars, the galaxy's faster-spinning inner regions would wind them up tightly within a few rotations. Why does the density-wave idea — arms as moving regions matter passes through — solve this 'winding problem'?"
+  },
+]},
+
+{ ch:25, title:"The Nature of Galaxies", days:[
+  {
+    title:"A Universe of Galaxies",
+    big:"A century ago, we thought the Milky Way was the entire universe — until one measurement revealed it to be a single island among billions.",
+    recall:{q:"What is the Milky Way, in one phrase, and roughly how many stars does it hold?",
+            a:"A barred spiral galaxy of several hundred billion stars (plus gas, dust, and dark matter)."},
+    body:`
+      <p>For most of history, the Milky Way <em>was</em> the universe, as far as anyone knew. Faint spiral-shaped smudges in the sky — the "spiral nebulae" — were a mystery. Were they gas clouds within our galaxy, or distant "island universes" of their own? This question sparked the famous 1920 <em>Great Debate</em> between astronomers Harlow Shapley (who argued the Milky Way was everything) and Heber Curtis (who argued the spirals were separate galaxies).</p>
+      <h3>Hubble settles it</h3>
+      <p>The answer came in 1925, exactly as foreshadowed back on Day 75. Edwin Hubble found <em>Cepheid variable stars</em> in the Andromeda "nebula" and used Leavitt's period–luminosity law (Day 72) to measure its distance. Andromeda turned out to be far outside the Milky Way — a separate galaxy entirely. The spiral nebulae were island universes after all.</p>
+      <h3>The scale of everything changes</h3>
+      <p>Overnight, the known universe exploded in size. The Milky Way went from being "the universe" to being one galaxy among what we now know are <em>hundreds of billions</em>, each containing billions of stars. It was perhaps the greatest single expansion of the human cosmic perspective since Copernicus — and it rested entirely on a humble pulsating star used as a measuring stick.</p>
+      <div class="aside"><b>The compounding pays off across the whole book:</b> the tool that cracked open the universe was built in Part III — Leavitt's period–luminosity relation for Cepheids (Day 72), itself resting on the distance ladder from Part I (parallax, Day 14). Nothing here required new physics; it required <em>chaining</em> ideas we'd already mastered. This is the deepest lesson of the course: the cosmos is measured by patiently stacking one understood method on top of another.</div>
+    `,
+    takeaways:[
+      "Until the 1920s, it was unclear whether 'spiral nebulae' were within the Milky Way or separate galaxies (the Great Debate).",
+      "In 1925 Hubble found Cepheids in Andromeda and used Leavitt's law to show it lies far beyond the Milky Way.",
+      "The Milky Way is just one of hundreds of billions of galaxies, each with billions of stars.",
+      "This vast expansion of the known universe rested on the Cepheid distance method from Part III."
+    ],
+    refs:[
+      {kind:"Debate",title:"The Great Debate of 1920",desc:"Shapley vs. Curtis on whether the spiral nebulae lay inside or outside the Milky Way.",url:"https://www.google.com/search?q=great+debate+1920+shapley+curtis+spiral+nebulae"},
+      {kind:"Discovery",title:"Hubble's discovery of galaxies beyond the Milky Way",desc:"How a Cepheid in Andromeda proved the universe is full of galaxies.",url:"https://www.google.com/search?q=hubble+andromeda+cepheid+galaxy+1925+island+universe"},
+    ],
+    reflect:"Hubble cracked open the universe not with a new instrument but by applying the Cepheid method from Part III to Andromeda. Why is it significant that this revolutionary discovery used only tools the course had already developed?"
+  },
+  {
+    title:"Classifying Galaxies: The Hubble Sequence",
+    big:"Galaxies come in a handful of basic shapes, and sorting them — into elegant spirals, smooth ellipticals, and ragged irregulars — was the first step to understanding them.",
+    recall:{q:"How did Hubble prove that Andromeda is a separate galaxy?",
+            a:"He found Cepheid variables in it and used the period–luminosity relation to measure a distance far beyond the Milky Way."},
+    body:`
+      <p>With galaxies established as real and numerous, Hubble did what astronomers always do with a new population (recall stellar spectral classification, Day 41): he sorted them by appearance. His scheme, the <em>Hubble sequence</em> (often drawn as a "tuning fork"), still organizes galaxies today.</p>
+      <h3>The main types</h3>
+      <p><em>Spiral galaxies</em> (like the Milky Way and Andromeda) have a flat disk, spiral arms, and ongoing star formation — they look blue and lively. Many, including ours, have a central bar (<em>barred spirals</em>). <em>Elliptical galaxies</em> are smooth, featureless balls of mostly old stars, ranging from dwarf to giant; they have little gas and form few new stars, so they look red and "dead." <em>Lenticular</em> galaxies are an in-between disk-without-arms type. <em>Irregular galaxies</em> have no clear shape, often gas-rich and forming stars, frequently the result of gravitational disturbance.</p>
+      <h3>Shape reflects history</h3>
+      <p>The categories aren't just bookkeeping — they correlate with real physical differences. Spirals are rich in gas and actively forming stars; ellipticals have used up or lost their gas and are dominated by old stars. As we'll see in Chapter 26, a galaxy's shape is largely a record of its formation and, especially, its history of collisions and mergers.</p>
+      <div class="aside"><b>Classification as a first step, not the answer:</b> just as the OBAFGKM sequence (Day 41) seemed arbitrary until physics revealed it was a temperature sequence (Day 42), the Hubble sequence is a starting point whose deeper meaning lies in galaxy evolution. Naming and sorting comes first; understanding <em>why</em> the categories exist comes later. Don't mistake the filing system for the physics.</div>
+    `,
+    takeaways:[
+      "Hubble classified galaxies by shape into the Hubble sequence (the 'tuning fork').",
+      "Spirals (often barred): flat disks with arms, gas-rich, actively forming stars, bluish.",
+      "Ellipticals: smooth balls of old stars, gas-poor, few new stars, reddish; lenticulars are an in-between type; irregulars have no clear shape.",
+      "Galaxy shape correlates with gas content and star formation — and reflects formation and merger history."
+    ],
+    refs:[
+      {kind:"Scheme",title:"The Hubble sequence of galaxies",desc:"The tuning-fork classification into spirals, ellipticals, lenticulars, and irregulars.",url:"https://www.google.com/search?q=hubble+sequence+tuning+fork+galaxy+classification"},
+      {kind:"Types",title:"Types of galaxies and their properties",desc:"How spirals, ellipticals, and irregulars differ in stars, gas, and color.",url:"https://www.google.com/search?q=galaxy+types+spiral+elliptical+irregular+properties"},
+    ],
+    reflect:"Spiral galaxies look blue and ellipticals look red. Recalling that blue stars are hot, massive, and short-lived (Day 76), why would a galaxy actively forming new stars look bluer than one that stopped forming stars long ago?"
+  },
+  {
+    title:"Measuring Galaxies: Extending the Ladder",
+    big:"To map the universe of galaxies, astronomers had to extend their cosmic measuring tape rung by rung — until a single exploding star let them reach across billions of light-years.",
+    recall:{q:"What does a galaxy's classification (spiral vs. elliptical) correlate with physically?",
+            a:"Its gas content and star-formation activity — spirals are gas-rich and star-forming, ellipticals are gas-poor and 'red and dead.'"},
+    body:`
+      <p>How far away are the galaxies? Measuring cosmic distances means extending the <em>distance ladder</em> (Day 75), each method calibrating the next, reaching ever farther.</p>
+      <h3>The rungs, reaching outward</h3>
+      <p>For nearby galaxies, individual <em>Cepheids</em> (Day 72) still work, giving solid distances. Beyond their reach, astronomers use galaxy-wide relations — for instance, the <em>Tully–Fisher relation</em>, which links a spiral galaxy's rotation speed (measurable from its spectrum) to its luminosity, turning the whole galaxy into a standard candle. And for the greatest distances, the champion is the <em>Type Ia supernova</em> (Day 84): because these white-dwarf detonations all reach nearly the same peak brightness, and because they're brilliant enough to see across billions of light-years, they extend the ladder to the far reaches of the universe.</p>
+      <h3>Why the chain matters</h3>
+      <p>Each rung is calibrated by the one below it: parallax anchors Cepheids, Cepheids anchor the galaxy relations and supernovae, and those reach the cosmos. The whole structure is only as reliable as its lowest rungs — which is why a small revision in nearby distances ripples all the way out (and is at the heart of a current controversy we'll meet in Day 150).</p>
+      <div class="aside"><b>The same standard candle, two jobs:</b> the Type Ia supernova does double duty in this book. In Part III (Day 84) it revealed dark energy and the accelerating universe. Here it's the long-range rung of the distance ladder. One precisely understood explosion — the detonation of a white dwarf at the Chandrasekhar limit — is both a cosmic ruler and a probe of the universe's fate. That's the power of truly understanding a single phenomenon.</div>
+    `,
+    takeaways:[
+      "Galaxy distances come from extending the cosmic distance ladder, each method calibrating the next.",
+      "Cepheids reach nearby galaxies; the Tully–Fisher relation (rotation speed ↔ luminosity) reaches farther.",
+      "Type Ia supernovae, with uniform peak brightness and great luminosity, extend distances across billions of light-years.",
+      "The ladder is only as reliable as its lowest rungs, so nearby-distance revisions propagate outward."
+    ],
+    refs:[
+      {kind:"Ladder",title:"The extragalactic distance ladder",desc:"Cepheids, Tully–Fisher, and Type Ia supernovae as successive distance rungs.",url:"https://www.google.com/search?q=extragalactic+distance+ladder+cepheid+tully+fisher+supernova"},
+      {kind:"Relation",title:"The Tully–Fisher relation",desc:"How a spiral galaxy's rotation speed reveals its luminosity and distance.",url:"https://www.google.com/search?q=tully+fisher+relation+galaxy+distance"},
+    ],
+    reflect:"Type Ia supernovae are useful as standard candles for two reasons working together: their uniform peak brightness and their enormous luminosity. Why does each property matter, and why would a uniform but faint candle be far less useful for mapping the distant universe?"
+  },
+  {
+    title:"Hubble's Law & the Expanding Universe",
+    big:"Almost every galaxy is rushing away from us, and the farther one is, the faster it flees — the signature not of an explosion, but of space itself expanding.",
+    recall:{q:"Which standard candle reaches the greatest distances, and why is it so useful?",
+            a:"The Type Ia supernova — uniform peak brightness plus enormous luminosity let it be seen and calibrated across billions of light-years."},
+    body:`
+      <p>Once Hubble could measure galaxy distances, he combined them with another measurement: galaxy <em>redshifts</em>. Recall that a receding source has its light shifted to longer (redder) wavelengths by the Doppler effect (Day 25). Nearly every galaxy showed a redshift — they were all moving away from us. And Hubble found a stunning pattern.</p>
+      <h3>Hubble's law</h3>
+      <p>The farther away a galaxy is, the faster it recedes — and the relationship is beautifully simple and linear:</p>
+      <div class="eq">v = H₀ × d&nbsp;&nbsp;(recession speed = Hubble constant × distance)</div>
+      <p>This is <em>Hubble's law</em>, and H₀ (the Hubble constant) sets the rate. It means the universe is <em>expanding</em>.</p>
+      <h3>What expansion really means</h3>
+      <p>Crucially, this is <em>not</em> an explosion with us at the center and galaxies flying outward through space. Rather, <em>space itself</em> is stretching, carrying the galaxies apart — like raisins in rising dough, where every raisin sees all the others receding, and the more distant ones recede faster. There's no center and no edge to the expansion; an observer in any galaxy sees the same law. The redshift isn't really a Doppler shift through space — it's the stretching of light by the expansion of space it travels through.</p>
+      <div class="aside"><b>The single most important fact in cosmology:</b> Hubble's law is the observational bedrock of the Big Bang. If everything is rushing apart now, then long ago everything was packed together — run the expansion backward and you arrive at a hot, dense beginning (Day 146). And the Hubble constant, by giving the expansion rate, also yields the <em>age</em> of the universe (Day 150). This one linear relationship between distance and redshift launched modern cosmology.</div>
+    `,
+    takeaways:[
+      "Nearly all galaxies are redshifted — receding from us (measured via the Doppler shift of their light).",
+      "Hubble's law: recession speed is proportional to distance, v = H₀d, with H₀ the Hubble constant.",
+      "The universe is expanding; it's space itself stretching (the 'raisin bread' picture), not galaxies flying through space.",
+      "There's no center or edge — every observer sees the same law; this is the observational foundation of the Big Bang."
+    ],
+    refs:[
+      {kind:"Law",title:"Hubble's law and cosmic expansion",desc:"The distance–redshift relation that revealed an expanding universe.",url:"https://www.google.com/search?q=hubble+law+v+equals+H0+d+expanding+universe"},
+      {kind:"Picture",title:"What 'the universe is expanding' really means",desc:"Why it's space stretching, with no center, not galaxies moving through space.",url:"https://www.google.com/search?q=expansion+of+space+raisin+bread+no+center+cosmic"},
+    ],
+    reflect:"A common misconception is that the expanding universe is galaxies flying outward from a central explosion. Using the 'raisin bread' picture, explain why every observer — in any galaxy — sees all other galaxies receding, with no one at the center."
+  },
+  {
+    title:"Galaxies Are Mostly Dark Matter",
+    big:"Weigh a galaxy by its gravity and compare it to the mass of its visible stars, and the same unsettling answer returns again: most of what's there cannot be seen.",
+    recall:{q:"What does Hubble's law (v = H₀d) tell us about the universe?",
+            a:"That it is expanding — galaxies recede faster the farther away they are, as space itself stretches."},
+    body:`
+      <p>We met dark matter in our own galaxy through its rotation curve (Day 122). Surveying other galaxies confirms it's universal — and lets us weigh galaxies in a way that drives the point home.</p>
+      <h3>Weighing by motion</h3>
+      <p>We can measure a galaxy's total mass from how fast its stars and gas orbit (the more mass, the faster the orbits, via gravity — Newton again, Day 12). We can separately estimate the mass of its visible stars from how much light it gives off. Comparing the two — the <em>mass-to-light ratio</em> — reveals that galaxies contain far more mass than their stars can account for. Like the Milky Way, other galaxies are embedded in massive <em>dark matter halos</em>, typically holding several times more mass than all the visible matter.</p>
+      <h3>A consistent, deepening mystery</h3>
+      <p>The evidence converges from independent directions: flat rotation curves in spirals, the motions of stars in ellipticals, and (next chapter) the speeds of galaxies in clusters all demand large amounts of unseen mass. Dark matter isn't a quirk of one galaxy — it's the dominant form of matter in essentially every galaxy, and indeed the universe.</p>
+      <div class="aside"><b>Closing Chapter 25 — the ledger doesn't balance:</b> we've established that the universe is full of galaxies, sorted them, measured their distances, found them all flying apart in an expanding universe, and discovered they're mostly made of invisible matter. Each thread — expansion and dark matter especially — points beyond individual galaxies to the universe as a whole. Chapter 26 asks how galaxies came to be and change; then Chapter 27 assembles them into the grandest structures, where dark matter's grip becomes undeniable.</div>
+    `,
+    takeaways:[
+      "A galaxy's total mass comes from orbital speeds (gravity); its visible-star mass comes from its light.",
+      "The mass-to-light ratio shows galaxies hold far more mass than their stars — they sit in massive dark matter halos.",
+      "Evidence converges from spiral rotation curves, elliptical star motions, and (next) galaxy speeds in clusters.",
+      "Dark matter is the dominant form of matter in essentially every galaxy."
+    ],
+    refs:[
+      {kind:"Mass",title:"Galaxy masses and mass-to-light ratios",desc:"How comparing gravitational mass to starlight reveals dark matter in galaxies.",url:"https://www.google.com/search?q=galaxy+mass+to+light+ratio+dark+matter+halo"},
+      {kind:"Halos",title:"Dark matter halos around galaxies",desc:"The unseen mass that surrounds and dominates galaxies.",url:"https://www.google.com/search?q=dark+matter+halo+galaxy+evidence"},
+    ],
+    reflect:"We weigh a galaxy two ways: by its gravity (orbital speeds) and by its starlight. When the gravitational mass vastly exceeds what the stars can account for, what are we forced to conclude — and why can't the missing mass just be faint stars or gas we haven't spotted?"
+  },
+]},
+
+{ ch:26, title:"Galactic Evolution", days:[
+  {
+    title:"How Galaxies Are Built: Hierarchical Assembly",
+    big:"Galaxies weren't born full-grown — they were assembled from the bottom up, small pieces merging into ever-larger structures, all scaffolded by invisible dark matter.",
+    recall:{q:"What dominates the mass of essentially every galaxy?",
+            a:"Dark matter — galaxies are embedded in massive dark matter halos holding several times more mass than their visible stars and gas."},
+    body:`
+      <p>How did galaxies come to exist? The modern picture is <em>hierarchical assembly</em>: structure in the universe grew from the bottom up. Small clumps formed first, then merged and accreted into progressively larger galaxies over billions of years. Today's big galaxies are the cumulative product of countless smaller building blocks coming together.</p>
+      <h3>Dark matter leads the way</h3>
+      <p>Crucially, dark matter (Day 130) drove the process. Because it's the dominant mass and doesn't radiate away energy the way gas does, dark matter clumped together first under gravity, forming a web of <em>halos</em>. Ordinary gas then fell into these dark matter wells, where it could cool, condense, and form stars. The dark matter provided the gravitational scaffolding; the visible galaxy is the luminous gas and stars that settled into it.</p>
+      <h3>Gas cooling and star formation</h3>
+      <p>Inside a halo, gas must shed energy to collapse and form stars — it <em>cools</em> by radiating, then sinks toward the center and fragments into stars (the star-formation physics of Day 63, now on galactic scales). A galaxy's growth is thus a competition: gas falls in and cools to make stars, while energetic processes (supernovae, and the black holes of Chapter 28) can heat or expel gas and slow things down. The interplay of these is what shapes a galaxy over cosmic time.</p>
+      <div class="aside"><b>Dark matter, from problem to protagonist:</b> we first met dark matter as a puzzle — unseen mass needed to explain rotation (Day 122). Here it becomes essential to the story: without dark matter's early clumping to build the scaffolding, ordinary matter couldn't have gathered into galaxies as quickly as it did. The invisible substance isn't just present; it's the architect of cosmic structure. We'll see this confirmed when we trace structure back to its seeds in the early universe (Day 140).</div>
+    `,
+    takeaways:[
+      "Galaxies form by hierarchical assembly: small structures merge and accrete into larger galaxies over billions of years.",
+      "Dark matter clumped first into halos, providing the gravitational scaffolding for galaxies.",
+      "Ordinary gas fell into the dark matter wells, cooled, and formed stars.",
+      "Galaxy growth balances gas inflow/cooling (making stars) against heating/expulsion by supernovae and black holes."
+    ],
+    refs:[
+      {kind:"Formation",title:"Hierarchical galaxy formation",desc:"How galaxies assembled from smaller pieces, scaffolded by dark matter halos.",url:"https://www.google.com/search?q=hierarchical+galaxy+formation+dark+matter+halo+merging"},
+      {kind:"Cooling",title:"Gas cooling and star formation in galaxies",desc:"How gas falls into halos, cools, and condenses into stars.",url:"https://www.google.com/search?q=gas+cooling+star+formation+galaxy+dark+matter+halo"},
+    ],
+    reflect:"Dark matter clumps under gravity but can't radiate away energy, while ordinary gas can. Why does that difference let dark matter form the scaffolding first, with visible galaxies forming inside the wells it creates?"
+  },
+  {
+    title:"When Galaxies Collide",
+    big:"Galaxies are not lonely islands — they crash into and merge with one another, and these titanic collisions sculpt them, ignite bursts of star birth, and even build the giant ellipticals.",
+    recall:{q:"What process builds large galaxies over cosmic time?",
+            a:"Hierarchical assembly — smaller structures repeatedly merge and accrete into larger galaxies, scaffolded by dark matter."},
+    body:`
+      <p>If galaxies grow by merging, then collisions must be central to their lives — and they are. Galaxies are relatively close together compared to their sizes (unlike stars, which almost never collide), so over cosmic time, interactions and mergers are common and transformative.</p>
+      <h3>What a collision does</h3>
+      <p>When galaxies pass close or merge, their mutual gravity tears out long <em>tidal tails</em> and bridges of stars and gas (tidal forces again — Days 89, 109). The stars themselves rarely hit each other (space is mostly empty), but the gas clouds slam together and compress, triggering a <em>starburst</em> — a furious episode of star formation. Mergers stir everything up, funnel gas inward (sometimes feeding the central black hole, Chapter 28), and scramble orderly disks.</p>
+      <h3>Building ellipticals</h3>
+      <p>This explains a key fact from Chapter 25: when two spiral galaxies merge, their neat disks are destroyed and the stars are flung into a smooth, random swarm — producing an <em>elliptical galaxy</em>. So ellipticals, with their old stars and little gas, are thought to be largely the end products of mergers, which used up or expelled the gas in starbursts. Shape really does record history.</p>
+      <div class="aside"><b>Our own future collision:</b> this isn't only ancient history. The Andromeda galaxy is heading toward the Milky Way, and in a few billion years the two will merge, likely forming a single large elliptical galaxy — sometimes nicknamed "Milkomeda." The Sun (if it still shone) would be flung to a new orbit, the night sky transformed. We are participants in hierarchical assembly, not just observers of it.</div>
+    `,
+    takeaways:[
+      "Galaxies are close together relative to their size, so collisions and mergers are common and transformative.",
+      "Mergers create tidal tails (gravity) and compress gas, triggering starbursts of rapid star formation.",
+      "Stars rarely collide (space is empty), but gas clouds do — and gas gets funneled inward.",
+      "Merging spirals scramble into ellipticals; the Milky Way and Andromeda will merge in a few billion years."
+    ],
+    refs:[
+      {kind:"Mergers",title:"Galaxy collisions and mergers",desc:"How galactic collisions create tidal tails, starbursts, and elliptical galaxies.",url:"https://www.google.com/search?q=galaxy+collisions+mergers+tidal+tails+starburst+elliptical"},
+      {kind:"Future",title:"The Milky Way–Andromeda collision",desc:"Our galaxy's coming merger with Andromeda billions of years from now.",url:"https://www.google.com/search?q=milky+way+andromeda+collision+merger+future"},
+    ],
+    reflect:"When two galaxies collide, their stars almost never hit each other, yet their gas clouds slam together and ignite starbursts. What does that contrast tell you about how much empty space lies between stars versus between gas clouds in a galaxy?"
+  },
+  {
+    title:"Living and Dying: Star Formation & Quenching",
+    big:"Some galaxies blaze with the birth of new stars while others sit red and dormant — and what shuts star formation off is one of the liveliest questions in astronomy.",
+    recall:{q:"What kind of galaxy results when two spiral galaxies merge, and why?",
+            a:"An elliptical — the merger destroys the orderly disks, flinging stars into a smooth random swarm and using up or expelling the gas."},
+    body:`
+      <p>Galaxies broadly fall into two camps (Day 127): blue, star-forming galaxies (mostly spirals and irregulars) and red, "dead" galaxies (mostly ellipticals) that have largely stopped making stars. Understanding why a galaxy stops — called <em>quenching</em> — is central to galaxy evolution.</p>
+      <h3>The fuel question</h3>
+      <p>Star formation needs a supply of cold gas (Day 62). A galaxy keeps forming stars as long as it has fuel and that fuel stays cold and dense enough to collapse. Quenching happens when the cold gas runs out, gets used up, gets heated, or gets expelled. Several culprits can do this.</p>
+      <h3>What shuts it down</h3>
+      <p><em>Feedback</em> is key. Supernovae (Day 79) and especially the energetic outflows from a feeding central black hole (Chapter 28) can heat the surrounding gas or blow it out of the galaxy entirely, cutting off the fuel. <em>Environment</em> matters too: a galaxy falling into a dense cluster can have its gas stripped away by the hot intracluster medium, or used up in a merger-driven starburst that leaves nothing behind. Big ellipticals are red because, one way or another, their star-forming gas is long gone.</p>
+      <div class="aside"><b>Black holes as galactic thermostats:</b> here's a surprising connection. The supermassive black hole at a galaxy's center — tiny compared to the galaxy — can regulate the entire galaxy's growth by heating or ejecting its gas when it feeds. This "feedback" is why galaxy and black hole seem to grow in lockstep (Day 145). A region smaller than the Solar System governs a structure spanning a hundred thousand light-years. We'll see how the black hole does it in Chapter 28.</div>
+    `,
+    takeaways:[
+      "Galaxies are broadly blue/star-forming or red/'dead' (quenched); quenching is when star formation stops.",
+      "Star formation needs cold, dense gas; it stops when that gas is used up, heated, or expelled.",
+      "Feedback from supernovae and feeding central black holes can heat or eject gas, shutting off star formation.",
+      "Environment matters too — cluster gas-stripping and merger starbursts can quench galaxies."
+    ],
+    refs:[
+      {kind:"Process",title:"Star formation and quenching in galaxies",desc:"Why some galaxies keep forming stars and others stop.",url:"https://www.google.com/search?q=galaxy+quenching+star+formation+feedback+gas"},
+      {kind:"Feedback",title:"Black hole and supernova feedback",desc:"How energetic feedback heats or expels a galaxy's star-forming gas.",url:"https://www.google.com/search?q=AGN+supernova+feedback+galaxy+quenching+gas"},
+    ],
+    reflect:"A supermassive black hole is minuscule compared to its galaxy, yet it can shut down star formation across the whole galaxy. How can something so small have such a galaxy-wide effect — what is it doing to the gas?"
+  },
+  {
+    title:"The Chemical History of Galaxies",
+    big:"Each generation of stars enriches a galaxy with heavier elements, so a galaxy's chemistry is a layered record of every stellar lifetime that came before.",
+    recall:{q:"What does a galaxy need to keep forming stars, and what stops it?",
+            a:"A supply of cold, dense gas; quenching occurs when that gas is used up, heated, or expelled (often by feedback)."},
+    body:`
+      <p>We saw in our own galaxy that older stars are metal-poor and younger ones metal-rich (Day 123). This <em>chemical evolution</em> is universal, and it makes a galaxy's composition a clock and a history book in one.</p>
+      <h3>Enrichment over time</h3>
+      <p>A galaxy begins with gas of nearly pure hydrogen and helium left from the Big Bang (Day 151). The first stars form from this pristine gas and, when they die, scatter the heavier elements they forged (Day 80) back into the interstellar medium. Each new generation forms from gas a little more enriched than the last. So a galaxy's <em>metallicity</em> — its fraction of heavy elements — rises over cosmic time as more stars live and die. The cosmic matter cycle (Chapters 12, 15) drives the chemical buildup of the universe.</p>
+      <h3>Reading it across galaxies</h3>
+      <p>This lets us read galactic histories. A galaxy (or region) rich in heavy elements has hosted many generations of star formation; a metal-poor one has formed comparatively few stars or formed them long ago. Different galaxy types and regions show different enrichment histories, reflecting how vigorously and how long each has been making stars. The elements themselves are a record of the galaxy's life.</p>
+      <div class="aside"><b>Everything connects to the matter cycle:</b> trace it all the way back. The iron in your blood and the oxygen you breathe (Day 80) were forged in stars and dispersed into the gas of the Milky Way, raising its metallicity, so that when the Sun formed it was metal-rich enough to make rocky planets (Day 117). Chemical evolution is the link between the deaths of stars and the existence of planets and life. The galaxy's chemistry is your genealogy.</div>
+    `,
+    takeaways:[
+      "Galaxies start with nearly pure hydrogen and helium; stars forge heavier elements and scatter them when they die.",
+      "Each stellar generation enriches the gas, so a galaxy's metallicity rises over cosmic time.",
+      "A galaxy's heavy-element content records how much and how long it has formed stars.",
+      "Chemical evolution links stellar death to the existence of rocky planets and life (e.g., the metal-rich Sun)."
+    ],
+    refs:[
+      {kind:"Enrichment",title:"Chemical evolution of galaxies",desc:"How successive stellar generations build up a galaxy's heavy-element content.",url:"https://www.google.com/search?q=chemical+evolution+galaxies+metallicity+enrichment+over+time"},
+      {kind:"Cycle",title:"Metallicity as a record of star formation",desc:"Reading a galaxy's history from its heavy-element abundance.",url:"https://www.google.com/search?q=galaxy+metallicity+star+formation+history"},
+    ],
+    reflect:"A galaxy's metallicity rises as generations of stars live and die. Why does that make a high heavy-element content evidence of a long, active history of star formation — and how does this connect to the Sun being able to form rocky planets?"
+  },
+  {
+    title:"Looking Back in Time: Galaxies Across History",
+    big:"Because light takes time to reach us, telescopes are time machines — and peering at the most distant galaxies shows us the universe as it was billions of years ago.",
+    recall:{q:"Why does a galaxy's metallicity rise over cosmic time?",
+            a:"Each generation of stars forges heavy elements and scatters them when they die, enriching the gas from which the next generation forms."},
+    body:`
+      <p>Here is one of astronomy's most powerful ideas: <em>to look far away is to look back in time</em>. Light travels at a finite speed (Day 23), so light from a galaxy a billion light-years away left it a billion years ago. We don't see distant galaxies as they are now — we see them as they <em>were</em>. The deeper we look, the further into the past we peer. This is <em>lookback time</em>.</p>
+      <h3>The universe was different</h3>
+      <p>This turns telescopes into time machines for studying galaxy evolution directly. By comparing nearby galaxies (the present) with ever-more-distant ones (the past), we watch how galaxies have changed. The early universe, we find, was a more violent place: galaxies were smaller, more irregular, closer together, and merging far more often, with much higher rates of star formation. The orderly grand spirals like ours are a relatively mature development.</p>
+      <h3>Seeing the first galaxies</h3>
+      <p>The deepest images — the Hubble Deep Fields, and now the <em>James Webb Space Telescope</em> — capture galaxies as they appeared when the universe was only a few percent of its current age. JWST, observing in the infrared (because cosmic expansion has redshifted that ancient light, Day 129), is revealing the first galaxies forming surprisingly early, challenging and refining our models of how quickly structure assembled.</p>
+      <div class="aside"><b>Closing Chapter 26:</b> galaxies are not static; they form hierarchically, collide and merge, ignite and quench their star formation, and enrich themselves chemically across cosmic time — and we can watch it all happen by looking to different distances. This naturally raises the next question: how are galaxies arranged in space, on the largest scales? Chapter 27 reveals that they aren't scattered randomly but woven into a vast cosmic web — where dark matter's grip on the universe becomes impossible to ignore.</div>
+    `,
+    takeaways:[
+      "Light's finite speed means looking far away is looking back in time (lookback time).",
+      "Comparing near (present) and distant (past) galaxies lets us watch galaxy evolution directly.",
+      "The early universe was more violent: smaller, irregular galaxies, more mergers, higher star formation.",
+      "Deep fields and JWST (in infrared, due to redshift) reveal the first galaxies, refining formation models."
+    ],
+    refs:[
+      {kind:"Time machine",title:"Lookback time and observing the past",desc:"How seeing distant galaxies lets us watch the universe's earlier eras.",url:"https://www.google.com/search?q=lookback+time+distant+galaxies+early+universe+evolution"},
+      {kind:"Frontier",title:"JWST and the earliest galaxies",desc:"How the James Webb Space Telescope observes the first galaxies forming.",url:"https://www.google.com/search?q=JWST+earliest+galaxies+early+universe+infrared"},
+    ],
+    reflect:"When we observe a galaxy billions of light-years away, we see it as it was billions of years ago, not as it is now. Why does this finite light-travel time make a telescope a kind of time machine — and why is it essential for studying how galaxies evolve?"
+  },
+]},
+
+{ ch:27, title:"The Structure of the Universe", days:[
+  {
+    title:"Galaxies Gather: Groups & Clusters",
+    big:"Galaxies don't drift alone — they bunch into groups and vast clusters, the largest gravitationally bound objects in the universe.",
+    recall:{q:"What does 'looking far away is looking back in time' let astronomers study directly?",
+            a:"Galaxy evolution — by comparing nearby galaxies (the present) with distant ones (the past), seen via finite light-travel time."},
+    body:`
+      <p>Galaxies are social. Gravity gathers them into <em>groups</em> (a few dozen galaxies) and <em>clusters</em> (hundreds to thousands), which are the largest structures held together by their own gravity against the cosmic expansion.</p>
+      <h3>Our address</h3>
+      <p>The Milky Way belongs to the <em>Local Group</em>, a modest collection of a few dozen galaxies dominated by two large spirals — the Milky Way and Andromeda — plus many dwarf galaxies. Far larger are the rich clusters, like the <em>Virgo</em> and <em>Coma</em> clusters, containing thousands of galaxies swarming within a common gravitational well.</p>
+      <h3>More than galaxies</h3>
+      <p>A cluster is not just galaxies in empty space. The space between them is filled with hot <em>intracluster gas</em> — gas heated to tens of millions of degrees by the cluster's deep gravity, so hot it glows in X-rays (Wien's law, Day 16). In fact, this intracluster gas contains more ordinary matter than all the cluster's galaxies combined. A cluster, properly understood, is a galaxy swarm immersed in a vast cloud of X-ray-hot gas, all bound together.</p>
+      <div class="aside"><b>A laboratory for cosmic mass:</b> clusters are the universe's great mass-measuring labs. Because they're the biggest bound systems, the way their galaxies and gas move — and the way they bend light — lets us weigh the universe's matter content on the largest scales. As we'll see in the next two days, those measurements deliver the most dramatic evidence yet for dark matter, picking up the thread from galaxy rotation curves (Day 122).</div>
+    `,
+    takeaways:[
+      "Gravity gathers galaxies into groups (dozens) and clusters (hundreds to thousands) — the largest bound structures.",
+      "The Milky Way is in the Local Group, dominated by the Milky Way and Andromeda plus many dwarfs.",
+      "Rich clusters like Virgo and Coma hold thousands of galaxies in a common gravitational well.",
+      "Clusters are filled with hot intracluster gas (glowing in X-rays) that outweighs all the cluster's galaxies."
+    ],
+    refs:[
+      {kind:"Groupings",title:"Galaxy groups and clusters",desc:"How galaxies gather into the largest gravitationally bound structures.",url:"https://www.google.com/search?q=galaxy+groups+clusters+local+group+virgo+coma"},
+      {kind:"Hot gas",title:"Intracluster medium and X-ray gas",desc:"The hot gas between cluster galaxies that outweighs the galaxies themselves.",url:"https://www.google.com/search?q=intracluster+medium+hot+gas+X-ray+galaxy+cluster"},
+    ],
+    reflect:"In a galaxy cluster, the hot intracluster gas contains more ordinary matter than all the visible galaxies combined. Why might it be easy to underestimate a cluster's mass if you only counted the galaxies you could see as starlight?"
+  },
+  {
+    title:"The Hidden Mass in Clusters",
+    big:"Galaxies in clusters move so fast they should fly apart — unless vast amounts of unseen mass hold them together, the very first clue that dark matter exists.",
+    recall:{q:"Besides galaxies, what major component fills a galaxy cluster, and how do we detect it?",
+            a:"Hot intracluster gas (tens of millions of degrees), detected by its X-ray glow; it outweighs all the cluster's galaxies."},
+    body:`
+      <p>Clusters provided the very first evidence for dark matter — decades before galaxy rotation curves. In 1933, Fritz Zwicky measured how fast galaxies move within the Coma cluster and found a shocking problem.</p>
+      <h3>Moving too fast to stay bound</h3>
+      <p>The galaxies were zipping around far too quickly for the cluster's <em>visible</em> mass to hold them together gravitationally — they should have flown apart long ago. For the cluster to remain bound, it had to contain vastly more mass than its galaxies and gas could account for. Zwicky called the missing mass <em>"dunkle Materie"</em> — dark matter. He was right, but it took 40 years (and Vera Rubin's rotation curves, Day 122) for the idea to be widely accepted.</p>
+      <h3>Three ways to weigh a cluster</h3>
+      <p>Modern astronomers weigh clusters three independent ways: from galaxy motions (Zwicky's method), from the temperature of the X-ray gas (hotter gas needs more gravity to contain it, Day 136), and from gravitational lensing (tomorrow). All three agree, and all three say the same thing: roughly 85% of a cluster's matter is dark. The visible galaxies are just the tip of the iceberg.</p>
+      <div class="aside"><b>Dark matter, the recurring verdict:</b> notice the pattern now spanning the whole Part. Galaxy rotation curves (Day 122), galaxy mass-to-light ratios (Day 130), and now cluster dynamics all independently demand large amounts of unseen mass. Different objects, different methods, same conclusion. When wholly independent lines of evidence converge, scientists take the result seriously — dark matter is not an artifact of one technique but a robust feature of the universe.</div>
+    `,
+    takeaways:[
+      "In 1933 Zwicky found galaxies in the Coma cluster move too fast to be held by the visible mass alone.",
+      "The cluster must contain far more mass than meets the eye — Zwicky's 'dark matter,' the first such evidence.",
+      "Clusters are weighed three independent ways: galaxy motions, X-ray gas temperature, and gravitational lensing.",
+      "All agree that ~85% of a cluster's matter is dark — the visible galaxies are a small fraction."
+    ],
+    refs:[
+      {kind:"Origin",title:"Zwicky and dark matter in the Coma cluster",desc:"The 1933 measurement that first revealed unseen mass holding a cluster together.",url:"https://www.google.com/search?q=Zwicky+coma+cluster+dark+matter+1933"},
+      {kind:"Weighing",title:"Measuring the mass of galaxy clusters",desc:"How galaxy motions, X-ray gas, and lensing independently weigh clusters.",url:"https://www.google.com/search?q=measuring+galaxy+cluster+mass+dynamics+X-ray+lensing+dark+matter"},
+    ],
+    reflect:"Zwicky's cluster evidence (1933) and Rubin's rotation curves (1970s) used completely different objects and methods, yet reached the same conclusion. Why does agreement between independent lines of evidence make the case for dark matter especially compelling?"
+  },
+  {
+    title:"Gravitational Lensing: Weighing the Invisible",
+    big:"Einstein's bending of light becomes a cosmic scale — by watching how a cluster warps the images of galaxies behind it, we can map even mass that emits no light at all.",
+    recall:{q:"What did Zwicky discover about galaxy clusters in 1933?",
+            a:"Galaxies move too fast for the visible mass to bind them, implying large amounts of unseen 'dark matter.'"},
+    body:`
+      <p>There's a third, beautifully direct way to weigh a cluster — and to map dark matter — that comes straight from general relativity (Day 87). Mass curves spacetime, and that curvature bends the path of passing light. A massive cluster therefore acts as a <em>gravitational lens</em>, deflecting and distorting the light of more distant galaxies behind it.</p>
+      <h3>Mapping mass by its bending</h3>
+      <p>We see this as background galaxies smeared into arcs, multiplied into several images, or magnified — the more mass, the more bending. Crucially, lensing responds to <em>all</em> the mass, seen or unseen, because gravity doesn't care whether matter emits light. So by measuring exactly how a cluster distorts the galaxies behind it, astronomers can map its <em>total</em> mass distribution, including the dark matter. Lensing literally lets us see the shape of the invisible.</p>
+      <h3>The Bullet Cluster: dark matter caught in the act</h3>
+      <p>The most striking proof is the <em>Bullet Cluster</em>, where two clusters have collided. The hot X-ray gas (most of the ordinary matter) was slowed and left behind in the middle by the collision — but gravitational lensing shows most of the mass sailed straight through, separated from the gas. The mass is where the dark matter is, cleanly pulled apart from the ordinary matter. It's hard to explain without dark matter being real.</p>
+      <div class="aside"><b>General relativity, put to work:</b> the light-bending that made Einstein famous in 1919 (Day 87) is now a routine tool for weighing the universe. The same effect that confirmed his theory now maps the dark matter we cannot otherwise see. Notice the arc of the whole book: a principle introduced as abstract physics becomes, chapters later, an instrument for discovery. Deep ideas keep paying dividends.</div>
+    `,
+    takeaways:[
+      "Mass bends light (general relativity), so a cluster acts as a gravitational lens on background galaxies.",
+      "Background galaxies appear as arcs, multiple images, or magnified — more mass means more bending.",
+      "Lensing responds to ALL mass, seen or unseen, so it maps a cluster's total mass including dark matter.",
+      "The Bullet Cluster shows mass (via lensing) separated from the X-ray gas after a collision — direct evidence for dark matter."
+    ],
+    refs:[
+      {kind:"Tool",title:"Gravitational lensing by galaxy clusters",desc:"How light-bending maps the total mass, including dark matter, of clusters.",url:"https://www.google.com/search?q=gravitational+lensing+galaxy+cluster+dark+matter+mapping"},
+      {kind:"Proof",title:"The Bullet Cluster and dark matter",desc:"The colliding clusters where dark matter separated from ordinary gas.",url:"https://www.google.com/search?q=bullet+cluster+dark+matter+gravitational+lensing+evidence"},
+    ],
+    reflect:"Gravitational lensing maps a cluster's total mass because gravity bends light regardless of whether the mass shines. Why does that make lensing uniquely suited to detecting dark matter — something that emits no light at all?"
+  },
+  {
+    title:"The Cosmic Web",
+    big:"On the grandest scale, galaxies aren't scattered like confetti — they're strung along immense filaments and walls surrounding vast empty voids, a structure that looks unmistakably like a web.",
+    recall:{q:"What makes gravitational lensing uniquely able to detect dark matter?",
+            a:"Gravity bends light regardless of whether the mass emits light, so lensing maps a cluster's total mass — including dark matter."},
+    body:`
+      <p>Zoom out beyond clusters to the largest scales mapped, and a breathtaking pattern emerges. Galaxies and clusters are not spread uniformly through space. Instead they're arranged in a vast <em>cosmic web</em>: enormous <em>filaments</em> and sheet-like <em>walls</em> of galaxies, separated by huge, nearly empty regions called <em>voids</em>. Where filaments intersect, rich clusters sit at the nodes.</p>
+      <h3>Mapping the web</h3>
+      <p>This structure was revealed by <em>galaxy redshift surveys</em> — using Hubble's law (Day 129) to turn each galaxy's redshift into a distance, building three-dimensional maps of millions of galaxies. Surveys like the Sloan Digital Sky Survey showed the web spanning hundreds of millions of light-years: the largest known structures in the universe, a frothy, spongelike network of matter around vast bubbles of emptiness.</p>
+      <h3>Built by dark matter and gravity</h3>
+      <p>The web is the visible tracing of an underlying dark matter scaffold. Dark matter, clumping under gravity (Day 131), formed this filamentary network first, and galaxies lit up along the densest threads where gas could gather. The cosmic web is hierarchical assembly written across the entire observable universe — and the largest expression of dark matter's architecture.</p>
+      <div class="aside"><b>Closing Chapter 27 — structure demands an origin:</b> we've climbed from galaxies to groups to clusters to the cosmic web, finding dark matter dominant at every scale. But all this magnificent structure raises a profound question: how did a web of filaments and voids arise in the first place? The answer lies not in the present universe but in its earliest moments — in tiny seeds of unevenness that gravity amplified over billions of years. To find those seeds, Chapters 29 and 30 take us all the way back to the Big Bang.</div>
+    `,
+    takeaways:[
+      "On the largest scales, galaxies form a cosmic web: filaments and walls around vast empty voids, with clusters at the nodes.",
+      "Galaxy redshift surveys (using Hubble's law for distances) built 3D maps revealing the web across hundreds of millions of light-years.",
+      "The web is the largest known structure in the universe.",
+      "It traces an underlying dark matter scaffold built by gravity — hierarchical assembly on the grandest scale."
+    ],
+    refs:[
+      {kind:"Structure",title:"The cosmic web",desc:"Filaments, walls, and voids — the largest-scale structure of the universe.",url:"https://www.google.com/search?q=cosmic+web+filaments+voids+large+scale+structure"},
+      {kind:"Surveys",title:"Galaxy redshift surveys",desc:"How 3D maps of millions of galaxies revealed the cosmic web.",url:"https://www.google.com/search?q=galaxy+redshift+survey+sloan+cosmic+web+3D+map"},
+    ],
+    reflect:"The cosmic web of filaments and voids must have grown from somewhere. Given that gravity amplifies regions that start out slightly denser than average, why does the existence of this structure today point back to tiny unevenness in the early universe?"
+  },
+  {
+    title:"Superclusters, Voids & the Cosmological Principle",
+    big:"Stand back far enough and the lumpy cosmic web smooths into a uniform haze — the universe, on the grandest scale, looks the same everywhere, the bedrock assumption of all cosmology.",
+    recall:{q:"What underlying scaffold shaped the cosmic web, and what process built it?",
+            a:"A dark matter scaffold, built by gravity clumping matter (hierarchical assembly) from tiny early density variations."},
+    body:`
+      <p>Clusters themselves gather into still larger associations — <em>superclusters</em> — chains and sheets of clusters strung along the cosmic web's filaments. The Milky Way's Local Group is an outlying member of the Virgo Supercluster, itself part of an even vaster structure mapped recently and named <em>Laniakea</em> ("immense heaven"). These are the largest features in the universe, spanning hundreds of millions of light-years, bounding the great empty voids.</p>
+      <h3>The end of greatness</h3>
+      <p>But here is the crucial turn. Keep zooming out, past the superclusters and voids, to scales of a billion light-years and more — and the lumpiness <em>fades</em>. Averaged over large enough volumes, every region of the universe looks statistically the same as every other: the same density, the same mix of galaxies, in every direction. The cosmic web is the largest <em>structure</em>, but it is not infinite hierarchy; beyond it, the universe becomes smooth.</p>
+      <h3>The cosmological principle</h3>
+      <p>This smoothness is elevated to a founding assumption: the <em>cosmological principle</em>, which states that on the largest scales the universe is <em>homogeneous</em> (the same everywhere) and <em>isotropic</em> (the same in all directions). There is no special place, no center, no edge — a final, ultimate Copernican step. This principle is the foundation on which all of cosmology is built, because it lets us model the entire universe with a single set of equations.</p>
+      <div class="aside"><b>Closing Chapter 27 — from structure to the universe itself:</b> we've climbed from galaxies to clusters to the cosmic web to superclusters, and then found that, larger still, it all averages out to uniformity. That uniformity is the doorway to cosmology. If the universe is the same everywhere and expanding (Day 129), we can ask the ultimate questions: how did it begin, what is it made of, and how will it end? Chapter 28 first examines the brilliant black-hole engines that light up some galaxies — then Chapters 29 and 30 take on the universe as a whole.</div>
+    `,
+    takeaways:[
+      "Clusters gather into superclusters (e.g., Virgo, Laniakea) along the cosmic web — the largest features in the universe.",
+      "On scales beyond ~a billion light-years, the lumpiness averages out and the universe becomes smooth.",
+      "The cosmological principle: on the largest scales the universe is homogeneous (same everywhere) and isotropic (same in all directions).",
+      "This implies no center or edge — a final Copernican step — and is the foundation of all cosmology."
+    ],
+    refs:[
+      {kind:"Largest",title:"Superclusters and Laniakea",desc:"The vast supercluster structures, including our home supercluster Laniakea.",url:"https://www.google.com/search?q=superclusters+laniakea+virgo+supercluster+cosmic+web"},
+      {kind:"Principle",title:"The cosmological principle",desc:"Why the universe is assumed homogeneous and isotropic on the largest scales.",url:"https://www.google.com/search?q=cosmological+principle+homogeneous+isotropic+universe"},
+    ],
+    reflect:"The cosmic web is intricately lumpy, yet cosmology assumes the universe is smooth. How can both be true — and why does it matter at what scale you choose to look when deciding whether the universe is 'uniform'?"
+  },
+]},
+
+{ ch:28, title:"Active Galaxies", days:[
+  {
+    title:"Quasars: The Brightest Beacons",
+    big:"Some galaxies pour out the light of a trillion Suns from a region smaller than the Solar System — and explaining how launched the study of the universe's most extreme engines.",
+    recall:{q:"What does the cosmological principle state about the universe on the largest scales?",
+            a:"That it is homogeneous (the same everywhere) and isotropic (the same in all directions) — with no center or edge."},
+    body:`
+      <p>Most galaxies shine simply with the combined light of their stars. But a small fraction have brilliant, compact cores that outshine all their stars combined — the <em>active galactic nuclei</em> (AGN). The most extreme are the <em>quasars</em>, and they posed one of the great puzzles of 20th-century astronomy.</p>
+      <h3>The quasar puzzle</h3>
+      <p>Quasars were discovered as "quasi-stellar" radio sources — starlike points that turned out to have enormous redshifts (Day 129), placing them billions of light-years away. To appear as bright as they do from such distances, they must be staggeringly luminous — often outshining an entire galaxy of hundreds of billions of stars. Yet their rapid flickering showed the light comes from a region no larger than our Solar System. How can something so small be so luminous?</p>
+      <h3>The clue in the flicker</h3>
+      <p>How do we know the emitting region is so small? An object can't brighten or dim faster than light can cross it — information can't travel faster than light (Day 23). A quasar that varies over hours or days must therefore be only light-hours or light-days across: Solar-System-sized. That simple argument, from a principle set down in Part I, reveals a galaxy-outshining luminosity pouring from a tiny central engine. No collection of stars can do this — stars packed densely enough would merge or collapse.</p>
+      <div class="aside"><b>Quasars are the distant past:</b> because quasars lie billions of light-years away, we see them as they were billions of years ago (lookback time, Day 135). Quasars were far more common in the early universe than today — they are a feature of cosmic youth. This is a clue: whatever powers them was more active when the universe was young, and has largely quieted since. The next lesson reveals the engine, and why it has faded.</div>
+    `,
+    takeaways:[
+      "A small fraction of galaxies have active galactic nuclei (AGN) — compact cores outshining all their stars.",
+      "Quasars, the most extreme AGN, have huge redshifts (very distant) yet outshine whole galaxies.",
+      "Rapid flickering shows the light comes from a Solar-System-sized region (variability can't outpace light-crossing time).",
+      "No collection of stars can explain it; quasars were far more common in the early universe."
+    ],
+    refs:[
+      {kind:"Mystery",title:"Quasars and active galactic nuclei",desc:"The discovery of starlike objects outshining entire galaxies from tiny regions.",url:"https://www.google.com/search?q=quasar+active+galactic+nucleus+discovery+luminosity+puzzle"},
+      {kind:"Argument",title:"Why quasar variability implies a tiny source",desc:"How brightness flickering limits the size of the emitting region.",url:"https://www.google.com/search?q=quasar+variability+size+light+crossing+time+argument"},
+    ],
+    reflect:"A quasar flickers in brightness over just hours or days. Using the fact that no change can travel faster than light, why does that rapid flickering prove the quasar's light source is extraordinarily small — and why does that make a stellar explanation impossible?"
+  },
+  {
+    title:"The Engine: Supermassive Black Holes",
+    big:"The only thing that can power a quasar is the most efficient engine in the universe — matter heated white-hot as it spirals to its doom around a giant black hole.",
+    recall:{q:"Why can't a dense cluster of stars explain a quasar's luminosity?",
+            a:"The light comes from a Solar-System-sized region (shown by rapid variability); stars packed that densely would merge or collapse, and none could produce that luminosity."},
+    body:`
+      <p>What can produce the luminosity of a trillion Suns from a Solar-System-sized volume? Only gravity, harnessed by a <em>supermassive black hole</em> — the same kind of object at our own galaxy's center (Sgr A*, Day 124), but here actively <em>feeding</em>, with masses of millions to billions of Suns.</p>
+      <h3>Power from accretion</h3>
+      <p>Gas, dust, and even whole stars spiral toward the black hole, forming a swirling <em>accretion disk</em> (the same accretion-disk physics as X-ray binaries, Day 94, scaled up enormously). As material spirals inward, friction and compression heat it to extreme temperatures, and it radiates ferociously before crossing the event horizon. Accretion onto a black hole is the most efficient way known to convert mass into energy — far more efficient even than nuclear fusion (Day 54), extracting up to tens of percent of the rest-mass energy (E = mc², Day 24). A black hole consuming a few solar masses per year can outshine a galaxy.</p>
+      <h3>Jets</h3>
+      <p>Many active nuclei also launch enormous <em>jets</em> — narrow beams of particles fired outward at near light-speed, channeled by the black hole's spin and magnetic fields. These jets can extend far beyond the host galaxy, blasting into intergalactic space and lighting up in radio waves.</p>
+      <div class="aside"><b>The ultimate engine, and why quasars faded:</b> accretion onto a black hole is nature's most powerful sustained energy source — which is why it, and only it, can explain quasars. And it explains their decline (Day 141): quasars blazed when the early universe was gas-rich and black holes were well-fed; as galaxies used up or expelled their gas, the central engines starved and dimmed. Our own Sgr A* is a quasar's quiet, aged descendant, waiting for its next meal.</div>
+    `,
+    takeaways:[
+      "Quasars/AGN are powered by accretion onto supermassive black holes (millions to billions of solar masses).",
+      "Infalling matter forms a hot accretion disk that radiates intensely before crossing the event horizon.",
+      "Black hole accretion is the most efficient known energy source — more efficient than fusion (via E = mc²).",
+      "Many AGN launch relativistic jets; quasars faded as black holes ran out of gas to feed on."
+    ],
+    refs:[
+      {kind:"Engine",title:"How supermassive black holes power quasars",desc:"Accretion disks and the energy released by matter falling toward a giant black hole.",url:"https://www.google.com/search?q=supermassive+black+hole+accretion+disk+quasar+power"},
+      {kind:"Jets",title:"Relativistic jets from active galaxies",desc:"The near-light-speed beams launched by feeding black holes.",url:"https://www.google.com/search?q=relativistic+jets+active+galactic+nuclei+black+hole"},
+    ],
+    reflect:"Accretion onto a black hole can release a far larger fraction of mass as energy than nuclear fusion can. Given E = mc², why does converting even a few solar masses per year so efficiently let a black hole outshine an entire galaxy of stars?"
+  },
+  {
+    title:"The Zoo of Active Galaxies",
+    big:"Quasars, radio galaxies, Seyferts, blazars — the bewildering variety of active galaxies once looked like a menagerie of unrelated beasts.",
+    recall:{q:"What powers the luminosity of an active galactic nucleus?",
+            a:"Accretion of matter onto a supermassive black hole — the most efficient known way to convert mass into energy."},
+    body:`
+      <p>As astronomers studied active galaxies, they found a confusing variety of types, discovered at different wavelengths and behaving differently. For a while they seemed like distinct phenomena. Let's meet the main members of the zoo.</p>
+      <h3>The cast</h3>
+      <p><em>Quasars</em> — the most luminous, outshining their entire host galaxy, usually very distant. <em>Seyfert galaxies</em> — spiral galaxies with bright but less extreme active nuclei, where we can still see the surrounding galaxy. <em>Radio galaxies</em> — typically ellipticals with spectacular twin radio-emitting jets and lobes extending far beyond the visible galaxy. <em>Blazars</em> — wildly variable, highly luminous sources whose emission is dominated by a jet. Each was catalogued separately, and each has its own observational signature.</p>
+      <h3>A hint of unity</h3>
+      <p>Yet they share suspicious similarities: all involve compact, ultra-luminous cores; many show jets; all require enormous power from a tiny region. The natural question became: are these truly different objects, or the <em>same</em> underlying object seen under different conditions? The drive to unify a confusing zoo into a single picture is one of science's recurring triumphs — and tomorrow we'll see how it succeeded here.</p>
+      <div class="aside"><b>Classification, then unification — again:</b> this is a familiar arc. Stellar spectra were sorted into OBAFGKM before physics revealed the unifying variable was temperature (Days 41–42). Active galaxies were sorted into a zoo before astronomers found the unifying truth. Good science first catalogs the diversity, then searches for the single underlying cause. The zoo is a stage, not the destination.</div>
+    `,
+    takeaways:[
+      "Active galaxies come in varieties: quasars, Seyfert galaxies, radio galaxies, and blazars.",
+      "They were discovered at different wavelengths and behave differently, seeming like distinct phenomena.",
+      "Yet all share compact, ultra-luminous cores, often with jets, requiring huge power from tiny regions.",
+      "This similarity hinted they might be one kind of object seen under different conditions (next: unification)."
+    ],
+    refs:[
+      {kind:"Variety",title:"Types of active galaxies",desc:"Quasars, Seyferts, radio galaxies, and blazars — the active-galaxy zoo.",url:"https://www.google.com/search?q=types+of+active+galaxies+quasar+seyfert+radio+galaxy+blazar"},
+      {kind:"Signatures",title:"How active galaxies differ observationally",desc:"The distinct appearances of different AGN classes across wavelengths.",url:"https://www.google.com/search?q=active+galaxy+classes+observational+differences+AGN"},
+    ],
+    reflect:"The active galaxies were first catalogued as a 'zoo' of separate types. Recalling how the OBAFGKM spectral zoo turned out to be a single temperature sequence, why is it scientifically reasonable to suspect that varied AGN might also share one underlying cause?"
+  },
+  {
+    title:"The Unified Model",
+    big:"The whole zoo of active galaxies turns out to be one creature — a feeding supermassive black hole — wearing different masks depending on the angle from which we glimpse it.",
+    recall:{q:"What suspicious feature do all active galaxies share, hinting they might be related?",
+            a:"All have compact, ultra-luminous cores (often with jets) producing enormous power from a tiny region."},
+    body:`
+      <p>The breakthrough was the <em>unified model</em> of active galactic nuclei. It proposes that the bewildering zoo (Day 143) is mostly a single kind of object — a supermassive black hole with an accretion disk — viewed from different <em>orientations</em>, plus a range of feeding rates.</p>
+      <h3>One object, many faces</h3>
+      <p>The standard picture has a central black hole and bright accretion disk, surrounded by a thick doughnut-shaped <em>torus</em> of obscuring dust and gas, with jets shooting out along the spin axis. What you see depends on your viewing angle. Look down the jet axis and you see a blazar's wild, beamed light. Look at an angle past the torus and you see the bright disk directly — a quasar or Seyfert. Look edge-on, through the torus, and the bright core is hidden, so you mainly see the jets and lobes — a radio galaxy. Same engine, different sightlines.</p>
+      <h3>The power of unification</h3>
+      <p>This elegantly explains why the types share so much yet look so different, and it's broadly confirmed by observations (for example, finding a hidden quasar-like core in a galaxy that looked like a mere radio source when viewed from a different probe). Differences in the black hole's mass and how fast it's feeding account for the rest of the variety.</p>
+      <div class="aside"><b>Orientation as the hidden variable:</b> the lesson is subtle and beautiful — sometimes objects look different not because they <em>are</em> different, but because of how we happen to be looking at them. The same caution applies elsewhere in astronomy (an eclipsing binary only eclipses if we're in its orbital plane, Day 39; a pulsar only pulses if its beam sweeps us, Day 86). Geometry and viewpoint shape what we observe. Unification means seeing past the viewpoint to the thing itself.</div>
+    `,
+    takeaways:[
+      "The unified model: most active galaxies are one kind of object — an accreting supermassive black hole — seen from different angles.",
+      "Structure: central black hole + accretion disk, an obscuring dusty torus, and jets along the spin axis.",
+      "Viewing angle determines the type: down the jet (blazar), past the torus (quasar/Seyfert), through the torus edge-on (radio galaxy).",
+      "Differences in black hole mass and feeding rate account for the remaining variety."
+    ],
+    refs:[
+      {kind:"Model",title:"The unified model of AGN",desc:"How one accreting black hole, viewed from different angles, explains the active-galaxy zoo.",url:"https://www.google.com/search?q=unified+model+active+galactic+nuclei+orientation+torus"},
+      {kind:"Geometry",title:"AGN orientation and appearance",desc:"Why viewing angle determines whether we see a quasar, blazar, or radio galaxy.",url:"https://www.google.com/search?q=AGN+orientation+viewing+angle+blazar+quasar+radio+galaxy"},
+    ],
+    reflect:"The unified model says a radio galaxy and a quasar can be the same kind of object seen from different angles. What does this teach about a recurring danger in astronomy — that objects can look different simply because of how we happen to view them (as with eclipsing binaries or pulsars)?"
+  },
+  {
+    title:"Black Holes & Galaxies Co-Evolve",
+    big:"Every great galaxy hides a giant black hole at its heart, and astonishingly, the two seem to have grown up together — a partnership written into the structure of the cosmos.",
+    recall:{q:"What single underlying object does the unified model say explains the whole AGN zoo?",
+            a:"An accreting supermassive black hole (with disk, torus, and jets), seen from different viewing angles and feeding at different rates."},
+    body:`
+      <p>We now know that supermassive black holes aren't rare oddities — essentially <em>every</em> large galaxy has one at its center, including our own quiet Sgr A* (Day 124). Active galaxies are simply the ones whose black holes are currently feeding. But the deepest surprise is a tight relationship between the black hole and its host galaxy.</p>
+      <h3>The M–sigma relation</h3>
+      <p>Astronomers found that a galaxy's central black hole mass correlates closely with properties of the galaxy's bulge — for instance, the speeds of the bulge's stars (the <em>M–sigma relation</em>). This is remarkable: the black hole is minuscule compared to the galaxy and its gravity reaches only a tiny fraction of it, yet its mass tracks the whole bulge. The two clearly grew in concert.</p>
+      <h3>Feedback ties them together</h3>
+      <p>The link is <em>feedback</em> (Day 133). When the black hole feeds and becomes active, its enormous energy output — radiation and jets — heats and expels the galaxy's gas, throttling both further star formation <em>and</em> its own fuel supply. The black hole regulates the galaxy, and the galaxy feeds the black hole, in a self-limiting partnership. This co-evolution is now a central theme in understanding why galaxies turned out the way they did, and is built into modern simulations of the cosmic web.</p>
+      <div class="aside"><b>Closing Chapter 28 — the small governs the large:</b> a black hole smaller than the Solar System shapes a galaxy a hundred thousand light-years across, and its mass is imprinted in the galaxy's stars. This is perhaps the most surprising connection in extragalactic astronomy. With galaxies, their black holes, and their grand structures now understood, only the ultimate questions remain: the origin, composition, and fate of the universe itself. Chapter 29 turns to cosmology.</div>
+    `,
+    takeaways:[
+      "Essentially every large galaxy hosts a central supermassive black hole; active galaxies are those currently feeding.",
+      "The M–sigma relation: black hole mass correlates tightly with the host galaxy's bulge properties.",
+      "Despite being tiny compared to the galaxy, the black hole's mass tracks the whole bulge — they co-evolved.",
+      "Feedback links them: the feeding black hole heats/expels gas, regulating both star formation and its own fuel supply."
+    ],
+    refs:[
+      {kind:"Connection",title:"The M–sigma relation",desc:"The tight link between a galaxy's central black hole mass and its bulge.",url:"https://www.google.com/search?q=M-sigma+relation+black+hole+galaxy+bulge+co-evolution"},
+      {kind:"Co-evolution",title:"Black hole and galaxy co-evolution",desc:"How feedback ties the growth of a galaxy to its central black hole.",url:"https://www.google.com/search?q=black+hole+galaxy+co-evolution+feedback"},
+    ],
+    reflect:"A galaxy's central black hole is tiny compared to the galaxy, yet its mass closely tracks the galaxy's bulge. Why is this correlation surprising, and how does the idea of feedback (the black hole heating and expelling gas) help explain how two such different-sized things could grow in step?"
+  },
+]},
+
+{ ch:29, title:"Cosmology", days:[
+  {
+    title:"The Expanding Universe & the Big Bang",
+    big:"If the universe is expanding today, then run the film backward and everything converges — to a hot, dense beginning some 14 billion years ago.",
+    recall:{q:"What relationship between galaxy distance and recession speed revealed cosmic expansion?",
+            a:"Hubble's law, v = H₀d — galaxies recede faster the farther away they are, as space itself expands."},
+    body:`
+      <p>Cosmology is the study of the universe as a whole — its origin, evolution, and fate. Its foundation is two observations we've already made: the universe is expanding (Hubble's law, Day 129), and on the largest scales it's smooth and the same everywhere (the cosmological principle, Day 140). Together these lead to a profound conclusion.</p>
+      <h3>Running the film backward</h3>
+      <p>If galaxies are flying apart and space is expanding now, then in the past everything was closer together. Rewind far enough and all the matter and energy in the universe was packed into an unimaginably hot, dense state. The expansion from that state is the <em>Big Bang</em>. It happened roughly 13.8 billion years ago — and crucially, it wasn't an explosion <em>in</em> space; it was the beginning of the expansion <em>of</em> space itself, everywhere at once.</p>
+      <h3>Clearing up misconceptions</h3>
+      <p>Two points bear repeating (Day 129). There is no <em>center</em> to the Big Bang and no <em>edge</em> — it happened everywhere, because all of space was that compressed early state. And the galaxies aren't flying through pre-existing space from a central point; space itself stretches, carrying them apart. Asking "where did the Big Bang happen?" is like asking where on Earth's surface the "starting point" is — every point was there at the beginning.</p>
+      <div class="aside"><b>A testable theory, not a just-so story:</b> the Big Bang isn't merely "the universe was once dense." It's a detailed framework that makes specific, checkable predictions: that the early universe should have forged certain light elements in certain amounts (Day 151), and that we should still see the leftover heat from the hot early state, redshifted to microwaves, filling the sky today (Day 147). The next lessons present that evidence — which is why the Big Bang is the accepted model and not just a story.</div>
+    `,
+    takeaways:[
+      "Cosmology rests on two observations: the universe is expanding, and it's smooth/uniform on large scales.",
+      "Running the expansion backward implies a hot, dense beginning — the Big Bang, ~13.8 billion years ago.",
+      "It wasn't an explosion in space but the beginning of the expansion of space itself, everywhere at once.",
+      "There's no center or edge; the Big Bang is a testable theory predicting light-element abundances and leftover radiation."
+    ],
+    refs:[
+      {kind:"Origin",title:"The Big Bang theory",desc:"How cosmic expansion implies a hot, dense origin ~13.8 billion years ago.",url:"https://www.google.com/search?q=big+bang+theory+expanding+universe+origin"},
+      {kind:"Misconceptions",title:"Common Big Bang misconceptions",desc:"Why there's no center, no edge, and it wasn't an explosion in space.",url:"https://www.google.com/search?q=big+bang+misconceptions+no+center+expansion+of+space"},
+    ],
+    reflect:"People often picture the Big Bang as an explosion from a single point in space. Using the idea that space itself expands (and that the universe is the same everywhere), why is 'where did the Big Bang happen?' the wrong question?"
+  },
+  {
+    title:"The Cosmic Microwave Background",
+    big:"Filling all of space is a faint glow of microwaves — the cooled, stretched-out light of the Big Bang itself, the oldest light in the universe and its clinching evidence.",
+    recall:{q:"What two checkable predictions distinguish the Big Bang from a mere 'it was once dense' story?",
+            a:"Specific abundances of light elements forged early on, and leftover heat from the hot early universe, now redshifted into microwaves filling the sky."},
+    body:`
+      <p>The single most powerful evidence for the Big Bang is the <em>cosmic microwave background</em> (CMB) — a faint radiation coming from every direction in the sky, the afterglow of the hot early universe.</p>
+      <h3>Light set free</h3>
+      <p>For its first ~380,000 years, the universe was so hot that it was an opaque plasma — electrons roamed free, constantly scattering light, like the interior of a star (Day 47). As the universe expanded and cooled, it crossed a threshold (called <em>recombination</em>) where electrons joined nuclei to form neutral atoms. Suddenly the fog cleared and light could travel freely. That light has been streaming ever since — and after ~13.8 billion years of cosmic expansion stretching its wavelength, it now reaches us as microwaves.</p>
+      <h3>A perfect blackbody at 2.7 K</h3>
+      <p>The CMB was discovered by accident in 1965 by Penzias and Wilson, who found an unremovable hiss in their antenna coming from all directions. It has a near-perfect <em>blackbody</em> spectrum (Day 18) at a temperature of about 2.7 degrees above absolute zero — exactly what the cooled radiation of a hot Big Bang should look like. No competing theory naturally explains a uniform blackbody glow filling all of space. The CMB is the smoking gun.</p>
+      <div class="aside"><b>The oldest light, and Part I returns:</b> the CMB is a direct image of the universe at 380,000 years old — we literally cannot see anything earlier with light, because before recombination the universe was opaque. And notice the tools: it's a <em>blackbody</em> spectrum (Day 18), its wavelength is stretched by cosmic <em>redshift</em> (Day 129), and the opaque early plasma is the same physics as a star's interior (Day 47). The grandest observation in cosmology is read with the fundamentals from Part I.</div>
+    `,
+    takeaways:[
+      "The cosmic microwave background (CMB) is radiation from all directions — the afterglow of the hot early universe.",
+      "For ~380,000 years the universe was an opaque plasma; at recombination, atoms formed and light was freed.",
+      "That freed light, stretched by expansion, now reaches us as microwaves — the oldest light we can see.",
+      "The CMB is a near-perfect blackbody at ~2.7 K (discovered by Penzias & Wilson, 1965) — the clinching evidence for the Big Bang."
+    ],
+    refs:[
+      {kind:"Evidence",title:"The cosmic microwave background",desc:"The afterglow of the Big Bang and how it was discovered.",url:"https://www.google.com/search?q=cosmic+microwave+background+CMB+big+bang+evidence"},
+      {kind:"Recombination",title:"Recombination and the last scattering of light",desc:"How the universe became transparent and released the CMB.",url:"https://www.google.com/search?q=recombination+last+scattering+surface+CMB+universe+transparent"},
+    ],
+    reflect:"The CMB is a blackbody glow at just 2.7 K, yet it comes from an era when the universe was thousands of degrees hot. What happened to that radiation over 13.8 billion years to cool it so dramatically — and which idea from Part II (blackbody) and this Part (redshift) explains it?"
+  },
+  {
+    title:"The Dark Universe: Matter & Energy",
+    big:"Add up everything the universe is made of and a staggering truth emerges — the atoms that make up stars, planets, and people are a mere five percent of it all.",
+    recall:{q:"What is the cosmic microwave background, and what does its existence confirm?",
+            a:"The redshifted afterglow of the hot early universe (a 2.7 K blackbody) — the clinching evidence for the Big Bang."},
+    body:`
+      <p>Cosmology can now precisely measure what the universe is made of — and the answer is humbling. The cosmic energy budget breaks down into three parts, and the familiar one is the smallest.</p>
+      <h3>The cosmic recipe</h3>
+      <p>Only about <em>5%</em> of the universe is <em>ordinary matter</em> — the atoms in stars, planets, gas, and us, everything we studied in Parts I–IV. About <em>27%</em> is <em>dark matter</em> — the unseen, gravitating substance we've tracked all through this Part (rotation curves, clusters, lensing). And the largest share, about <em>68%</em>, is <em>dark energy</em> — a mysterious component driving the expansion to accelerate.</p>
+      <h3>Dark energy and acceleration</h3>
+      <p>Dark energy was the great surprise of Day 84: using Type Ia supernovae as standard candles, two teams found in the late 1990s that the cosmic expansion is not slowing under gravity as expected, but <em>accelerating</em>. Something with a kind of repulsive "negative pressure" pervades empty space, pushing it apart. We call it dark energy, but naming it is not understanding it — its nature is perhaps the deepest unsolved problem in physics.</p>
+      <div class="aside"><b>A profound demotion:</b> the Copernican lesson reaches its climax here. We're not at the center of the Solar System, nor the galaxy, nor the universe — and now we learn we're not even made of the <em>main ingredient</em>. Everything astronomy studied for millennia, everything in Parts I through IV, is just 5% of the cosmos. The other 95% — dark matter and dark energy — is barely understood. We've mapped the universe only to discover most of it is a mystery.</div>
+    `,
+    takeaways:[
+      "The cosmic energy budget: ~5% ordinary matter (atoms), ~27% dark matter, ~68% dark energy.",
+      "Ordinary matter — everything in Parts I–IV — is only a twentieth of the universe.",
+      "Dark energy drives the expansion to accelerate, discovered via Type Ia supernovae (late 1990s, Day 84).",
+      "Dark energy acts like a repulsive 'negative pressure' in space; its nature is a deep unsolved problem."
+    ],
+    refs:[
+      {kind:"Budget",title:"What the universe is made of",desc:"The 5% ordinary matter, 27% dark matter, 68% dark energy breakdown.",url:"https://www.google.com/search?q=universe+composition+5+percent+ordinary+matter+dark+matter+dark+energy"},
+      {kind:"Acceleration",title:"Dark energy and the accelerating universe",desc:"How Type Ia supernovae revealed an accelerating expansion driven by dark energy.",url:"https://www.google.com/search?q=dark+energy+accelerating+universe+type+Ia+supernova"},
+    ],
+    reflect:"Everything we studied in Parts I through IV — stars, planets, gas, galaxies — is only about 5% of the universe. Why is it striking that the two dominant components (dark matter and dark energy) were both discovered only through their gravitational effects, never seen directly?"
+  },
+  {
+    title:"The Geometry & Fate of the Universe",
+    big:"The competition between gravity pulling inward and dark energy pushing outward decides everything — the shape of space and the ultimate destiny of the cosmos.",
+    recall:{q:"What are the three components of the cosmic energy budget, and their rough proportions?",
+            a:"~5% ordinary matter, ~27% dark matter, ~68% dark energy."},
+    body:`
+      <p>What is the overall <em>geometry</em> of the universe, and how will it <em>end</em>? In general relativity (Day 87), the universe's total energy content determines the curvature of space on the largest scale. There are three possibilities: positively curved ("closed," like a sphere's surface), negatively curved ("open," like a saddle), or perfectly <em>flat</em>.</p>
+      <h3>A flat universe</h3>
+      <p>Measurements — especially of the cosmic microwave background (Day 153) — show the universe is, to high precision, <em>flat</em>. The total energy density sits right at the "critical density" that makes geometry flat. This is one of the precise results modern cosmology can boast, and (as we'll see) it's a key clue pointing to the theory of inflation.</p>
+      <h3>The fate</h3>
+      <p>The universe's future is a tug-of-war between gravity (pulling matter together, slowing expansion) and dark energy (pushing space apart, accelerating it). With dark energy dominant and apparently constant, expansion will not only continue but accelerate. The likely far future is a cold, dark, ever-emptier cosmos: galaxies recede beyond view, stars eventually burn out (the stellar life cycles of Part III run to completion), and the universe drifts toward a "heat death" — maximally spread out and cold. Not a bang, but an endless fading.</p>
+      <div class="aside"><b>Geometry, density, and destiny linked:</b> remarkably, the shape of space, the amount of stuff in it, and its ultimate fate are all bound together by general relativity into one framework (the Friedmann models). Measure the contents and you constrain the geometry and the future. The same theory that bends starlight around the Sun (Day 87) and describes black holes (Day 88) scales up to govern the entire universe's destiny. Einstein's gravity is the master key of cosmology.</div>
+    `,
+    takeaways:[
+      "The universe's energy content determines its large-scale geometry: closed, open, or flat (general relativity).",
+      "Measurements (especially of the CMB) show the universe is very precisely flat — at the critical density.",
+      "The fate is a contest between gravity (slowing expansion) and dark energy (accelerating it).",
+      "With dark energy dominant, expansion accelerates toward a cold, dark 'heat death' — an endless fading."
+    ],
+    refs:[
+      {kind:"Geometry",title:"The geometry of the universe",desc:"Flat, open, or closed — how the universe's contents set its curvature.",url:"https://www.google.com/search?q=geometry+of+the+universe+flat+open+closed+critical+density"},
+      {kind:"Fate",title:"The ultimate fate of the universe",desc:"How dark energy drives the cosmos toward accelerating expansion and heat death.",url:"https://www.google.com/search?q=fate+of+the+universe+heat+death+dark+energy+accelerating"},
+    ],
+    reflect:"The universe's geometry, its total energy density, and its ultimate fate are all linked by general relativity. Why is it powerful that simply measuring what the universe contains lets cosmologists infer both the shape of space and how the universe will end?"
+  },
+  {
+    title:"Measuring the Cosmos: The Hubble Constant & Cosmic Age",
+    big:"Pin down the rate of cosmic expansion and you unlock the age of the universe itself — but two excellent ways of measuring it disagree, hinting that something may be missing.",
+    recall:{q:"What is the likely ultimate fate of the universe, given that dark energy dominates?",
+            a:"Accelerating expansion toward a cold, dark 'heat death' — galaxies vanish from view and stars burn out."},
+    body:`
+      <p>The <em>Hubble constant</em> H₀ (Day 129) is the master number of cosmology — the current expansion rate. From it (together with the contents of the universe) we derive the <em>age of the universe</em>: about <em>13.8 billion years</em>. Roughly, the inverse of the expansion rate is how long the universe has been expanding.</p>
+      <h3>A reassuring check</h3>
+      <p>This age must be consistent with everything else we've dated. And it is: the oldest stars and globular clusters (whose ages we read from their main-sequence turnoffs, Day 70) come in just under 13 billion years — comfortably younger than the universe, as they must be. The independent agreement between the universe's expansion age and the ages of its oldest stars is a triumph: two utterly different methods, one consistent story.</p>
+      <h3>The Hubble tension</h3>
+      <p>But there's a genuine puzzle at the research frontier. We can measure H₀ two ways: by building up the local distance ladder (parallax → Cepheids → Type Ia supernovae, Day 128), and by reading it from the early universe via the CMB (Day 153). The two methods give values that <em>disagree</em> by more than their stated uncertainties — the <em>Hubble tension</em>. Either there's a subtle measurement error, or — more excitingly — a gap in our understanding of the universe's contents or history. It's one of the liveliest open problems in cosmology today.</p>
+      <div class="aside"><b>When measurements disagree, science advances:</b> the Hubble tension echoes a pattern from this whole book — the solar neutrino problem revealed neutrino mass (Day 55), unexpected supernova brightness revealed dark energy (Day 84). A discrepancy between trusted measurements isn't an embarrassment; it's often a doorway to new physics. The tension may yet point to something we don't know about dark energy, dark matter, or the early universe — which is exactly where Chapter 30 heads next.</div>
+    `,
+    takeaways:[
+      "The Hubble constant H₀ sets the expansion rate; from it we derive the universe's age of ~13.8 billion years.",
+      "This age is consistent with the oldest stars/clusters (just under 13 billion years, from their turnoffs) — they're younger, as required.",
+      "H₀ measured two ways — the local distance ladder vs. the CMB — disagree beyond their uncertainties: the Hubble tension.",
+      "The tension may signal a measurement issue or a gap in our understanding — a major open problem."
+    ],
+    refs:[
+      {kind:"Age",title:"The age of the universe and the Hubble constant",desc:"How the expansion rate yields the ~13.8-billion-year age of the cosmos.",url:"https://www.google.com/search?q=hubble+constant+age+of+universe+13.8+billion+years"},
+      {kind:"Tension",title:"The Hubble tension",desc:"Why two ways of measuring the expansion rate disagree, and why it matters.",url:"https://www.google.com/search?q=hubble+tension+H0+disagreement+cosmology"},
+    ],
+    reflect:"The universe's expansion age (~13.8 Gyr) and the ages of the oldest star clusters (just under 13 Gyr) were measured by completely independent methods, yet agree sensibly. Why is that agreement a strong test of our cosmic picture — and why does the Hubble tension, a disagreement, excite rather than discourage scientists?"
+  },
+]},
+
+{ ch:30, title:"The Early Universe", days:[
+  {
+    title:"The First Three Minutes: Big Bang Nucleosynthesis",
+    big:"In the first few minutes of existence, the entire universe was a fusion reactor — and it forged the hydrogen and helium that everything else would later be built from.",
+    recall:{q:"What is the age of the universe, and how does it compare to the oldest star clusters?",
+            a:"About 13.8 billion years — consistent with the oldest clusters (just under 13 billion years), which are younger, as required."},
+    body:`
+      <p>We've run the universe backward to a hot, dense beginning (Day 146). Now let's run it <em>forward</em> from the first instants and see what the Big Bang produced. In the first few minutes, the universe was hot and dense enough to be a giant nuclear furnace — and this <em>Big Bang nucleosynthesis</em> made the lightest elements.</p>
+      <h3>Cooking the light elements</h3>
+      <p>In the first second, the universe was too hot even for protons and neutrons to stick together. As it expanded and cooled over the next few minutes, nuclear fusion (the same physics as in stellar cores, Day 54) briefly became possible: protons and neutrons fused into <em>helium</em>, with traces of deuterium and lithium. But the window was short — the universe kept expanding and cooling, and within minutes it became too cool and sparse for fusion to continue. The result: a universe of roughly <em>three-quarters hydrogen and one-quarter helium</em> by mass, plus a sprinkle of lithium, and essentially nothing heavier.</p>
+      <h3>A precise, confirmed prediction</h3>
+      <p>This is one of the Big Bang's great triumphs. The theory predicts the exact proportions of hydrogen, helium, deuterium, and lithium that should have formed — and those predictions match the abundances we measure in the oldest, most pristine gas in the universe. It's powerful, independent confirmation of the hot Big Bang, alongside the CMB (Day 147).</p>
+      <div class="aside"><b>Where the rest of the elements come from — the book in one arc:</b> the Big Bang made only hydrogen, helium, and traces of lithium. <em>Everything else</em> — the carbon, oxygen, iron, gold — was forged later, inside stars and supernovae (Days 54, 77, 80). So the periodic table has two origins: the lightest elements from the Big Bang's first minutes, and all the rest from generations of stars. Part III's nucleosynthesis and Part V's cosmology together tell the complete story of where atoms come from.</div>
+    `,
+    takeaways:[
+      "In its first few minutes, the hot dense universe fused light nuclei — Big Bang nucleosynthesis.",
+      "It produced roughly 3/4 hydrogen and 1/4 helium by mass, plus traces of deuterium and lithium, and nothing heavier.",
+      "The fusion window was brief; expansion cooled the universe below fusion temperatures within minutes.",
+      "Predicted light-element abundances match observations — strong confirmation of the Big Bang (with the CMB)."
+    ],
+    refs:[
+      {kind:"Origin",title:"Big Bang nucleosynthesis",desc:"How the first few minutes forged the universe's hydrogen and helium.",url:"https://www.google.com/search?q=big+bang+nucleosynthesis+hydrogen+helium+light+elements"},
+      {kind:"Confirmation",title:"Predicted vs. observed light-element abundances",desc:"How measured primordial abundances confirm the Big Bang.",url:"https://www.google.com/search?q=primordial+abundances+helium+deuterium+big+bang+confirmation"},
+    ],
+    reflect:"The Big Bang made only the lightest elements, yet you contain carbon, oxygen, and iron. Combining this lesson with stellar nucleosynthesis (Days 54, 80), where did each kind of atom in your body originate — the hydrogen versus the heavier elements?"
+  },
+  {
+    title:"Inflation: The Universe's First Instant",
+    big:"In a sliver of its first second, the universe may have ballooned faster than light — a wild idea that elegantly explains why the cosmos looks the way it does.",
+    recall:{q:"What did Big Bang nucleosynthesis produce, and what made everything heavier?",
+            a:"It made ~3/4 hydrogen and ~1/4 helium (plus traces of lithium); all heavier elements were forged later in stars and supernovae."},
+    body:`
+      <p>The standard Big Bang, for all its success, left puzzles. Why is the universe so uniform — the CMB has nearly the same temperature in every direction, even in regions that (in the simple Big Bang) were never in contact and couldn't have "agreed" on a temperature (the <em>horizon problem</em>)? And why is space so precisely <em>flat</em> (Day 149, the <em>flatness problem</em>)? <em>Cosmic inflation</em> is the leading answer.</p>
+      <h3>A burst of expansion</h3>
+      <p>Inflation proposes that in a tiny fraction of the first second, the universe underwent a brief episode of staggeringly rapid, accelerating expansion — ballooning by an enormous factor almost instantly (the expansion of space can exceed light speed; nothing travels <em>through</em> space faster than light, Day 23, but space itself has no such limit). This solves the puzzles elegantly: a tiny region that <em>was</em> in contact got stretched to encompass everything we see (explaining the uniformity), and any initial curvature got flattened out by the colossal stretching (explaining the flatness).</p>
+      <h3>Seeding the cosmic web</h3>
+      <p>Inflation's most beautiful consequence: tiny <em>quantum fluctuations</em> — unavoidable microscopic jitters (the uncertainty principle, Day 29) — were stretched along with everything else to astronomical scales. These became the slight density variations that gravity later amplified into galaxies, clusters, and the cosmic web (Day 139). The largest structures in the universe may be the magnified fingerprints of quantum noise from the first instant.</p>
+      <div class="aside"><b>The very large meets the very small — one last time:</b> this is perhaps the most astonishing idea in the book. The cosmic web spanning hundreds of millions of light-years (Day 139) may have grown from quantum fluctuations smaller than an atom, stretched huge by inflation. The quantum mechanics of Part I and the largest structures of Part V are directly connected. Tomorrow we'll see how the CMB lets us actually <em>test</em> this — by reading those primordial seeds.</div>
+    `,
+    takeaways:[
+      "The simple Big Bang leaves puzzles: the horizon problem (why the universe is so uniform) and the flatness problem.",
+      "Cosmic inflation proposes a brief burst of staggering accelerated expansion in the first fraction of a second.",
+      "It explains uniformity (a tiny connected region stretched to encompass all we see) and flatness (curvature stretched away).",
+      "Quantum fluctuations stretched by inflation seeded the density variations that grew into the cosmic web."
+    ],
+    refs:[
+      {kind:"Theory",title:"Cosmic inflation",desc:"The brief burst of rapid early expansion that solves the horizon and flatness problems.",url:"https://www.google.com/search?q=cosmic+inflation+horizon+problem+flatness+problem"},
+      {kind:"Seeds",title:"Quantum fluctuations as the seeds of structure",desc:"How inflation stretched tiny quantum jitters into the seeds of galaxies.",url:"https://www.google.com/search?q=inflation+quantum+fluctuations+seeds+of+structure+cosmic+web"},
+    ],
+    reflect:"Inflation claims the vast cosmic web grew from quantum fluctuations stretched to enormous size. Why is it remarkable that the largest structures in the universe might trace back to the tiniest quantum jitters — and which two parts of this course does that idea connect?"
+  },
+  {
+    title:"Reading the CMB: The Baby Picture of the Universe",
+    big:"The faint ripples in the microwave background are a portrait of the infant universe — and decoding them gives us the cosmos's age, contents, and geometry to stunning precision.",
+    recall:{q:"What did inflation stretch to astronomical scales, and what did those become?",
+            a:"Quantum fluctuations — which became the slight density variations that gravity later grew into galaxies and the cosmic web."},
+    body:`
+      <p>The cosmic microwave background (Day 147) isn't perfectly smooth. Imprinted on it are tiny temperature variations — fluctuations of about one part in a hundred thousand — and these minuscule ripples are a goldmine. They are a direct image of the density variations in the universe at just 380,000 years old: the seeds (from inflation, Day 152) that would grow into everything.</p>
+      <h3>Decoding the ripples</h3>
+      <p>The detailed pattern of these fluctuations — their characteristic sizes and statistics — encodes the fundamental properties of the universe. Space missions of increasing precision (COBE, then WMAP, then Planck) mapped them in ever-finer detail. From that pattern, cosmologists read off the universe's age (13.8 billion years), its flat geometry (Day 149), and its exact contents — the 5% / 27% / 68% split of ordinary matter, dark matter, and dark energy (Day 148). The CMB is how we <em>know</em> those numbers so precisely.</p>
+      <h3>The model that fits</h3>
+      <p>Astonishingly, a single cosmological model — a flat universe with dark matter and dark energy, structure seeded by inflation — fits the CMB ripples, the galaxy distribution, the light-element abundances, and the expansion history all at once. That such different observations converge on one consistent picture is the great triumph of modern cosmology, the "standard model" of the universe.</p>
+      <div class="aside"><b>Precision cosmology — a baby picture that explains everything:</b> a generation ago, cosmology was rough estimates. The CMB turned it into a precision science: we now know the age and composition of the entire universe to a few percent, all read from ripples in light that has traveled 13.8 billion years. The seeds visible in that baby picture are the same seeds that grew, via gravity over billions of years, into the cosmic web, the galaxies, the stars, and ultimately us.</div>
+    `,
+    takeaways:[
+      "The CMB has tiny temperature ripples (~1 part in 100,000) — an image of density seeds in the 380,000-year-old universe.",
+      "Their detailed pattern encodes the universe's age, geometry, and contents.",
+      "Missions COBE, WMAP, and Planck mapped them, yielding the 13.8-Gyr age, flat geometry, and the 5/27/68% composition.",
+      "One model (flat, dark matter + dark energy, inflationary seeds) fits the CMB, galaxies, light elements, and expansion together."
+    ],
+    refs:[
+      {kind:"Map",title:"CMB temperature fluctuations and what they reveal",desc:"How tiny ripples in the microwave background encode the universe's properties.",url:"https://www.google.com/search?q=CMB+temperature+fluctuations+anisotropy+cosmological+parameters"},
+      {kind:"Missions",title:"COBE, WMAP, and Planck",desc:"The space missions that mapped the CMB and made cosmology a precision science.",url:"https://www.google.com/search?q=COBE+WMAP+Planck+CMB+precision+cosmology"},
+    ],
+    reflect:"The same tiny CMB ripples that let us measure the universe's age and contents are also the seeds that grew into galaxies and the cosmic web. Why is it profound that a 'baby picture' of the universe both describes its infancy and explains the structures we see today?"
+  },
+  {
+    title:"The Frontiers: What We Still Don't Know",
+    big:"For all we've mapped — from the celestial sphere to the Big Bang — the deepest questions remain wide open, and that is what keeps astronomy alive.",
+    recall:{q:"What single cosmological model simultaneously fits the CMB, galaxy distribution, light elements, and expansion?",
+            a:"A flat universe with dark matter and dark energy, its structure seeded by inflation — the 'standard model' of cosmology."},
+    body:`
+      <p>The standard cosmological model is a stunning achievement — but it rests on foundations we don't understand, and it leaves profound questions open. A complete picture demands honesty about the frontiers.</p>
+      <h3>The great unknowns</h3>
+      <p><em>What is dark matter?</em> We've tracked it all through Part V, yet no one knows what particle it's made of; it has never been directly detected. <em>What is dark energy?</em> 68% of the universe is a substance we can describe only by its effect. <em>What happened before, or during, inflation</em>, and what drove it? <em>Why is there more matter than antimatter</em> — why does anything exist at all rather than having annihilated in the early universe? And the deepest: <em>what happened at the very first instant</em>, where general relativity (Day 87) and quantum mechanics (Day 29) collide and neither alone suffices — the unsolved problem of <em>quantum gravity</em>.</p>
+      <h3>The limits of the observable</h3>
+      <p>There are limits even in principle. We cannot see light from before recombination (Day 147), and because the universe has a finite age, we can only observe the <em>observable universe</em> — the region close enough for light to have reached us. What lies beyond, and whether our universe is one of many, may be permanently beyond reach. Knowing the boundaries of knowledge is itself part of understanding.</p>
+      <div class="aside"><b>Ignorance as the engine of discovery:</b> notice that nearly every chapter of this book began with a puzzle — a wobble, an anomaly, a brightness that didn't add up — and that the open questions here are tomorrow's discoveries. The history we've traced (neutrino mass from a solar shortfall, dark energy from supernovae, dark matter from rotation) shows that today's deepest mysteries are exactly where the next revolutions will come from. The frontier is not a wall; it's an invitation.</div>
+    `,
+    takeaways:[
+      "The standard cosmological model works beautifully but rests on things we don't understand.",
+      "Major open questions: the nature of dark matter and dark energy, what drove inflation, and the matter–antimatter asymmetry.",
+      "The deepest frontier is quantum gravity — reconciling general relativity and quantum mechanics at the first instant.",
+      "We can only observe the observable universe (light from before recombination is hidden; the finite age limits our reach)."
+    ],
+    refs:[
+      {kind:"Open questions",title:"The biggest unsolved problems in cosmology",desc:"Dark matter, dark energy, inflation, antimatter, and quantum gravity.",url:"https://www.google.com/search?q=biggest+unsolved+problems+cosmology+dark+matter+dark+energy+quantum+gravity"},
+      {kind:"Limits",title:"The observable universe and its limits",desc:"Why we can only see a finite region and what may lie beyond.",url:"https://www.google.com/search?q=observable+universe+limits+horizon+beyond"},
+    ],
+    reflect:"We've mapped the universe from the Big Bang to today, yet we don't know what 95% of it (dark matter + dark energy) is. Why might the biggest unanswered questions be the most exciting part of science rather than a cause for discouragement?"
+  },
+  {
+    title:"The Cosmic Story, Whole",
+    big:"From a hot dense beginning to galaxies, stars, planets, and minds that can look back and comprehend it all — this is the single connected story you now hold end to end.",
+    recall:{q:"Where did the atoms in your body originate — the hydrogen versus the heavier elements?",
+            a:"The hydrogen formed in the first minutes of the Big Bang; the heavier elements (carbon, oxygen, iron, and more) were forged later inside stars and supernovae."},
+    body:`
+      <p>This is the last lesson. Step all the way back and see the whole arc — one continuous story, which you can now tell from beginning to end.</p>
+      <h3>The story, in one breath</h3>
+      <p>It began ~13.8 billion years ago in a hot, dense state. Inflation stretched quantum seeds across the cosmos (Day 152). In the first minutes, hydrogen and helium formed (Day 151). After 380,000 years, atoms formed and light broke free as the CMB (Day 147). Gravity grew the primordial seeds into a cosmic web (Day 139); gas pooled in dark matter halos and lit up as the first stars and galaxies (Day 131). Inside stars, fusion forged the heavier elements (Days 54, 77); dying stars and supernovae scattered them into space (Day 80), enriching the gas. From one such enriched cloud, ~4.6 billion years ago, a disk collapsed into our Sun and its planets (Day 116). On the third rock, chemistry became biology, and biology — eventually — became a creature that could look up, measure the stars, and reconstruct this entire history.</p>
+      <h3>The tools that made it knowable</h3>
+      <p>And reconstruct it we did, with a remarkably small set of ideas, each built in this course. The <em>distance ladder</em> (parallax to Cepheids to supernovae) measured the cosmos. <em>Spectroscopy</em> read the composition, temperature, and motion of everything that glows. The <em>H–R diagram</em> decoded the lives of stars. <em>Gravity</em> — Newton's and Einstein's — governed it all, from falling apples to the bending of starlight to the fate of the universe. Light itself — blackbodies, the Doppler shift, redshift — carried every message. You built each of these tools, then watched them combine to make the universe comprehensible.</p>
+      <div class="aside"><b>You've finished <em>An Introduction to Modern Astrophysics.</em></b> Five parts, thirty chapters, one hundred fifty-five nights — from the celestial sphere overhead (Day 1) to the quantum seeds of the cosmic web and the edge of the observable universe. The compounding worked: every idea rested on the ones before, until the whole sky became a single, connected story. You are, quite literally, the universe's way of understanding itself — assembled from stardust forged in dead stars, contemplating the cosmos that made you. The course is complete. The sky is no longer a mystery overhead, but a story you can read. Look up — and keep looking.</div>
+    `,
+    takeaways:[
+      "The universe's story is one connected arc: Big Bang → inflation → light elements → CMB → cosmic web → stars and galaxies → heavy elements → the Sun, Earth, and us.",
+      "Almost every atom in you was made in the Big Bang (hydrogen) or in stars (everything heavier) — you are recycled stardust.",
+      "A small toolkit made it knowable: the distance ladder, spectroscopy, the H–R diagram, gravity, and the physics of light.",
+      "Each idea in the course built on the last — the whole sky became one comprehensible, connected story."
+    ],
+    refs:[
+      {kind:"The arc",title:"The history of the universe in one timeline",desc:"From the Big Bang to stars, planets, and life — the connected cosmic story.",url:"https://www.google.com/search?q=history+of+the+universe+timeline+big+bang+to+life"},
+      {kind:"Reflection",title:"We are stardust: the cosmic perspective",desc:"How everything in us traces back to the stars — the closing thought of the journey.",url:"https://www.google.com/search?q=we+are+made+of+stardust+cosmic+perspective+carl+sagan"},
+    ],
+    reflect:"You now hold the whole story — from the Big Bang to yourself — built from a handful of compounding ideas. Looking back over all 155 nights, which single connection across the course surprised you most? (And then: look up at the night sky, and read it.)"
+  },
+]},
+
 ];
 
 /* ---------- flatten into a day list ---------- */
@@ -3361,8 +4261,8 @@ let STATE={done:[],current:1};
 const $=s=>document.querySelector(s);
 let activeDay=1;
 
-const PART_TITLES={1:"Part I · The Tools of Astronomy", 2:"Part II · The Nature of Stars", 3:"Part III · Stellar Structure & Evolution", 4:"Part IV · The Solar System"};
-function partOf(ch){ return ch<=6 ? 1 : (ch<=11 ? 2 : (ch<=18 ? 3 : 4)); }
+const PART_TITLES={1:"Part I · The Tools of Astronomy", 2:"Part II · The Nature of Stars", 3:"Part III · Stellar Structure & Evolution", 4:"Part IV · The Solar System", 5:"Part V · Galaxies & the Universe"};
+function partOf(ch){ return ch<=6 ? 1 : (ch<=11 ? 2 : (ch<=18 ? 3 : (ch<=23 ? 4 : 5))); }
 
 function renderMap(){
   const list=$('#maplist'); let h=''; let lastPart=null;
