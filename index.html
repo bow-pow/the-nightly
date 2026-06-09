@@ -171,7 +171,7 @@
   <header class="top">
     <div class="brand">
       <div class="mark">The Nightly<span class="dot">.</span></div>
-      <div class="sub">Carroll &amp; Ostlie · Parts I–III</div>
+      <div class="sub">Carroll &amp; Ostlie · Parts I–IV</div>
     </div>
     <div class="streak" id="streak">— day streak</div>
   </header>
@@ -2681,6 +2681,647 @@ const CURRICULUM = [
   },
 ]},
 
+/* ===================== PART IV — THE SOLAR SYSTEM ===================== */
+
+{ ch:19, title:"The Solar System", days:[
+  {
+    title:"Surveying Our Cosmic Neighborhood",
+    big:"After ranging across dying stars and black holes, we come home — to a single ordinary star and the swarm of worlds, ice, and rubble that orbit it.",
+    recall:{q:"What did the Part III finale say our Solar System is a product of?",
+            a:"Star formation — it was born from a disk of gas and dust around the young Sun, made of material recycled through earlier stellar generations."},
+    body:`
+      <p>Part III ended by promising a zoom-in: from the grand life cycle of stars to one of its products — our own Solar System. Everything here, the Sun included, condensed from a disk of enriched interstellar material (Day 63). Now we survey what that disk became.</p>
+      <h3>The layout, from the inside out</h3>
+      <p>At the center sits the <em>Sun</em>, holding 99.8% of the system's mass. Close in orbit the four small, rocky <em>terrestrial planets</em>: Mercury, Venus, Earth, Mars. Beyond Mars lies the <em>asteroid belt</em>, a zone of rocky debris. Farther out are the four giants: the gas giants <em>Jupiter</em> and <em>Saturn</em>, then the ice giants <em>Uranus</em> and <em>Neptune</em>. Past Neptune stretches the <em>Kuiper Belt</em> (home of Pluto and countless icy bodies), and far, far beyond, the vast spherical shell of the <em>Oort Cloud</em>, the source of long-period comets.</p>
+      <h3>A humbling sense of scale</h3>
+      <p>The distances are staggering. Light from the Sun takes about 8 minutes to reach Earth, but over 4 hours to reach Neptune. If Earth were a peppercorn, the Sun would be a beach ball about 26 meters away, and the nearest star would be thousands of kilometers further still. The Solar System is mostly empty space.</p>
+      <div class="aside"><b>A new way of doing astronomy:</b> until now, every object we studied was a distant point of light, read only through its spectrum. The Solar System is different — we can visit it. Spacecraft have flown past, orbited, and landed on these worlds, giving us ground truth no telescope could. This Part blends the remote-sensing astrophysics of Parts I–III with the hands-on science of <em>comparative planetology</em>: studying worlds side by side to learn why each turned out as it did.</div>
+    `,
+    takeaways:[
+      "The Sun holds 99.8% of the Solar System's mass; everything else orbits it.",
+      "Layout outward: rocky terrestrial planets, asteroid belt, gas giants (Jupiter, Saturn), ice giants (Uranus, Neptune), Kuiper Belt, Oort Cloud.",
+      "Distances are vast — sunlight takes 8 minutes to Earth but over 4 hours to Neptune; the system is mostly empty.",
+      "Unlike distant stars, Solar System bodies can be visited by spacecraft, enabling comparative planetology."
+    ],
+    refs:[
+      {kind:"Map",title:"Layout and scale of the Solar System",desc:"A tour of where everything sits, from the Sun out to the Oort Cloud.",url:"https://www.google.com/search?q=solar+system+layout+scale+planets+kuiper+belt+oort+cloud"},
+      {kind:"Scale",title:"The true scale of the Solar System",desc:"Just how empty and enormous our planetary neighborhood really is.",url:"https://www.google.com/search?q=true+scale+of+the+solar+system+distances"},
+    ],
+    reflect:"We've spent the whole course reading distant objects from their light alone. Why might being able to send spacecraft to Solar System bodies change the kind of science we can do — what could we learn that no spectrum could tell us?"
+  },
+  {
+    title:"The Patterns That Demand Explanation",
+    big:"The Solar System isn't a random jumble — it's full of striking regularities, and every one of them is a clue to how it was born.",
+    recall:{q:"What are the two families of planets, and where does each sit?",
+            a:"The small rocky terrestrial planets close to the Sun, and the large giant planets (gas and ice giants) farther out."},
+    body:`
+      <p>Good science starts by noticing patterns that cry out for explanation. The Solar System has several, and a successful theory of its origin (Chapter 23) must account for all of them.</p>
+      <h3>The regularities</h3>
+      <p>All the planets orbit the Sun in the <em>same direction</em>, and in <em>nearly the same plane</em> — the system is flat, like a disk, not a random swarm. The Sun rotates in that same direction too. Most planets and moons also spin and orbit the same way. And there's the great divide we just met: small, dense, rocky worlds close in; large, low-density, gas-and-ice worlds far out. These are not coincidences.</p>
+      <h3>The oddities</h3>
+      <p>Alongside the order are puzzles. The Sun holds nearly all the <em>mass</em>, yet the planets carry almost all the <em>angular momentum</em> (the spin and orbital motion) — a strange imbalance. A few worlds break the rules: Venus rotates backward, Uranus is tipped on its side. Any origin story has to explain both the strong regularities and these exceptions.</p>
+      <div class="aside"><b>This is the scientific method in action:</b> the flat, orderly, co-rotating layout is exactly what you'd expect if the whole system formed from a single spinning, collapsing disk — the same disk physics that builds any star (Day 63). The patterns are evidence. We're laying out the clues now so that, by Chapter 23, the formation theory will feel less like a story and more like the inevitable conclusion the evidence demands.</div>
+    `,
+    takeaways:[
+      "Planets orbit the Sun in the same direction and nearly the same plane — the system is flat, like a disk.",
+      "The Sun rotates the same way; most planets/moons spin and orbit the same way too.",
+      "Rocky planets are dense and close in; giant planets are low-density and far out — a clear dichotomy.",
+      "Puzzles remain: the Sun has the mass but planets have most of the angular momentum; Venus and Uranus break spin rules."
+    ],
+    refs:[
+      {kind:"Clues",title:"Regularities of the Solar System",desc:"The orderly patterns that any theory of Solar System formation must explain.",url:"https://www.google.com/search?q=solar+system+regularities+formation+clues+coplanar+orbits"},
+      {kind:"Puzzle",title:"The angular momentum problem",desc:"Why the Sun holds the mass but the planets hold most of the spin — and why it matters.",url:"https://www.google.com/search?q=solar+system+angular+momentum+problem+sun+planets"},
+    ],
+    reflect:"All the planets orbit in the same flat plane and the same direction. If instead the Solar System had formed from random captures of passing objects, what would you expect its layout to look like — and how does the actual flatness argue for a disk origin?"
+  },
+  {
+    title:"Reading Worlds: Mass, Size & Density",
+    big:"Before we can understand a planet, we have to weigh and measure it — and a single number, its density, reveals whether a world is rock, ice, or gas.",
+    recall:{q:"Why is the flat, co-rotating layout of the Solar System considered strong evidence about its origin?",
+            a:"It's exactly what you'd expect from formation in a single spinning, collapsing disk — the same disk physics that forms stars."},
+    body:`
+      <p>How do we determine the basic properties of a planet? The tools are ones we've already built. A planet's <em>mass</em> comes from watching something orbit it — a moon, or a passing spacecraft — and applying Newton's form of Kepler's third law (Day 12), exactly as we weighed stars with binaries. Its <em>radius</em> comes from its apparent size at a known distance, or from spacecraft imaging.</p>
+      <h3>Density: the great revealer</h3>
+      <p>Combine mass and radius and you get the <em>average density</em> — mass divided by volume — and density is enormously diagnostic. Rock and metal are dense (Earth averages about 5.5 times the density of water). Ices are lighter. Gas, lighter still. So density alone sorts the worlds: the terrestrial planets are dense (rock and iron), while the giants are low-density (Saturn would famously float in a big enough bathtub). The dichotomy from yesterday isn't just about size — it's about what these worlds are fundamentally made of.</p>
+      <div class="eq">density = mass / volume → reveals composition (rock vs. ice vs. gas)</div>
+      <div class="aside"><b>Density even peers inside:</b> a planet's <em>average</em> density, compared with what its surface rocks suggest, hints at its interior. Earth's surface rocks are less dense than its 5.5 average — telling us a dense iron core must lurk beneath, concentrating mass at the center. We deduce the hidden interior from bulk numbers, just as we deduced stellar interiors from physics (Day 52). The same detective logic, applied to planets.</div>
+    `,
+    takeaways:[
+      "Planet masses come from orbiting moons or spacecraft via Newton's Kepler's third law (as with binary stars).",
+      "Radii come from apparent size at known distance or from spacecraft imaging.",
+      "Average density = mass/volume, and it reveals bulk composition: dense = rock/metal, low = ice or gas.",
+      "Density confirms the rocky-inner / gaseous-outer dichotomy and hints at hidden interiors (e.g., Earth's iron core)."
+    ],
+    refs:[
+      {kind:"Method",title:"Measuring planetary masses and densities",desc:"How orbits and sizes yield a planet's mass, radius, and revealing average density.",url:"https://www.google.com/search?q=how+to+measure+planet+mass+density+composition"},
+      {kind:"Comparison",title:"Densities of the planets",desc:"What the range of planetary densities tells us about rock, ice, and gas.",url:"https://www.google.com/search?q=planet+densities+comparison+rock+ice+gas"},
+    ],
+    reflect:"Saturn's average density is less than that of water, while Earth's is about 5.5 times water's. Without knowing anything else, what does that immediately tell you about what each planet is mostly made of?"
+  },
+  {
+    title:"What Shapes a World: Surfaces & Interiors",
+    big:"Every rocky surface in the Solar System is sculpted by the same four processes — and how much of each a world has experienced tells its whole geological life story.",
+    recall:{q:"What single measured property best reveals whether a planet is made of rock, ice, or gas?",
+            a:"Its average density (mass divided by volume) — dense means rock/metal, low density means ice or gas."},
+    body:`
+      <p>Why does the Moon look so different from Earth, or Mars from Venus? Comparative planetology gives a unifying framework: nearly every solid surface is shaped by just <em>four geological processes</em>, in differing amounts.</p>
+      <h3>The four sculptors</h3>
+      <p><em>Impact cratering</em> — scarring from collisions with asteroids and comets (a near-universal record). <em>Volcanism</em> — molten rock erupting from the interior. <em>Tectonics</em> — the crust buckling, cracking, and shifting from internal forces. <em>Erosion</em> — wind, water, or ice wearing surfaces down. A heavily cratered, otherwise blank surface (like the Moon's) is old and geologically dead; a surface with few craters but lots of volcanoes and canyons (like Earth's) is young and active.</p>
+      <h3>It all comes down to heat</h3>
+      <p>Volcanism and tectonics require internal heat, and that heat comes from three sources: leftover energy from the planet's violent formation (accretion), the decay of <em>radioactive elements</em> inside (a clock we'll use later), and <em>tidal heating</em> from gravitational flexing (which we met near black holes, Day 89, and will see power volcanic moons). Crucially, <em>small worlds cool off fast</em> and big ones stay hot longer — so size largely determines how geologically alive a world remains.</p>
+      <div class="aside"><b>Differentiation — why planets are layered:</b> while a young planet is hot and molten, dense material (iron) sinks to the center and light material (rock) floats up, separating the world into a core, mantle, and crust. This is <em>differentiation</em>, and it's why Earth has that iron core we inferred yesterday. A planet's structure is a frozen record of its hot youth.</div>
+    `,
+    takeaways:[
+      "Four processes shape solid surfaces: impact cratering, volcanism, tectonics, and erosion.",
+      "Crater density is a clock: heavily cratered = old/dead surface; few craters = young/active surface.",
+      "Volcanism and tectonics need internal heat, from accretion, radioactive decay, and tidal heating.",
+      "Small worlds cool fast (becoming dead); larger worlds stay hot/active. Differentiation layers a planet into core, mantle, crust."
+    ],
+    refs:[
+      {kind:"Framework",title:"The four geological processes",desc:"Cratering, volcanism, tectonics, and erosion — how planetary surfaces are shaped.",url:"https://www.google.com/search?q=four+geological+processes+planets+cratering+volcanism+tectonics+erosion"},
+      {kind:"Heat",title:"Planetary internal heat and differentiation",desc:"Where a planet's heat comes from and how it separates into layers.",url:"https://www.google.com/search?q=planetary+internal+heat+sources+differentiation+core+mantle"},
+    ],
+    reflect:"The Moon is covered in ancient craters with little sign of volcanism or tectonics, while Earth's surface is constantly renewed. Given that the Moon is much smaller, how does the idea that 'small worlds cool fast' explain the difference?"
+  },
+  {
+    title:"Atmospheres: Why Some Worlds Keep Their Air",
+    big:"Whether a planet holds onto an atmosphere comes down to a race — between the pull of its gravity and the restless speed of its gas molecules.",
+    recall:{q:"What three heat sources keep a planet geologically active, and how does size matter?",
+            a:"Accretion heat, radioactive decay, and tidal heating; small worlds cool quickly and go dead, while larger ones stay hot and active."},
+    body:`
+      <p>Why does Earth have a comfortable atmosphere, Mercury essentially none, and Venus a crushing one? It comes down to whether a world can <em>retain</em> gas, and that's a competition between two speeds.</p>
+      <h3>The retention race</h3>
+      <p>Gas molecules are always in motion, and hotter gas means faster molecules (the thermal speeds we met in spectral-line broadening, Day 49 — lighter molecules move fastest). A planet holds onto a gas only if its <em>escape velocity</em> comfortably exceeds the typical molecular speed. So small, hot worlds lose their atmospheres — weak gravity, fast molecules — while large or cold worlds keep them. Mercury is small and roasting, so it can't hold air. The giant planets are massive and cold, so they even retain the lightest gas, hydrogen.</p>
+      <h3>The greenhouse effect</h3>
+      <p>An atmosphere does more than sit there — it traps heat. Certain gases (carbon dioxide, water vapor, methane) let sunlight in but absorb the infrared the warmed surface radiates back, raising the temperature: the <em>greenhouse effect</em>. A modest greenhouse keeps Earth habitable. A runaway version, as we'll see on Venus, can turn a world into an oven.</p>
+      <div class="aside"><b>Closing Chapter 19 — the toolkit is set:</b> we now have the framework of comparative planetology: density reveals composition, the four processes and internal heat shape surfaces, and the gravity-versus-temperature race plus the greenhouse effect govern atmospheres. Armed with these ideas, Chapter 20 visits the four rocky worlds one by one — and we'll find that the same starting ingredients produced four astonishingly different planets.</div>
+    `,
+    takeaways:[
+      "A planet retains a gas only if its escape velocity comfortably exceeds the gas's typical molecular speed.",
+      "Hotter and lighter gas molecules move faster; small hot worlds lose atmospheres, large/cold worlds keep them.",
+      "Mercury (small, hot) has almost no atmosphere; giant planets retain even light hydrogen.",
+      "The greenhouse effect traps infrared heat — modest on Earth (habitable), runaway on Venus (oven)."
+    ],
+    refs:[
+      {kind:"Physics",title:"Atmospheric escape and retention",desc:"Why escape velocity versus molecular speed decides whether a world keeps its air.",url:"https://www.google.com/search?q=atmospheric+escape+velocity+molecular+speed+planet+retention"},
+      {kind:"Effect",title:"The greenhouse effect on planets",desc:"How certain gases trap heat and warm a planet's surface.",url:"https://www.google.com/search?q=greenhouse+effect+planetary+atmosphere+explained"},
+    ],
+    reflect:"Hydrogen is the lightest and fastest-moving gas. Using the retention race, explain why tiny hot Mercury can't hold any atmosphere, yet massive cold Jupiter holds onto even hydrogen."
+  },
+]},
+
+{ ch:20, title:"The Terrestrial Planets", days:[
+  {
+    title:"Mercury & the Moon: Airless, Cratered Worlds",
+    big:"The two smallest rocky worlds are frozen snapshots of the early Solar System — battered, airless, and geologically dead for billions of years.",
+    recall:{q:"What determines whether a small world like Mercury can hold an atmosphere?",
+            a:"The race between escape velocity and molecular speed — small, hot worlds have weak gravity and fast molecules, so they lose their air."},
+    body:`
+      <p>We begin the tour with the two smallest terrestrial bodies — Mercury and Earth's Moon — because they're so alike, and so revealing. Both are small, so by yesterday's logic they cooled quickly, lost any atmosphere, and went geologically quiet long ago. Their surfaces are saturated with <em>impact craters</em>, preserving a record of the Solar System's violent youth that erosion and tectonics erased on larger worlds.</p>
+      <h3>The Moon's story</h3>
+      <p>The Moon's dark patches (the "maria," or seas) are ancient lava plains from a brief early volcanic era; the bright highlands are older, more cratered crust. With no air and no water, nothing has reshaped it in billions of years — the astronauts' footprints will last for ages. The Moon likely formed when a Mars-sized body smashed into the young Earth (the giant-impact hypothesis), flinging debris into orbit that coalesced.</p>
+      <h3>Mercury's surprise</h3>
+      <p>Mercury looks Moon-like but hides a secret in its density: it is extremely dense for its size, meaning it has a disproportionately huge iron <em>core</em> filling most of the planet. One leading idea is that a massive early impact blasted away much of its rocky mantle, leaving the metal-rich world we see. Mercury also endures wild temperature swings — scorching by day, frigid by night — because it has no atmosphere to moderate them.</p>
+      <div class="aside"><b>Reading density again:</b> notice how Day 98's lesson pays off immediately. Mercury and the Moon look like cratered twins, but Mercury's high density betrays a giant iron core that the Moon lacks. A single bulk number distinguishes two superficially similar worlds — and hints at violent, individual histories. The terrestrial planets share ingredients but not destinies.</div>
+    `,
+    takeaways:[
+      "Mercury and the Moon are small, so they cooled fast, lost any atmosphere, and are geologically dead.",
+      "Their heavily cratered surfaces preserve a record of the early Solar System's bombardment.",
+      "The Moon's maria are ancient lava plains; it likely formed from a giant impact on the young Earth.",
+      "Mercury's high density reveals an outsized iron core, possibly from a mantle-stripping impact."
+    ],
+    refs:[
+      {kind:"Moon",title:"The Moon's geology and origin",desc:"Maria, highlands, craters, and the giant-impact hypothesis of the Moon's formation.",url:"https://www.google.com/search?q=moon+geology+maria+highlands+giant+impact+hypothesis"},
+      {kind:"Mercury",title:"Mercury's giant iron core",desc:"Why the smallest planet is so dense, and what its huge core implies about its history.",url:"https://www.google.com/search?q=mercury+large+iron+core+density+formation"},
+    ],
+    reflect:"Mercury and the Moon look like cratered twins, yet Mercury is far denser. What does that density difference tell you must lie inside Mercury that the Moon largely lacks?"
+  },
+  {
+    title:"Venus: The Runaway Greenhouse",
+    big:"Venus is nearly Earth's twin in size and rock — yet it became a hellish oven hot enough to melt lead, a chilling lesson in how a greenhouse can run away.",
+    recall:{q:"What is the greenhouse effect, and what makes it 'runaway'?",
+            a:"Gases let sunlight in but trap the infrared heat radiated back, warming the surface; runaway means the warming feeds on itself, driving temperatures extremely high."},
+    body:`
+      <p>Venus is almost exactly Earth's size and made of the same rock — it should be Earth's twin. Instead it's the Solar System's cautionary tale. Its thick atmosphere is over 90 times the pressure of Earth's, almost entirely carbon dioxide, and it produces the most extreme <em>greenhouse effect</em> in the system: the surface sits at about 460°C, hot enough to melt lead, hotter even than Mercury despite being farther from the Sun.</p>
+      <h3>How a world boils itself</h3>
+      <p>The leading story is a <em>runaway greenhouse</em>. Closer to the Sun than Earth, Venus was warm enough that any water stayed as vapor rather than forming oceans. Water vapor is itself a greenhouse gas, so it trapped more heat, which kept more water as vapor — a vicious cycle. Without oceans to lock away carbon dioxide (as Earth's do), CO₂ built up in the air, amplifying the greenhouse further. The feedback ran away, and Venus cooked.</p>
+      <h3>A young, hidden face</h3>
+      <p>Beneath its perpetual clouds (mapped by radar, since visible light can't penetrate), Venus has a surprisingly young, volcanic surface with relatively few craters — evidence of global resurfacing, perhaps a planet-wide volcanic event in its past. Oddly, Venus also rotates <em>backward</em> and extremely slowly — one of the rule-breakers we flagged in Chapter 19.</p>
+      <div class="aside"><b>Why Venus matters beyond Venus:</b> Venus shows that a planet's fate hinges on more than its size and ingredients — distance from the Sun and the runaway feedbacks of its atmosphere can transform a potential twin of Earth into an inferno. It's the most vivid natural experiment in climate feedback we have, and a sobering reference point when we think about Earth's own atmosphere and habitability (Day 120).</div>
+    `,
+    takeaways:[
+      "Venus is Earth-sized and rocky but has a crushing CO₂ atmosphere (~90× Earth's pressure).",
+      "Its runaway greenhouse makes the surface ~460°C — hotter than Mercury, despite being farther from the Sun.",
+      "Lacking oceans to lock away CO₂ and water vapor, the greenhouse fed on itself and ran away.",
+      "Beneath thick clouds (mapped by radar) lies a young, volcanically resurfaced surface; Venus rotates backward and slowly."
+    ],
+    refs:[
+      {kind:"Climate",title:"Venus and the runaway greenhouse effect",desc:"How Earth's twin became an oven through runaway atmospheric feedback.",url:"https://www.google.com/search?q=venus+runaway+greenhouse+effect+surface+temperature"},
+      {kind:"Surface",title:"The volcanic surface of Venus",desc:"What radar reveals beneath the clouds — a young, resurfaced, volcanic world.",url:"https://www.google.com/search?q=venus+surface+volcanism+radar+resurfacing"},
+    ],
+    reflect:"Venus is farther from the Sun than Mercury, yet its surface is hotter. How can a more distant planet end up hotter than a closer one — what is doing the extra heating on Venus?"
+  },
+  {
+    title:"Earth: The Living Planet",
+    big:"Our home world is the oddball of the rocky planets — the only one with drifting continents, vast oceans, a protective magnetic shield, and life.",
+    recall:{q:"What turned Venus, nearly Earth's twin, into an oven?",
+            a:"A runaway greenhouse effect — with no oceans to lock away CO₂ and water vapor, the heat-trapping fed on itself."},
+    body:`
+      <p>Earth is our control case — the world we know in most detail — and it's strikingly unusual among the terrestrials. Several features set it apart, and together they make it habitable.</p>
+      <h3>What makes Earth different</h3>
+      <p><em>Plate tectonics:</em> Earth is the only planet with a crust broken into moving plates that continually recycle the surface, build mountains, and regulate carbon dioxide over geologic time — a thermostat Venus never had. <em>Liquid water:</em> Earth orbits at a distance where water can exist as liquid oceans, which moderate climate and host life. <em>A strong magnetic field:</em> generated by a churning molten-iron core (a planetary <em>dynamo</em> — the same physics as the solar dynamo, Day 59), it deflects the solar wind and shields the atmosphere and surface. <em>An oxygen atmosphere:</em> unique in the Solar System, and itself a product of life.</p>
+      <h3>A coupled system</h3>
+      <p>These aren't independent. Internal heat drives the tectonics and the dynamo; the magnetic field protects the atmosphere; the atmosphere and oceans regulate temperature; and life, once started, reshaped the atmosphere. Earth is a tightly coupled system of interior, surface, air, and biosphere — which is exactly what makes it so hard to find a true twin.</p>
+      <div class="aside"><b>The magnetic shield, and a warning:</b> Earth's magnetic field steering the solar wind around us (Day 58) is a quiet guardian — it helps keep the atmosphere from being stripped away over eons. Hold that thought for tomorrow: Mars, smaller and now lacking such protection, tells us what can happen to a world that loses its magnetic shield and its internal heat.</div>
+    `,
+    takeaways:[
+      "Earth uniquely has active plate tectonics, which recycle the surface and regulate CO₂ over geologic time.",
+      "It orbits where water is liquid, giving climate-moderating oceans and a home for life.",
+      "A molten-iron dynamo generates a magnetic field that deflects the solar wind and protects the atmosphere.",
+      "Its oxygen atmosphere is unique — and a product of life; Earth is a tightly coupled interior–surface–air–biosphere system."
+    ],
+    refs:[
+      {kind:"Unique",title:"What makes Earth special",desc:"Plate tectonics, oceans, magnetic field, and life — the features that set Earth apart.",url:"https://www.google.com/search?q=what+makes+earth+unique+plate+tectonics+magnetic+field+life"},
+      {kind:"Shield",title:"Earth's magnetic field and the solar wind",desc:"How the geodynamo shields our atmosphere from being stripped away.",url:"https://www.google.com/search?q=earth+magnetic+field+dynamo+solar+wind+protection"},
+    ],
+    reflect:"Earth's magnetic field is generated by motion in its molten iron core — the same dynamo idea as the Sun's. Why would a planet's magnetic field help it keep its atmosphere, given what the solar wind does?"
+  },
+  {
+    title:"Mars: The World That Almost Was",
+    big:"Mars is a small, cold, rusty desert today — but dried riverbeds and ancient lakebeds reveal a wetter, warmer past, and a haunting question of what went wrong.",
+    recall:{q:"How does Earth's magnetic field help protect its atmosphere?",
+            a:"By deflecting the solar wind, the field prevents charged solar particles from gradually stripping the atmosphere away."},
+    body:`
+      <p>Mars is about half Earth's size, cold, and cloaked in a thin carbon-dioxide atmosphere less than 1% of Earth's pressure. Today its surface is a frozen, rusty (iron-oxide) desert. But Mars is fascinating because it clearly used to be different.</p>
+      <h3>Evidence of a watery past</h3>
+      <p>Spacecraft and rovers have found dried-up river valleys, ancient lakebeds, deltas, and minerals that only form in water. Billions of years ago, Mars apparently had flowing liquid water, a thicker atmosphere, and a milder climate — conditions that could have been hospitable. It also boasts the Solar System's largest volcano, Olympus Mons, and a canyon system that would stretch across the United States.</p>
+      <h3>What went wrong</h3>
+      <p>Being small, Mars cooled faster than Earth (Day 99). As its interior cooled, its magnetic dynamo shut down and its protective magnetic field faded. With the shield gone, the solar wind (Day 58) slowly stripped away the atmosphere over hundreds of millions of years. As the air thinned, the pressure dropped and the planet cold-trapped or lost its water — leaving the thin, frigid world we see. Mars is a stark illustration of how a planet's small size can seal its fate.</p>
+      <div class="aside"><b>The habitability question:</b> Mars sits at the heart of the search for life beyond Earth. If it was once warm and wet, did life arise there? Could traces survive in the subsurface, where liquid water might still exist? Multiple missions are actively hunting for biosignatures. Mars is the most accessible test of whether life is a fluke of Earth or a common outcome — a thread we'll pick up at the end of this Part.</div>
+    `,
+    takeaways:[
+      "Mars is small, cold, and has a thin CO₂ atmosphere (<1% of Earth's pressure) over a rusty desert surface.",
+      "River valleys, lakebeds, and water-formed minerals show it once had liquid water and a thicker atmosphere.",
+      "Being small, it cooled fast; its dynamo and magnetic field died, so the solar wind stripped its atmosphere.",
+      "Mars is the prime target in the search for past or present life beyond Earth."
+    ],
+    refs:[
+      {kind:"Past",title:"Evidence for ancient water on Mars",desc:"Dried riverbeds, lakebeds, and minerals pointing to a wetter, warmer early Mars.",url:"https://www.google.com/search?q=evidence+ancient+water+on+mars+rivers+lakes"},
+      {kind:"Loss",title:"How Mars lost its atmosphere",desc:"The cooling interior, dying magnetic field, and solar-wind stripping that thinned the air.",url:"https://www.google.com/search?q=how+mars+lost+atmosphere+magnetic+field+solar+wind"},
+    ],
+    reflect:"Mars and Earth both started with atmospheres and water, but Mars is much smaller. Trace the chain of cause and effect: how does being smaller eventually lead to losing both a magnetic field and an atmosphere?"
+  },
+  {
+    title:"Why Four Rocky Worlds Diverged",
+    big:"Four planets born from the same disk, of the same rock, became an airless cinder, a runaway oven, a living blue world, and a frozen desert — and the reasons why are a master class in planetary science.",
+    recall:{q:"Why did Mars lose its atmosphere while Earth kept its own?",
+            a:"Mars is smaller, so it cooled faster; its dynamo and magnetic field died, letting the solar wind strip the atmosphere — while Earth's field still protects it."},
+    body:`
+      <p>Step back and compare the four terrestrial worlds. They formed in the same inner disk from the same rocky and metallic material — yet Mercury is an airless cinder, Venus a runaway oven, Earth a living blue world, and Mars a frozen desert. What drove such divergent fates from such similar starts? Three factors do most of the work.</p>
+      <h3>The three deciders</h3>
+      <p><em>Size (mass):</em> bigger worlds hold heat and atmosphere longer. Earth and Venus stayed warm and active inside; small Mercury and Mars cooled and (for Mars) lost their air. <em>Distance from the Sun:</em> this set each world's temperature, which controlled whether water became ocean (Earth), stayed vapor and triggered a runaway greenhouse (Venus), or froze (Mars). <em>Atmosphere and its feedbacks:</em> the presence, composition, and runaway or stabilizing feedbacks of the air made the difference between habitable and hellish — Venus and Earth show how much the atmosphere matters even between near-twins.</p>
+      <h3>The lesson of comparative planetology</h3>
+      <p>No single factor explains everything; it's the <em>combination</em> — size, distance, atmosphere, internal heat, and even chance impacts — that shaped each world. This is the core insight of the whole field: planets are not interchangeable. Small initial differences, amplified by feedbacks over billions of years, produce wildly different outcomes.</p>
+      <div class="aside"><b>Closing Chapter 20:</b> the rocky planets taught us that ingredients aren't destiny — context and history are. Now Chapter 21 leaves the inner Solar System entirely and crosses to the giant planets: worlds with no solid surface, made largely of the same hydrogen and helium as the Sun, with their own systems of rings and moons that are practically miniature solar systems in themselves.</div>
+    `,
+    takeaways:[
+      "The four terrestrial planets formed from the same material yet had radically different fates.",
+      "Three main factors explain the divergence: size (heat/atmosphere retention), distance from the Sun (temperature), and atmospheric feedbacks.",
+      "Water's state — ocean, vapor (runaway greenhouse), or ice — depended largely on distance and feedbacks.",
+      "Core lesson of comparative planetology: small initial differences, amplified over eons, produce wildly different worlds."
+    ],
+    refs:[
+      {kind:"Synthesis",title:"Comparing the terrestrial planets",desc:"Why Mercury, Venus, Earth, and Mars turned out so differently from similar beginnings.",url:"https://www.google.com/search?q=comparison+terrestrial+planets+mercury+venus+earth+mars+differences"},
+      {kind:"Factors",title:"What determines a planet's fate",desc:"How size, distance, and atmosphere combine to shape a rocky world.",url:"https://www.google.com/search?q=factors+determining+terrestrial+planet+habitability+size+distance+atmosphere"},
+    ],
+    reflect:"Venus and Earth are nearly the same size and made of the same rock, yet one is an oven and the other is alive. If size alone doesn't explain it, what other factors must be doing the work — and what does that say about how 'twin' planets can diverge?"
+  },
+]},
+
+{ ch:21, title:"The Realms of the Giant Planets", days:[
+  {
+    title:"Jupiter & Saturn: The Gas Giants",
+    big:"Beyond the asteroid belt lie two colossal worlds with no solid ground — vast spinning balls of hydrogen and helium, more like failed stars than planets.",
+    recall:{q:"What three factors best explain why the four terrestrial planets diverged so dramatically?",
+            a:"Size (heat and atmosphere retention), distance from the Sun (temperature), and atmospheric composition/feedbacks."},
+    body:`
+      <p>Cross the asteroid belt and the character of the Solar System changes completely. Jupiter and Saturn are <em>gas giants</em> — enormous worlds with no solid surface to stand on. Jupiter alone is more massive than all the other planets combined; you could fit over 1,300 Earths inside it.</p>
+      <h3>Made of star-stuff</h3>
+      <p>Their composition is the giveaway: Jupiter and Saturn are mostly <em>hydrogen and helium</em> — essentially the same ingredients as the Sun (recall Cecilia Payne's discovery that stars are mostly hydrogen, Day 43). They're so cold and massive that they held onto even these lightest gases (the retention race, Day 100), unlike the rocky inner worlds. If Jupiter had been dozens of times more massive, it could have become a star itself.</p>
+      <h3>Banded, stormy, and fast</h3>
+      <p>Their atmospheres are striped with colorful <em>bands</em> — alternating jets of rising and sinking gas, sculpted by rapid rotation. Both planets spin remarkably fast (a Jovian day is under 11 hours) despite their size, which stretches them into visible oblateness and drives ferocious weather. Jupiter's <em>Great Red Spot</em> is a storm larger than Earth that has raged for centuries.</p>
+      <div class="aside"><b>A bridge between stars and planets:</b> the gas giants blur the line. Made of the same hydrogen and helium as the Sun, formed from the same disk, they're what you get when a body gathers a lot of gas but never enough to ignite fusion. Studying them connects everything — the stellar composition of Part II, the disk formation of Part III, and the planetary science of this Part all meet in Jupiter.</div>
+    `,
+    takeaways:[
+      "Jupiter and Saturn are gas giants with no solid surface; Jupiter is more massive than all other planets combined.",
+      "They're composed mostly of hydrogen and helium — the same as the Sun — retained because they're massive and cold.",
+      "Rapid rotation (days under 11 hours) drives banded atmospheres and powerful storms.",
+      "Jupiter's Great Red Spot is an Earth-sized storm centuries old; a much heavier Jupiter could have been a star."
+    ],
+    refs:[
+      {kind:"Giants",title:"Jupiter and Saturn, the gas giants",desc:"The composition, size, and atmospheres of the Solar System's largest planets.",url:"https://www.google.com/search?q=jupiter+saturn+gas+giants+hydrogen+helium+composition"},
+      {kind:"Storm",title:"Jupiter's Great Red Spot",desc:"The giant, centuries-old storm bigger than the Earth.",url:"https://www.google.com/search?q=jupiter+great+red+spot+storm"},
+    ],
+    reflect:"Jupiter is made of nearly the same hydrogen and helium as the Sun. Using the atmospheric retention race from Day 100, why could Jupiter hold onto these light gases when the rocky inner planets couldn't?"
+  },
+  {
+    title:"Inside a Giant: Metallic Hydrogen & Magnetism",
+    big:"Squeeze hydrogen hard enough and it turns into a liquid metal — and deep inside Jupiter, oceans of the stuff generate the most powerful magnetic field of any planet.",
+    recall:{q:"What are Jupiter and Saturn mostly made of, and why could they keep it?",
+            a:"Mostly hydrogen and helium (like the Sun); being massive and cold, they won the retention race even for the lightest gases."},
+    body:`
+      <p>With no surface, what lies inside a gas giant? Descending into Jupiter, the hydrogen atmosphere grows denser and hotter until it becomes a vast ocean of liquid hydrogen. Deeper still, under crushing pressure, the hydrogen is squeezed into an exotic state: <em>liquid metallic hydrogen</em>, where electrons flow freely as in a metal. At the very center may sit a core of rock and ice several times Earth's mass.</p>
+      <h3>The mightiest magnetism</h3>
+      <p>That deep shell of metallic hydrogen is electrically conducting and churning as the planet spins rapidly — a perfect <em>dynamo</em> (the same principle behind the Sun's and Earth's fields, Days 59 and 103). The result is the strongest magnetic field of any planet, a magnetosphere so vast that, if visible, Jupiter's would appear larger than the full Moon in our sky. It traps intense radiation belts and drives spectacular auroras at Jupiter's poles.</p>
+      <h3>Glowing from within</h3>
+      <p>Strikingly, both Jupiter and Saturn radiate <em>more</em> heat than they receive from the Sun. They're still slowly contracting under their own gravity, converting gravitational energy into heat — the Kelvin–Helmholtz mechanism that we met as the failed power source for stars (Day 54). What couldn't sustain a star works fine as a leftover warmth for a giant planet. Saturn may also generate heat by helium slowly raining out through its interior.</p>
+      <div class="aside"><b>The same physics, everywhere:</b> notice how the dynamo idea keeps returning — Sun (Day 59), Earth (Day 103), now Jupiter. A churning, conducting fluid plus rotation makes a magnetic field, whether the fluid is stellar plasma, molten iron, or metallic hydrogen. And the Kelvin–Helmholtz contraction that was too feeble for stars is exactly what keeps a giant planet warm. Astrophysics is the same handful of ideas applied across wildly different scales.</div>
+    `,
+    takeaways:[
+      "Inside a gas giant, hydrogen becomes liquid, then exotic liquid metallic hydrogen under immense pressure, around a rock/ice core.",
+      "Churning, conducting metallic hydrogen plus fast rotation makes a dynamo — Jupiter has the strongest planetary magnetic field.",
+      "Jupiter's magnetosphere is enormous, trapping radiation belts and powering auroras.",
+      "Both giants radiate more heat than they receive, from slow gravitational contraction (Kelvin–Helmholtz)."
+    ],
+    refs:[
+      {kind:"Interior",title:"Metallic hydrogen inside Jupiter",desc:"How crushing pressure turns hydrogen into a liquid metal deep within the gas giants.",url:"https://www.google.com/search?q=metallic+hydrogen+jupiter+interior+structure"},
+      {kind:"Field",title:"Jupiter's magnetic field and magnetosphere",desc:"The dynamo of metallic hydrogen and the most powerful planetary magnetosphere.",url:"https://www.google.com/search?q=jupiter+magnetic+field+magnetosphere+dynamo+metallic+hydrogen"},
+    ],
+    reflect:"Jupiter, Earth, and the Sun all have magnetic fields generated by dynamos, yet their conducting fluids are completely different. What ingredients do all three dynamos share that let such different objects produce magnetic fields?"
+  },
+  {
+    title:"Uranus & Neptune: The Ice Giants",
+    big:"The two outermost giants are a different breed — smaller, bluer, and built largely from cosmic 'ices,' with one of them knocked completely onto its side.",
+    recall:{q:"What keeps Jupiter and Saturn radiating more heat than they receive from the Sun?",
+            a:"Slow gravitational contraction converting gravitational energy into heat (the Kelvin–Helmholtz mechanism), plus, for Saturn, helium rain."},
+    body:`
+      <p>Uranus and Neptune are giants too, but they're a distinct class — <em>ice giants</em>. They're substantially smaller than Jupiter and Saturn, and crucially, they contain a much larger proportion of what astronomers loosely call "ices": water, ammonia, and methane (compounds, in fluid form, not literal ice cubes), around rock-ice cores, beneath hydrogen-helium atmospheres.</p>
+      <h3>Why they're blue</h3>
+      <p>Both planets are a striking blue, because <em>methane</em> in their atmospheres absorbs red light and reflects blue. Neptune is the more vivid and dynamic of the two, with the fastest winds in the Solar System — supersonic gales — and visible storm systems, despite receiving very little sunlight so far out.</p>
+      <h3>A planet on its side</h3>
+      <p>Uranus is the great oddball: its rotation axis is tipped almost 98 degrees, so it essentially rolls around its orbit on its side, giving it extreme, decades-long seasons. The likely culprit is a colossal collision early in its history that knocked it over — another reminder (like Venus's backward spin) that giant impacts left their mark across the Solar System. We've only visited these distant worlds once, with Voyager 2 in the 1980s, so much about them remains mysterious.</p>
+      <div class="aside"><b>Two kinds of giant, one more clue to formation:</b> why do the outer two giants have proportionally far less hydrogen and helium than Jupiter and Saturn? The leading idea is that they formed where the disk was thinner and gas dispersed before they could gather as much — a hint we'll fold into the formation story in Chapter 23. The gas-giant/ice-giant split is itself evidence about how and where planets are built.</div>
+    `,
+    takeaways:[
+      "Uranus and Neptune are ice giants — smaller than the gas giants, with much more 'ice' (water, ammonia, methane).",
+      "Methane absorbs red light, giving both planets their blue color; Neptune has the fastest winds in the Solar System.",
+      "Uranus is tipped ~98° on its side (likely from a giant impact), giving extreme seasons.",
+      "Their lower hydrogen/helium fraction hints they formed where disk gas was thinner or dispersed sooner."
+    ],
+    refs:[
+      {kind:"Class",title:"Ice giants Uranus and Neptune",desc:"How the outer two giants differ from Jupiter and Saturn in size and composition.",url:"https://www.google.com/search?q=ice+giants+uranus+neptune+composition+methane+blue"},
+      {kind:"Oddball",title:"Why Uranus is tilted on its side",desc:"The extreme axial tilt of Uranus and the giant impact that may have caused it.",url:"https://www.google.com/search?q=uranus+axial+tilt+98+degrees+giant+impact"},
+    ],
+    reflect:"Uranus and Neptune are called 'ice giants' while Jupiter and Saturn are 'gas giants.' Given that all four formed from the same disk, what might their different compositions tell us about where, or when, in the disk each one formed?"
+  },
+  {
+    title:"Rings: Worlds of Ice and Shepherds",
+    big:"Saturn's glorious rings are not solid hoops but billions of orbiting ice chunks — held in delicate formation by gravity, and possibly the shattered remains of a moon that wandered too close.",
+    recall:{q:"What gives Uranus and Neptune their blue color?",
+            a:"Methane in their atmospheres absorbs red light and reflects blue."},
+    body:`
+      <p>All four giant planets have ring systems, but Saturn's are by far the most spectacular. Seen through a telescope they look like solid disks, but they're nothing of the sort: each ring is made of <em>countless individual chunks of ice and rock</em>, from dust grains to house-sized boulders, each on its own orbit around the planet, obeying Kepler's laws (Day 11). The rings are broad but astonishingly thin — only tens of meters thick across a span wider than many planets.</p>
+      <h3>The Roche limit</h3>
+      <p>Why rings instead of a moon? Close to a planet, the difference in gravitational pull across an object — the <em>tidal force</em> — becomes overwhelming. Inside a boundary called the <em>Roche limit</em>, tides are strong enough to tear a large body apart (or prevent ring debris from coalescing into one). This is the same tidal physics we met being pushed to extremes near black holes (Day 89) and is conceptually kin to the Roche lobes of close binaries (Day 91). Rings live inside the Roche limit; moons live outside it.</p>
+      <h3>Shepherds and origins</h3>
+      <p>Small <em>shepherd moons</em> orbiting within or beside the rings gravitationally herd the particles, carving sharp gaps and crisp edges. Where do rings come from? Likely from a moon or comet that strayed inside the Roche limit and was shredded, or from debris that never managed to assemble. Saturn's rings may even be geologically young and slowly disappearing.</p>
+      <div class="aside"><b>Tides, one more time:</b> the same concept — that gravity pulls harder on the near side than the far side — explains ocean tides on Earth, spaghettification near a black hole, mass transfer in binaries, and now planetary rings. The Roche limit is just the distance where tidal forces win against an object's own self-gravity. One idea, scaled from oceans to event horizons to ice rings.</div>
+    `,
+    takeaways:[
+      "Saturn's rings are billions of separate ice/rock chunks, each independently orbiting — broad but only tens of meters thick.",
+      "Inside the Roche limit, tidal forces tear bodies apart or prevent debris from coalescing — so rings form there, moons beyond.",
+      "This is the same tidal physics as black-hole spaghettification and binary Roche lobes.",
+      "Shepherd moons herd ring particles into sharp gaps; rings likely come from a shredded moon/comet or unassembled debris."
+    ],
+    refs:[
+      {kind:"Rings",title:"The structure of Saturn's rings",desc:"What the rings are made of, how thin they are, and how shepherd moons shape them.",url:"https://www.google.com/search?q=saturn+rings+structure+ice+shepherd+moons"},
+      {kind:"Limit",title:"The Roche limit and tidal disruption",desc:"The distance inside which tidal forces tear bodies apart — why rings exist.",url:"https://www.google.com/search?q=roche+limit+tidal+disruption+planetary+rings"},
+    ],
+    reflect:"Saturn's rings sit close to the planet, while its large moons orbit much farther out. Using the idea of the Roche limit, explain why ring material so close in never gathered into a single moon."
+  },
+  {
+    title:"The Moons: Worlds in Their Own Right",
+    big:"The giant planets' moons are not mere afterthoughts — some have erupting volcanoes, others hide oceans beneath their ice, and one has a thick atmosphere and lakes of liquid methane.",
+    recall:{q:"What force, strongest close to a planet, can both tear bodies apart and — as we'll see today — heat moons from within?",
+            a:"Tidal force — the difference in gravity across a body; inside the Roche limit it disrupts, and through repeated flexing it can heat a moon's interior."},
+    body:`
+      <p>The giant planets command dozens of moons each — entire systems that are like miniature Solar Systems. Several of these moons are among the most intriguing worlds anywhere, and the key to many of them is <em>tidal heating</em>: as a moon orbits, the giant's powerful, varying gravity flexes it, and that constant kneading generates internal heat — a heat source independent of size or radioactivity (Day 99).</p>
+      <h3>The standout moons</h3>
+      <p><em>Io</em> (Jupiter) is the most volcanically active body in the Solar System, its surface constantly repaved by eruptions — all powered by tidal heating, not internal radioactivity. <em>Europa</em> (Jupiter) has an icy crust over what is almost certainly a global liquid-water ocean, kept liquid by tidal heat — a prime place to search for life. <em>Ganymede</em>, the largest moon in the Solar System, even has its own magnetic field. <em>Titan</em> (Saturn) is wrapped in a thick nitrogen atmosphere and has rivers, rain, and lakes — of liquid methane and ethane, not water. <em>Enceladus</em> (Saturn) shoots geysers of water from a subsurface ocean into space.</p>
+      <h3>Ocean worlds and life</h3>
+      <p>The discovery that several icy moons harbor liquid-water oceans beneath their crusts transformed the search for life. Liquid water, a heat source (tidal), and chemistry may all be present at Europa and Enceladus — far from the Sun, yet potentially habitable. Missions are now being sent specifically to investigate.</p>
+      <div class="aside"><b>Closing Chapter 21:</b> the giant planets reframed what "habitable" can mean. We once assumed life needed a cozy spot near a star; tidal heating shows that energy can come from gravity itself, warming ocean worlds in the cold outer Solar System. The giants and their moons are practically solar systems in miniature — and they widen the stage for the question we'll close this Part with: are we alone? Next, though, Chapter 22 turns to the smaller debris — asteroids, comets, and the pristine leftovers that record the system's birth.</div>
+    `,
+    takeaways:[
+      "Giant planets host dozens of moons; many are heated internally by tidal flexing, independent of size or radioactivity.",
+      "Io is the most volcanically active body in the Solar System (tidal heating); Europa and Enceladus hide subsurface water oceans.",
+      "Titan has a thick atmosphere with rivers and lakes of liquid methane; Ganymede is the largest moon and has its own field.",
+      "Subsurface ocean moons are now prime targets in the search for life beyond Earth."
+    ],
+    refs:[
+      {kind:"Moons",title:"The major moons of the giant planets",desc:"Io's volcanoes, Europa's and Enceladus's oceans, Titan's atmosphere — worlds in their own right.",url:"https://www.google.com/search?q=major+moons+jupiter+saturn+io+europa+titan+enceladus"},
+      {kind:"Heating",title:"Tidal heating of moons",desc:"How gravitational flexing powers volcanism and subsurface oceans far from the Sun.",url:"https://www.google.com/search?q=tidal+heating+moons+io+europa+subsurface+ocean"},
+    ],
+    reflect:"Io and Europa are far from the Sun and too small to retain much heat from radioactivity or formation, yet Io has active volcanoes and Europa a liquid ocean. What alternative heat source explains this, and where does its energy ultimately come from?"
+  },
+]},
+
+{ ch:22, title:"Minor Bodies of the Solar System", days:[
+  {
+    title:"Asteroids: Rubble of a Planet That Never Was",
+    big:"Between Mars and Jupiter circles a belt of rocky debris — the building blocks of a planet that Jupiter's gravity never let assemble.",
+    recall:{q:"What heat source, independent of size or radioactivity, powers volcanism and oceans on giant-planet moons?",
+            a:"Tidal heating — the constant gravitational flexing of a moon by its giant planet generates internal heat."},
+    body:`
+      <p>Beyond the rocky planets and before the giants lies the <em>asteroid belt</em>: millions of rocky and metallic bodies orbiting the Sun, ranging from dust to objects hundreds of kilometers across. Despite their number, their combined mass is tiny — far less than the Moon's.</p>
+      <h3>The planet that never formed</h3>
+      <p>Why a belt of rubble instead of a planet? The answer is <em>Jupiter</em>. The giant's enormous gravity stirred up the planetesimals in this region (Day 65), giving them such high relative speeds that, instead of gently sticking together to grow a planet, they shattered on impact. Jupiter essentially prevented a planet from ever coalescing here, leaving the original building blocks scattered — a frozen record of an unfinished planet.</p>
+      <h3>A varied population</h3>
+      <p>Asteroids aren't uniform. Some are dark and carbon-rich (primitive, little-altered material), others are stony, and some are metallic — possibly the exposed cores of larger bodies that were smashed apart. The largest, <em>Ceres</em>, is round enough to be classified as a <em>dwarf planet</em> and may hold water ice. Some asteroids stray from the belt onto paths that cross Earth's orbit — the <em>near-Earth asteroids</em>, which matter for impact hazards (Day 115).</p>
+      <div class="aside"><b>Frozen building blocks:</b> because the asteroids are leftover planetesimals that never merged, they're a sample of the raw material the inner planets were built from, largely unchanged for 4.6 billion years. Studying them — and bringing pieces home, as recent sample-return missions have done — is like reading the Solar System's original blueprints. The minor bodies are small, but they're packed with information about how everything formed.</div>
+    `,
+    takeaways:[
+      "The asteroid belt holds millions of rocky/metallic bodies between Mars and Jupiter, with a tiny total mass.",
+      "Jupiter's gravity stirred up the region so planetesimals collided too violently to form a planet.",
+      "Asteroids vary — carbon-rich, stony, or metallic (possibly smashed cores); Ceres is a dwarf planet that may hold ice.",
+      "As leftover planetesimals, asteroids are nearly pristine samples of the Solar System's original building material."
+    ],
+    refs:[
+      {kind:"Belt",title:"The asteroid belt",desc:"What the asteroids are, and why Jupiter prevented them from forming a planet.",url:"https://www.google.com/search?q=asteroid+belt+jupiter+failed+planet+formation"},
+      {kind:"Types",title:"Types of asteroids and Ceres",desc:"Carbon-rich, stony, and metallic asteroids, and the dwarf planet Ceres.",url:"https://www.google.com/search?q=asteroid+types+carbonaceous+stony+metallic+ceres"},
+    ],
+    reflect:"The asteroid belt has the building blocks for a planet but never formed one, while the inner planets did. What was different about this region — and what role did the nearby giant Jupiter play?"
+  },
+  {
+    title:"Comets: Icy Messengers from the Deep",
+    big:"A comet is a dirty snowball from the frozen edge of the Solar System — and when one falls toward the Sun, it grows a glowing head and tails that can stretch across the sky.",
+    recall:{q:"Why are asteroids considered nearly pristine samples of the early Solar System?",
+            a:"They're leftover planetesimals that never merged into a planet, so they preserve the original building material largely unchanged for 4.6 billion years."},
+    body:`
+      <p>Comets are the icy counterparts to the rocky asteroids. A comet's heart, its <em>nucleus</em>, is a small body of ice mixed with dust and rock — a "dirty snowball" (or "icy dirtball") — that formed in the cold outer Solar System and usually spends its life there, frozen and dark.</p>
+      <h3>Coming to life near the Sun</h3>
+      <p>When a comet's orbit carries it close to the Sun, the ices begin to vaporize. The released gas and dust form a glowing cloud around the nucleus — the <em>coma</em> — and stream outward into <em>tails</em>. Comets typically grow two tails: a <em>dust tail</em> that curves gently along the orbit, and an <em>ion tail</em> of charged gas that is blown straight back by the solar wind (Day 58). Both tails point <em>away</em> from the Sun — so a receding comet travels tail-first. This is direct, visible evidence of the solar wind pushing on matter.</p>
+      <h3>Reading the ancient ices</h3>
+      <p>Because comets formed far out and stay frozen, their ices are pristine relics of the original solar nebula. The Rosetta mission orbited comet 67P and even landed on it, sampling material essentially unchanged since the Solar System's birth. Comets may also have delivered water and organic molecules to the early Earth — possibly seeding the ingredients for life.</p>
+      <div class="aside"><b>The tail as a wind sock:</b> long before spacecraft, the fact that comet tails always point away from the Sun was a clue that <em>something</em> streams outward from it. That something is the solar wind and sunlight's pressure (the same outflow Parker predicted, Day 58). A comet is, in effect, a natural probe of the Sun's outflowing environment, drawn across the sky for all to see.</div>
+    `,
+    takeaways:[
+      "A comet's nucleus is a 'dirty snowball' of ice, dust, and rock from the cold outer Solar System.",
+      "Near the Sun, ices vaporize to form a glowing coma and tails.",
+      "Comets have a dust tail and an ion tail; both point away from the Sun (the ion tail blown by the solar wind).",
+      "Comet ices are pristine relics of the solar nebula; comets may have delivered water and organics to early Earth."
+    ],
+    refs:[
+      {kind:"Anatomy",title:"The structure of a comet",desc:"Nucleus, coma, and the dust and ion tails — and why the tails point away from the Sun.",url:"https://www.google.com/search?q=comet+structure+nucleus+coma+dust+ion+tail+solar+wind"},
+      {kind:"Mission",title:"Rosetta and comet 67P",desc:"The mission that orbited and landed on a comet to sample primordial Solar System material.",url:"https://www.google.com/search?q=rosetta+mission+comet+67P+landing+philae"},
+    ],
+    reflect:"A comet's ion tail always points away from the Sun, even as the comet swings around and heads back out. Why does that mean a comet can travel 'tail-first,' and what does it reveal about the Sun's environment?"
+  },
+  {
+    title:"The Kuiper Belt, Oort Cloud & Pluto",
+    big:"Far beyond Neptune lie two vast reservoirs of frozen worlds — the source of every comet — and a small icy body whose demotion sparked a famous debate about what counts as a planet.",
+    recall:{q:"Where do comets form, and why does that keep their ices pristine?",
+            a:"In the cold outer Solar System, where they stay frozen and largely unaltered since the solar nebula formed them."},
+    body:`
+      <p>Comets come from two distant reservoirs, and mapping them reveals the cold frontier of the Solar System. The <em>Kuiper Belt</em> is a flattened ring of icy bodies beyond Neptune's orbit — the source of <em>short-period</em> comets (those that return every few decades, like Halley). Far, far beyond lies the <em>Oort Cloud</em>, a vast spherical shell of icy bodies extending perhaps a quarter of the way to the nearest star — the source of <em>long-period</em> comets that fall in from random directions.</p>
+      <h3>Pluto and the definition of a planet</h3>
+      <p><em>Pluto</em> orbits within the Kuiper Belt, and that turned out to matter. As astronomers discovered more and more Kuiper Belt objects of comparable size, Pluto looked less like a unique ninth planet and more like one of many icy bodies out there. In 2006 the International Astronomical Union defined a "planet" as a body that orbits the Sun, is round, and has <em>cleared its orbital neighborhood</em> of other bodies. Pluto fails the third criterion — it shares its zone with countless Kuiper Belt objects — so it was reclassified as a <em>dwarf planet</em>.</p>
+      <h3>Visiting the frontier</h3>
+      <p>In 2015 the New Horizons spacecraft flew past Pluto, revealing a startlingly complex world with ice mountains, glaciers of frozen nitrogen, and a thin atmosphere — far from the dead ball of ice many expected. The outer Solar System is rich and active even in the deep cold.</p>
+      <div class="aside"><b>Why the demotion wasn't an insult:</b> Pluto's reclassification reflects a deeper understanding, not a downgrade. Recognizing Pluto as a member of the Kuiper Belt placed it in context — one of the largest of a whole new population of worlds, rather than an oddball misfit among the planets. Good science sometimes means redrawing categories when the evidence outgrows them, exactly as it did when Ceres was reclassified from "planet" to "asteroid" in the 1800s.</div>
+    `,
+    takeaways:[
+      "The Kuiper Belt is a ring of icy bodies beyond Neptune — source of short-period comets.",
+      "The Oort Cloud is a vast spherical shell far beyond — source of long-period comets from random directions.",
+      "Pluto orbits in the Kuiper Belt; it was reclassified as a dwarf planet in 2006 for not clearing its orbital zone.",
+      "New Horizons (2015) revealed Pluto as a complex world with ice mountains, nitrogen glaciers, and a thin atmosphere."
+    ],
+    refs:[
+      {kind:"Reservoirs",title:"The Kuiper Belt and Oort Cloud",desc:"The two distant comet reservoirs at the edge of the Solar System.",url:"https://www.google.com/search?q=kuiper+belt+oort+cloud+comet+reservoirs"},
+      {kind:"Debate",title:"Why Pluto is a dwarf planet",desc:"The 2006 definition of a planet and Pluto's reclassification.",url:"https://www.google.com/search?q=why+pluto+dwarf+planet+IAU+definition+2006"},
+    ],
+    reflect:"Pluto was reclassified not because it changed, but because we discovered many similar bodies near it. Why might finding lots of comparable objects make 'one of many Kuiper Belt bodies' a more accurate description than 'ninth planet'?"
+  },
+  {
+    title:"Meteors, Meteorites & the Solar System's Birth Certificate",
+    big:"The shooting stars that streak our skies are tiny bits of comet and asteroid — and the ones that survive to the ground are the oldest, most pristine rocks we can hold, dating the Solar System itself.",
+    recall:{q:"What are the two distant reservoirs that supply comets to the inner Solar System?",
+            a:"The Kuiper Belt (short-period comets) beyond Neptune and the far more distant spherical Oort Cloud (long-period comets)."},
+    body:`
+      <p>It helps to get the vocabulary straight. A <em>meteoroid</em> is a small chunk of rock or metal in space. When it streaks through Earth's atmosphere, glowing from friction, we see a <em>meteor</em> (a "shooting star"). If a piece survives the plunge and lands, it's a <em>meteorite</em>. These are intimately tied to the minor bodies we've been discussing.</p>
+      <h3>Showers from comets</h3>
+      <p>When Earth passes through the dusty trail left along a comet's orbit (Day 112), we get a <em>meteor shower</em> — many meteors radiating from one part of the sky as the comet debris burns up. The famous annual showers, like the Perseids, are Earth plowing through specific comets' debris streams year after year.</p>
+      <h3>The birth certificate</h3>
+      <p>Meteorites are scientific treasure. Many are fragments of asteroids — the pristine planetesimals we met (Day 111) — and the most primitive ones (chondrites) contain material that has barely changed since the Solar System formed. By measuring the decay of radioactive elements within them (the same radioactive clock that heats planets, Day 99), scientists date the formation of the Solar System to about <em>4.6 billion years ago</em>. A rock you can hold in your hand sets the age of everything around us.</p>
+      <div class="aside"><b>Radiometric dating, the cosmic clock:</b> radioactive elements decay at fixed rates, so the ratio of parent to daughter atoms in a rock is a clock counting from when it solidified. Meteorites, asteroids, Moon rocks, and the oldest Earth minerals all converge on ~4.6 billion years — independent confirmation of when the Solar System was born. It's the same physics of radioactive decay that keeps planet interiors warm, here repurposed to tell cosmic time.</div>
+    `,
+    takeaways:[
+      "Meteoroid (in space) → meteor (glowing in the atmosphere) → meteorite (survives to the ground).",
+      "Meteor showers happen when Earth passes through dusty debris left along a comet's orbit.",
+      "Meteorites are fragments of asteroids; primitive chondrites preserve nearly unaltered early-Solar-System material.",
+      "Radiometric dating of meteorites gives the Solar System's age: about 4.6 billion years."
+    ],
+    refs:[
+      {kind:"Terms",title:"Meteoroids, meteors, and meteorites",desc:"The difference between the three, and how meteor showers arise from comet debris.",url:"https://www.google.com/search?q=meteoroid+meteor+meteorite+difference+meteor+shower"},
+      {kind:"Dating",title:"Dating the Solar System with meteorites",desc:"How radioactive decay in meteorites sets the 4.6-billion-year age of the Solar System.",url:"https://www.google.com/search?q=meteorite+radiometric+dating+age+solar+system+4.6+billion"},
+    ],
+    reflect:"Meteorites give an age of ~4.6 billion years using radioactive decay — the same process that heats planet interiors. Why can the steady decay of radioactive atoms act as a reliable clock for when a rock first solidified?"
+  },
+  {
+    title:"Impacts: Cosmic Collisions & Their Consequences",
+    big:"The Solar System is still a shooting gallery — and one well-aimed asteroid 66 million years ago ended the age of the dinosaurs, a reminder that minor bodies can have major consequences.",
+    recall:{q:"What do the most primitive meteorites tell us, and how?",
+            a:"They preserve nearly unaltered early-Solar-System material; radioactive dating of them gives the Solar System's age of ~4.6 billion years."},
+    body:`
+      <p>The craters we've seen across the Solar System (Day 99) are the record of <em>impacts</em> — and impacts aren't only ancient history. Asteroids and comets still occasionally strike planets, including Earth, and the consequences can be profound.</p>
+      <h3>The day the dinosaurs died</h3>
+      <p>About 66 million years ago, an asteroid roughly 10 kilometers across struck what is now the Yucatán Peninsula, blasting the <em>Chicxulub crater</em>. The impact threw enough debris into the atmosphere to darken the skies worldwide, collapsing food chains and triggering a mass extinction that wiped out the non-avian dinosaurs and much of life — the <em>K-Pg extinction</em>. A single minor body reshaped the entire history of life on Earth, clearing the way for mammals (and eventually us).</p>
+      <h3>Frequency and defense</h3>
+      <p>Big impacts are rare but inevitable over long enough times; small ones happen constantly. For the first time, a species can do something about it: the field of <em>planetary defense</em>. In 2022, NASA's DART mission deliberately crashed a spacecraft into a small asteroid's moonlet and successfully changed its orbit — a real-world test of deflecting a hazardous object. We are no longer entirely at the mercy of the shooting gallery.</p>
+      <div class="aside"><b>Closing Chapter 22 — small bodies, big stakes:</b> the minor bodies turn out to be anything but minor in importance. They're the pristine record of the Solar System's birth (asteroids, comets, meteorites), they may have delivered Earth's water and organics, and they've repeatedly redirected the course of life through impacts. They are both the archive and the agents of Solar System history. Now Chapter 23 gathers every clue we've collected — the patterns, the dichotomy, the pristine samples, the age — into one coherent story of how it all formed.</div>
+    `,
+    takeaways:[
+      "Impacts continue today; the Solar System remains a 'shooting gallery' of asteroids and comets.",
+      "A ~10 km asteroid caused the Chicxulub crater 66 million years ago, triggering the K-Pg mass extinction (the dinosaurs' end).",
+      "Large impacts are rare but inevitable over long timescales; small ones are frequent.",
+      "Planetary defense is now real: NASA's DART mission (2022) deflected an asteroid's moonlet by impact."
+    ],
+    refs:[
+      {kind:"Extinction",title:"The Chicxulub impact and the dinosaurs",desc:"How a single asteroid impact triggered a mass extinction 66 million years ago.",url:"https://www.google.com/search?q=chicxulub+impact+dinosaur+extinction+K-Pg"},
+      {kind:"Defense",title:"Planetary defense and the DART mission",desc:"How NASA tested deflecting a hazardous asteroid by crashing a spacecraft into it.",url:"https://www.google.com/search?q=NASA+DART+mission+asteroid+deflection+planetary+defense"},
+    ],
+    reflect:"A single asteroid impact 66 million years ago reshaped the entire history of life on Earth. Given that asteroids are leftover building blocks of the Solar System, what does this say about how the 'minor' bodies can have far-from-minor effects?"
+  },
+]},
+
+{ ch:23, title:"The Formation of Planetary Systems", days:[
+  {
+    title:"The Nebular Hypothesis",
+    big:"Every pattern we've catalogued — the flat orbits, the spinning Sun, the two families of planets — falls into place with a single idea: the whole system condensed from one collapsing, spinning cloud.",
+    recall:{q:"What major historical event did a Solar System minor body cause, showing their importance?",
+            a:"The Chicxulub asteroid impact ~66 million years ago triggered the K-Pg mass extinction that ended the non-avian dinosaurs."},
+    body:`
+      <p>We've spent five chapters collecting clues. Now we assemble them. The reigning explanation for the Solar System's origin is the <em>nebular hypothesis</em>: the Sun and planets all formed together, about 4.6 billion years ago, from a single rotating cloud of gas and dust — the <em>solar nebula</em>.</p>
+      <h3>One cloud explains the patterns</h3>
+      <p>Recall how a molecular cloud collapses (Day 63): as it shrinks, it spins faster (angular momentum) and flattens into a disk, with most material falling to the center to form the star. Apply that here and the regularities of Chapter 19 are explained at a stroke. The planets all orbit in the <em>same plane</em> because they formed in a flat disk. They orbit in the <em>same direction</em> — the disk's spin direction — which is also why the Sun rotates that way. The system is orderly because it grew from one spinning structure, not from random captures.</p>
+      <h3>A theory that predicts</h3>
+      <p>The nebular hypothesis even addresses the angular-momentum puzzle (Day 97): magnetic interactions and outflows transferred spin from the young Sun outward to the disk, explaining why the planets carry most of the angular momentum despite the Sun's holding most of the mass. A good theory doesn't just retell the facts — it accounts for the oddities too.</p>
+      <div class="aside"><b>The same disk, twice over:</b> this is the very process from Part III (Days 63–65), now seen from the inside. The protoplanetary disk that we watched form around a generic young star is the disk that became <em>our</em> planets. Part III told us stars are born with disks; Part IV shows what one such disk produced. The astrophysics of star formation and the science of our own origins are one and the same.</div>
+    `,
+    takeaways:[
+      "The nebular hypothesis: the Sun and planets formed together ~4.6 Gyr ago from one rotating cloud (the solar nebula).",
+      "Collapse spins the cloud up and flattens it into a disk — explaining coplanar, same-direction orbits and the Sun's spin.",
+      "Magnetic interactions and outflows transferred angular momentum outward, explaining the Sun/planet spin imbalance.",
+      "This is the same protoplanetary-disk process from Part III, seen from within our own system."
+    ],
+    refs:[
+      {kind:"Theory",title:"The nebular hypothesis of Solar System formation",desc:"How a single collapsing, spinning cloud explains the Solar System's orderly structure.",url:"https://www.google.com/search?q=nebular+hypothesis+solar+system+formation+explained"},
+      {kind:"Disk",title:"From solar nebula to planetary disk",desc:"How the collapsing cloud flattened into the disk that built the planets.",url:"https://www.google.com/search?q=solar+nebula+protoplanetary+disk+planet+formation"},
+    ],
+    reflect:"The nebular hypothesis explains why the planets orbit in the same flat plane and direction. Why is a theory that accounts for many independent observations at once (the orbits, the Sun's spin, the disk shape) more convincing than one invented to explain just a single fact?"
+  },
+  {
+    title:"From Dust to Planets: Accretion & the Frost Line",
+    big:"Within the disk, a single invisible boundary — the line where ice can freeze — decided which worlds would be small and rocky and which would grow into giants.",
+    recall:{q:"What single idea explains why the planets orbit in the same plane and direction?",
+            a:"They formed from one flat, spinning protoplanetary disk (the nebular hypothesis), so they inherited its orientation and rotation."},
+    body:`
+      <p>Inside the disk, how did dust become worlds? Through <em>accretion</em> (Day 65): tiny grains collided and stuck, building up to pebbles, boulders, kilometer-scale <em>planetesimals</em>, and finally <em>protoplanets</em> whose gravity swept up the rest. But the kind of world that formed depended critically on <em>where</em> in the disk it grew — and the key is temperature.</p>
+      <h3>The frost line</h3>
+      <p>The disk was hot near the young Sun and cold farther out. Close in, only materials with high melting points — rock and metal — could condense into solids; volatile ices vaporized. Beyond a certain distance, the <em>frost line</em> (or snow line), it was cold enough for water, ammonia, and methane to freeze into solid ice grains too. This single boundary explains the great dichotomy (Day 97): inside the frost line, planets could only build from scarce rock and metal, so they stayed small and dense (the terrestrials). Outside it, abundant ice gave planetary cores far more material to grow from.</p>
+      <h3>Building the giants</h3>
+      <p>Those large icy-rocky cores beyond the frost line grew big enough, fast enough, to gravitationally capture huge envelopes of hydrogen and helium gas straight from the disk — becoming the gas giants. Farther out still, where the disk gas was thinner and dispersed sooner, the cores gathered less gas, ending up as the ice giants (Day 108). Then the young Sun's fierce winds blew away the leftover gas, ending planet formation and leaving the system we see.</p>
+      <div class="aside"><b>One line, the whole architecture:</b> it's remarkable that a single concept — the frost line — explains why the inner Solar System is rocky and the outer is gaseous and icy. Where it was warm, building material was scarce; where it was cold, ice made it abundant. The layout we surveyed back on Day 96 is, at heart, a map of temperature in a 4.6-billion-year-old disk.</div>
+    `,
+    takeaways:[
+      "Planets grew by accretion: dust → pebbles → planetesimals → protoplanets that swept up the rest.",
+      "The frost line marks where the disk was cold enough for ices (water, ammonia, methane) to freeze into solids.",
+      "Inside the frost line only rock/metal condensed (small dense terrestrials); outside, abundant ice built large cores.",
+      "Large cores beyond the frost line captured disk gas to become giants; the Sun's wind then cleared the leftover gas."
+    ],
+    refs:[
+      {kind:"Growth",title:"Accretion and planetesimal formation",desc:"How microscopic dust grains in the disk grew into planets.",url:"https://www.google.com/search?q=accretion+planetesimals+protoplanets+planet+formation"},
+      {kind:"Boundary",title:"The frost line and the planet dichotomy",desc:"How the snow line explains rocky inner planets and gaseous/icy outer giants.",url:"https://www.google.com/search?q=frost+line+snow+line+solar+system+rocky+gas+giant+dichotomy"},
+    ],
+    reflect:"The frost line explains why rocky planets formed close to the Sun and giants formed far out. Why would the simple fact that ices can only freeze beyond a certain distance give the outer planets so much more material to grow from?"
+  },
+  {
+    title:"Exoplanets: Worlds Beyond the Sun",
+    big:"For most of history, our Solar System was the only one we knew. Now we've found thousands of planets around other stars — and the galaxy turns out to be teeming with worlds.",
+    recall:{q:"What two detection signatures, first met in Parts I–II, hint at unseen planets around a star?",
+            a:"A star's tiny wobble (radial-velocity Doppler shift, Day 25) and periodic dips in brightness as a planet transits (Day 11)."},
+    body:`
+      <p>The nebular hypothesis predicts that planet formation should be a natural by-product of star formation — so planets should be common. For decades that was just a hope. Since 1995, it's been confirmed spectacularly: we've discovered thousands of <em>exoplanets</em>, planets orbiting other stars, and the count keeps climbing.</p>
+      <h3>How we find them</h3>
+      <p>The two workhorse methods are ones we've already met. The <em>radial-velocity</em> method detects the tiny wobble a planet's gravity induces in its star, revealed by Doppler shifts in the starlight (Day 25 — the same physics as spectroscopic binaries, with the same sin i mass ambiguity). The <em>transit</em> method watches for the slight, periodic dimming when a planet crosses in front of its star (Day 11) — and the depth of the dip reveals the planet's size. NASA's Kepler mission used transits to find thousands of planets in a single patch of sky.</p>
+      <h3>A galaxy of planets</h3>
+      <p>The headline result: planets are <em>everywhere</em>. Statistically, most stars host planets, meaning our galaxy contains billions of them. Planetary systems are not rare or special — they're the norm. The nebular hypothesis passed its biggest test: the process that built our system operates across the galaxy.</p>
+      <div class="aside"><b>Old tools, new frontier:</b> notice that detecting alien worlds didn't require exotic new physics — it reused the Doppler effect and eclipse geometry we built back in Parts I and II. The same wobble that reveals a binary companion reveals a planet; the same dip that defines an eclipsing binary reveals a transit. The fundamentals compound: techniques developed to study stars opened an entire new field of worlds.</div>
+    `,
+    takeaways:[
+      "Exoplanets — planets around other stars — have been confirmed by the thousands since 1995.",
+      "Radial velocity detects a star's planet-induced wobble (Doppler); the transit method detects periodic dimming as a planet crosses the star.",
+      "Kepler used transits to find thousands of planets; transit depth gives planet size.",
+      "Most stars host planets — the galaxy holds billions, confirming planet formation is a normal by-product of star formation."
+    ],
+    refs:[
+      {kind:"Detection",title:"How we detect exoplanets",desc:"The radial-velocity and transit methods that revealed thousands of planets.",url:"https://www.google.com/search?q=exoplanet+detection+methods+transit+radial+velocity"},
+      {kind:"Census",title:"How common are exoplanets?",desc:"Why most stars are now thought to host planets, with billions in our galaxy.",url:"https://www.google.com/search?q=how+common+exoplanets+most+stars+have+planets"},
+    ],
+    reflect:"The two main exoplanet-detection methods reuse the Doppler wobble (Day 25) and transit dimming (Day 11) we learned for studying stars. Why is it powerful that techniques built for one purpose turned out to open an entirely new field?"
+  },
+  {
+    title:"Hot Jupiters & Migration: Theory Rewritten",
+    big:"The very first exoplanets discovered broke all the rules — giant planets hugging their stars where no giant should be — and forced astronomers to rethink how planetary systems are built.",
+    recall:{q:"What does the abundance of exoplanets confirm about the nebular hypothesis?",
+            a:"That planet formation is a normal by-product of star formation — planetary systems are common throughout the galaxy."},
+    body:`
+      <p>The nebular hypothesis, built to explain our tidy Solar System, made a clear prediction: giant planets should form far from their stars, beyond the frost line (Day 117). So the first exoplanets discovered were a shock — they were <em>hot Jupiters</em>: giant planets orbiting their stars closer than Mercury orbits the Sun, whipping around in days, with scorching temperatures.</p>
+      <h3>The fix: migration</h3>
+      <p>A gas giant can't <em>form</em> that close — it's far too hot there for a big core to gather ice and gas. The resolution is <em>planetary migration</em>: these giants formed far out, as expected, but then drifted inward, their orbits shrinking through interactions with the leftover disk or with other planets. The core theory survived, but it had to be expanded — planets don't necessarily stay where they're born. Other surprises followed, like <em>super-Earths</em> (planets between Earth and Neptune in size, common elsewhere but absent from our system) and tightly packed multi-planet systems.</p>
+      <h3>Our system in context</h3>
+      <p>The diversity of exoplanetary systems revealed that our own may not be typical. Some systems are crammed with planets close in; others have giants on wild, eccentric orbits. Understanding why our Solar System turned out as orderly as it did — and how common that is — is now an active question, sharpened by every new system we find.</p>
+      <div class="aside"><b>How science actually works:</b> hot Jupiters are a textbook case of theory meeting surprising evidence. The nebular hypothesis wasn't discarded — it was <em>extended</em> by adding migration, so it could explain both our system and the strange new ones. A strong theory bends to accommodate new data rather than breaking, exactly as the standard solar model bent to admit neutrino oscillation (Day 55) and Type Ia supernovae revised cosmology (Day 84). Discovery keeps refining the picture.</div>
+    `,
+    takeaways:[
+      "The first exoplanets were 'hot Jupiters' — giant planets orbiting extremely close to their stars, defying the formation theory.",
+      "Giants can't form that close; planetary migration (inward drift via disk/planet interactions) explains how they got there.",
+      "Other surprises include common super-Earths (absent from our system) and tightly packed systems.",
+      "The diversity shows our orderly Solar System may not be typical — and that the nebular theory had to be extended, not discarded."
+    ],
+    refs:[
+      {kind:"Surprise",title:"Hot Jupiters and planetary migration",desc:"Why giant planets found hugging their stars forced a revision of formation theory.",url:"https://www.google.com/search?q=hot+jupiter+planetary+migration+formation"},
+      {kind:"Diversity",title:"The diversity of exoplanet systems",desc:"Super-Earths, packed systems, and how different other systems are from ours.",url:"https://www.google.com/search?q=exoplanet+system+diversity+super+earth+compared+solar+system"},
+    ],
+    reflect:"Hot Jupiters couldn't have formed where we find them, so the theory was extended with 'migration' rather than thrown out. When does adding a new mechanism to save a theory count as good science rather than just patching it — what made migration a legitimate fix?"
+  },
+  {
+    title:"Are We Alone? Habitability & the Search for Life",
+    big:"With billions of planets out there and the tools to study their atmospheres, humanity is for the first time equipped to ask, scientifically, whether we are alone.",
+    recall:{q:"What did hot Jupiters force astronomers to add to the nebular hypothesis, and why?",
+            a:"Planetary migration — because giant planets found close to their stars couldn't have formed there, so they must have drifted inward."},
+    body:`
+      <p>We close Part IV with its biggest question. Now that we know planets are abundant, the search for life beyond Earth has shifted from speculation to science.</p>
+      <h3>Where to look</h3>
+      <p>The classic target is the <em>habitable zone</em> — the range of distances from a star where temperatures allow liquid water on a planet's surface (echoing why Earth has oceans, Venus boiled, and Mars froze, Day 105). But our own Solar System taught us to think more broadly: tidally heated ocean moons like Europa and Enceladus (Day 110) show that habitability can exist far outside the traditional zone, powered by gravity rather than sunlight.</p>
+      <h3>How we search</h3>
+      <p>Several approaches run in parallel. Within the Solar System, missions hunt for past or present life on Mars and in the ocean moons. For exoplanets, telescopes like JWST analyze starlight filtered through planetary atmospheres during transits, searching for <em>biosignatures</em> — gases like oxygen or methane that life might produce (using the same spectroscopy from Part I). And projects like SETI listen for deliberate signals. The <em>Drake equation</em> organizes our ignorance, laying out the factors — from how many stars have planets to how long civilizations last — that determine how much company we might have.</p>
+      <div class="aside"><b>Part IV — complete, and the view widens.</b> We came home to study one star's family of worlds, and learned a universal lesson: planetary systems are common, diverse, and shaped by the same physics everywhere — collapse, disks, frost lines, accretion, and the long interplay of size, distance, heat, and atmosphere. Our Solar System is one example among billions. <b>Where next?</b> Part V makes the final zoom-out. We leave individual stars and planets behind and take in the grandest scales: the Milky Way, the galaxies, and the expanding universe that contains every star and world we've studied — the ultimate context for it all.</div>
+    `,
+    takeaways:[
+      "The habitable zone is where a star's warmth allows liquid surface water — but ocean moons show habitability can extend beyond it.",
+      "The search runs in parallel: missions to Mars and ocean moons, and atmospheric biosignature hunts on exoplanets (e.g., with JWST).",
+      "Biosignatures are gases like oxygen or methane that life might produce, detected via transit spectroscopy.",
+      "The Drake equation frames the factors determining how common life and civilizations might be."
+    ],
+    refs:[
+      {kind:"Zone",title:"The habitable zone and biosignatures",desc:"Where liquid water is possible, and the atmospheric signs of life we search for.",url:"https://www.google.com/search?q=habitable+zone+biosignatures+exoplanet+search+for+life"},
+      {kind:"Framework",title:"The Drake equation and the search for life",desc:"How scientists frame the question of how much company we might have in the galaxy.",url:"https://www.google.com/search?q=drake+equation+search+for+extraterrestrial+life"},
+    ],
+    reflect:"Our Solar System taught us that habitability depends on liquid water — but ocean moons like Europa, warmed by tides far from the Sun, complicate the simple 'habitable zone' idea. Why might restricting the search to the classic habitable zone cause us to overlook places life could exist? (You've completed the Solar System.)"
+  },
+]},
+
 ];
 
 /* ---------- flatten into a day list ---------- */
@@ -2720,8 +3361,8 @@ let STATE={done:[],current:1};
 const $=s=>document.querySelector(s);
 let activeDay=1;
 
-const PART_TITLES={1:"Part I · The Tools of Astronomy", 2:"Part II · The Nature of Stars", 3:"Part III · Stellar Structure & Evolution"};
-function partOf(ch){ return ch<=6 ? 1 : (ch<=11 ? 2 : 3); }
+const PART_TITLES={1:"Part I · The Tools of Astronomy", 2:"Part II · The Nature of Stars", 3:"Part III · Stellar Structure & Evolution", 4:"Part IV · The Solar System"};
+function partOf(ch){ return ch<=6 ? 1 : (ch<=11 ? 2 : (ch<=18 ? 3 : 4)); }
 
 function renderMap(){
   const list=$('#maplist'); let h=''; let lastPart=null;
