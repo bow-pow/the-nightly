@@ -4220,7 +4220,128 @@ const CURRICULUM = [
     ],
     reflect:"You now hold the whole story — from the Big Bang to yourself — built from a handful of compounding ideas. Looking back over all 155 nights, which single connection across the course surprised you most? (And then: look up at the night sky, and read it.)"
   },
-]},
+]},,
+
+{ ch:31, title:"Appendix: Key Theorems & Formula Sheet", days:[
+  {
+    title:"Appendix — Key Theorems & Formula Sheet",
+    big:"A compact end-of-course reference for the central theorems, laws, and working formulas from Carroll & Ostlie's An Introduction to Modern Astrophysics.",
+    recall:{q:"How should this appendix be used?",
+            a:"As a quick reference after finishing Part V: identify the physical idea, check the formula, then return to the relevant lesson for intuition."},
+    body:`
+      <p>This appendix gathers the formulas and theorem-level results that recur throughout the course. It is not a replacement for derivations; it is a compact map of the machinery. Units matter, constants matter, and approximations are stated where the formula is commonly used in introductory astrophysics.</p>
+
+      <h3>1. Angles, coordinates, time, and distance</h3>
+      <div class="eq">1 rad = 206265 arcsec&nbsp;&nbsp;·&nbsp;&nbsp;1 pc = 3.26 ly = 206265 AU</div>
+      <div class="eq">d(pc) = 1 / p(arcsec)</div>
+      <div class="eq">1 h of RA = 15°&nbsp;&nbsp;·&nbsp;&nbsp;1 solar day ≈ 1 sidereal day + 4 min</div>
+      <p><em>Use:</em> angular separations, right ascension, parallax, and the first rung of the distance ladder.</p>
+
+      <h3>2. Magnitudes, flux, luminosity, and distance modulus</h3>
+      <div class="eq">m₁ − m₂ = −2.5 log₁₀(F₁/F₂)</div>
+      <div class="eq">F = L / (4πd²)</div>
+      <div class="eq">m − M = 5 log₁₀(d/10 pc)</div>
+      <div class="eq">M_bol = M_V + BC</div>
+      <p><em>Use:</em> apparent brightness, intrinsic luminosity, standard candles, and bolometric corrections.</p>
+
+      <h3>3. Blackbody radiation and stellar radii</h3>
+      <div class="eq">λ_max T = b ≈ 2.898 × 10⁻³ m K</div>
+      <div class="eq">F_surface = σT⁴</div>
+      <div class="eq">L = 4πR²σT⁴</div>
+      <div class="eq">E = hν = hc/λ</div>
+      <p><em>Use:</em> temperature from color, luminosity from radius and temperature, photon energy, and the bridge to quantum spectra.</p>
+
+      <h3>4. Newtonian mechanics, orbits, and mass measurement</h3>
+      <div class="eq">F = Gm₁m₂/r²</div>
+      <div class="eq">P² = a³&nbsp;&nbsp;(solar units: P in yr, a in AU, M_total = 1 M☉)</div>
+      <div class="eq">P² = 4π²a³ / G(m₁+m₂)</div>
+      <div class="eq">m₁r₁ = m₂r₂</div>
+      <div class="eq">E = −GMm/(2a)&nbsp;&nbsp;·&nbsp;&nbsp;v² = GM(2/r − 1/a)</div>
+      <div class="eq">v_esc = √(2GM/r)</div>
+      <p><em>Theorems and laws:</em> Kepler's three laws, Newton's universal gravitation, center-of-mass theorem for binaries, conservation of energy, conservation of angular momentum, and the vis-viva equation.</p>
+
+      <h3>5. Virial theorem and self-gravitating systems</h3>
+      <div class="eq">2⟨K⟩ + ⟨U⟩ = 0</div>
+      <div class="eq">K ≈ (3/2)NkT&nbsp;&nbsp;·&nbsp;&nbsp;U ≈ −GM²/R</div>
+      <p><em>Use:</em> star formation, cluster masses, gravitational heating, negative heat capacity, and dark matter estimates in bound systems.</p>
+
+      <h3>6. Special relativity and Doppler shifts</h3>
+      <div class="eq">γ = 1 / √(1 − v²/c²)</div>
+      <div class="eq">Δt = γΔt₀&nbsp;&nbsp;·&nbsp;&nbsp;L = L₀/γ</div>
+      <div class="eq">x′ = γ(x − vt)&nbsp;&nbsp;·&nbsp;&nbsp;t′ = γ(t − vx/c²)</div>
+      <div class="eq">E = mc²&nbsp;&nbsp;·&nbsp;&nbsp;E² = (pc)² + (mc²)²</div>
+      <div class="eq">1 + z = λ_obs/λ_emit</div>
+      <p><em>Use:</em> time dilation, length contraction, mass-energy conversion, relativistic photons, redshift, radial velocities, and cosmological expansion.</p>
+
+      <h3>7. Atoms, spectra, and statistical physics</h3>
+      <div class="eq">E_n = −13.6 eV/n²&nbsp;&nbsp;(hydrogen)</div>
+      <div class="eq">ΔE = hν</div>
+      <div class="eq">λ = h/p</div>
+      <div class="eq">ΔxΔp ≥ ℏ/2</div>
+      <div class="eq">N_j/N_i = (g_j/g_i)e^{−(E_j−E_i)/kT}</div>
+      <div class="eq">N_{i+1}/N_i ∝ (T^{3/2}/n_e)e^{−χ/kT}</div>
+      <p><em>Theorems and principles:</em> Kirchhoff's laws of spectra, Bohr quantization, de Broglie matter waves, Heisenberg uncertainty, Boltzmann excitation, and Saha ionization equilibrium.</p>
+
+      <h3>8. Telescopes, resolution, and detectors</h3>
+      <div class="eq">light-gathering power ∝ D²</div>
+      <div class="eq">θ_min ≈ 1.22λ/D</div>
+      <div class="eq">magnification = f_objective/f_eyepiece</div>
+      <p><em>Use:</em> aperture, diffraction limit, Rayleigh criterion, angular resolution, interferometry, and photon-counting detectors.</p>
+
+      <h3>9. Stellar atmospheres and radiative transfer</h3>
+      <div class="eq">I = I₀e^{−τ}&nbsp;&nbsp;·&nbsp;&nbsp;τ = ∫κρ ds</div>
+      <div class="eq">dI/dτ = −I + S</div>
+      <div class="eq">thermal line width ∝ √(T/m)</div>
+      <p><em>Use:</em> photospheres, opacity, optical depth, absorption-line formation, line broadening, equivalent width, and abundance analysis.</p>
+
+      <h3>10. Stellar structure and energy generation</h3>
+      <div class="eq">dP/dr = −GM(r)ρ(r)/r²</div>
+      <div class="eq">dM/dr = 4πr²ρ</div>
+      <div class="eq">dL/dr = 4πr²ρε</div>
+      <div class="eq">P = ρkT/(μm_H)&nbsp;&nbsp;(ideal gas approximation)</div>
+      <div class="eq">4¹H → ⁴He + energy&nbsp;&nbsp;·&nbsp;&nbsp;E = Δmc²</div>
+      <p><em>Theorems and conditions:</em> hydrostatic equilibrium, mass conservation, energy conservation, energy transport, equation of state, pp-chain, CNO cycle, and Schwarzschild criterion for convection.</p>
+
+      <h3>11. Stellar classification, evolution, and pulsation</h3>
+      <div class="eq">O B A F G K M&nbsp;&nbsp;(hot → cool)</div>
+      <div class="eq">L ∝ M^{3.5}&nbsp;&nbsp;(main sequence, approximate)</div>
+      <div class="eq">t_MS ∝ M/L ≈ M^{−2.5}</div>
+      <div class="eq">Pulsation period ↔ luminosity&nbsp;&nbsp;(Cepheid period–luminosity relation)</div>
+      <p><em>Use:</em> H-R diagram, main sequence, luminosity classes, spectroscopic parallax, cluster turnoff ages, Cepheids, RR Lyrae stars, and the instability strip.</p>
+
+      <h3>12. Degenerate matter, compact remnants, and black holes</h3>
+      <div class="eq">M_Ch ≈ 1.4 M☉</div>
+      <div class="eq">R_S = 2GM/c²</div>
+      <div class="eq">v_esc = c at R = R_S</div>
+      <p><em>Theorems and principles:</em> Pauli exclusion principle, electron degeneracy pressure, neutron degeneracy pressure, Chandrasekhar limit, event horizon, Schwarzschild radius, gravitational time dilation, Hawking radiation, and the no-hair theorem.</p>
+
+      <h3>13. Planetary science and the Solar System</h3>
+      <div class="eq">ρ_avg = M/(4πR³/3)</div>
+      <div class="eq">v_esc = √(2GM/R)</div>
+      <div class="eq">retention condition: v_esc ≫ v_thermal</div>
+      <div class="eq">tidal force ∝ M R / r³</div>
+      <p><em>Use:</em> density and composition, atmospheric retention, greenhouse effect, internal heat, differentiation, frost line, accretion, Roche limit, tidal heating, and planetary migration.</p>
+
+      <h3>14. Galaxies, distance scale, and cosmology</h3>
+      <div class="eq">v = H₀d</div>
+      <div class="eq">z ≈ v/c&nbsp;&nbsp;(low redshift)</div>
+      <div class="eq">Ω_m + Ω_Λ + Ω_k = 1</div>
+      <div class="eq">critical density: ρ_c = 3H₀²/(8πG)</div>
+      <p><em>Theorems and ideas:</em> Hubble's law, cosmic expansion, dark matter from rotation curves and virial masses, gravitational lensing, cosmological principle, Big Bang nucleosynthesis, cosmic microwave background, inflation, and quantum fluctuations as seeds of structure.</p>
+    `,
+    takeaways:[
+      "Most of the book's machinery reduces to a few recurring ideas: gravity, radiation, quantum transitions, thermal physics, and conservation laws.",
+      "The same formulas reappear at different scales: inverse-square laws, virial balance, Doppler shifts, accretion, degeneracy pressure, and expansion.",
+      "Use this appendix as a formula index, not as a substitute for physical intuition or unit checking.",
+      "When stuck, identify the regime first: geometric, radiative, orbital, quantum, thermodynamic, relativistic, or cosmological."
+    ],
+    refs:[
+      {kind:"Textbook",title:"Bradley W. Carroll & Dale A. Ostlie — An Introduction to Modern Astrophysics",desc:"Primary textbook reference for the formula families summarized in this appendix.",url:"https://www.google.com/search?q=An+Introduction+to+Modern+Astrophysics+Carroll+Ostlie"},
+      {kind:"Use",title:"Formula practice",desc:"Revisit the lesson where a formula first appears, then solve one numerical example before memorizing it.",url:"https://www.google.com/search?q=astrophysics+formula+sheet+Carroll+Ostlie"},
+    ],
+    reflect:"Pick five formulas from this appendix that connect different parts of the course. For each, write one sentence explaining the physical idea, not just the symbols. That is how formulas become understanding."
+  },
+]}
 
 ];
 
